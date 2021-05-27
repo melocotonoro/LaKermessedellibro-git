@@ -1,0 +1,497 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+
+.imagenBanner {
+height: 500px;
+width:100vw; 
+background-size: cover;
+border: 1px solid coral
+}
+
+#nombreDeLaMarca{
+color: #E67E22;
+font-family: 'Cinzel', serif;
+text-align: center;
+width: fit-content;
+    /*margin-top: -200px;
+    /* display: inline-block; */
+    /*border: 1px solid coral; */  
+margin-left: 40%;
+}
+
+.contenedorBoton{
+    /*border: 1px solid violet;*/
+width: fit-content;
+height: fit-content;
+position: relative;
+left: 35vw;
+bottom: 10vh;
+}
+
+.banner{
+    color: rgb(46, 43, 43);
+    background-color: #d8896b;
+        /*font-size: 18px;
+        text-decoration: none;*/
+    font-family: 'Cinzel', serif;
+    text-align: center;
+        /*display: inline-block;*/
+    padding: 5px;
+    margin: 10px;
+    border:groove;
+    border-radius: 10px;
+    border-color: #db7f5b;
+}
+
+.logo{
+    /*border: 1px solid coral;*/
+    padding: 0%;
+    left: 5vw;
+    top: 5vh;
+}   
+
+.nav{
+    grid-area:barra;
+        /*border: 1px solid blueviolet;
+        background-color:#8CA979;*/
+}
+
+.listasNav{
+        /*display: inline-block;*/
+    font-family:  'Cinzel', serif;
+        /*font-size: 18px;*/
+    background-color:#8CA979;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: space-around; 
+}
+
+.itemsNavBar{
+        /*grid-area: home;*/
+    margin-left: 8vw; 
+    padding:5px 40px;
+        /*border: 1px solid blue;*/
+    transition: ease-in-out;
+}
+
+.itemsNavBar:hover{
+    background-color:#6d835e;
+}
+
+.itemsDropdown{
+    margin-left: 8vw;
+    background-color:#8CA979;
+}
+
+.main{
+    grid-area: contenido;
+        /*border: 1px solid coral;*/
+    margin-top: 10%;
+}
+
+.titulosNosotros{
+    grid-area: tituloN;
+    font-family: 'Cinzel', serif;
+    color: #E67E22 ;
+        /*font-size: 30px;  */
+        /*border: 1px solid coral;*/
+    text-align: center;
+}
+
+.imagenNosotrosa{
+    /* border: 1px solid coral;*/
+    margin-right: 6%;
+}
+
+.textoNosotros{
+        /*border: 1px solid coral;*/
+    font-family:'Cinzel', serif;
+    /*font-size: 100%;
+    padding:0px 10px;*/
+font-size: $parrafoPrincipal;
+}
+
+.imagenNosotrosb{
+    /*border: 1px solid coral;*/
+    margin-top: 88%;
+    margin-left: 1vh;
+}
+
+.story{
+    grid-area: story;
+        /* border: 1px solid coral;*/
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.aside{
+    grid-area: publi;
+        /* border: 1px solid coral;*/
+}
+
+.imagenPubli{
+        width: 200%;
+        height: 100%;
+}
+
+.publi{
+        width: 15%;
+        height: 100%; 
+        display: flex;
+        position: fixed;
+}
+
+.tituloCar{
+        grid-area:titulocar;
+       /* border: 1px solid coral;*/
+        margin-top: 100px;
+        display: flex;
+        align-content: flex-start;
+}
+
+.section{
+        grid-area:carrusel;
+    /*  border: 1px solid rgb(149, 26, 173);*/
+        margin-top: 110px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+}
+
+.pag{
+        grid-area:pag;
+       /* border: 1px solid rgb(14, 145, 94);*/
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+}
+
+.tituloCaru{
+        grid-area:titulocaru;
+        /*border: 1px solid coral;*/
+        margin-top: 10px;
+        padding-bottom: 50px;
+        display: flex;
+        align-content: flex-start
+}
+
+.sectionUno{
+        grid-area:carruseluno;
+        /*border: 1px solid rgb(149, 26, 173);*/
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+}
+
+.pagU{
+        grid-area:pagu;
+        /*border: 1px solid rgb(14, 145, 94);*/
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+}
+
+.tituloCara{
+        grid-area:titulocara;
+       /* border: 1px solid coral;*/
+        margin-top: 10px;
+        padding-bottom: 50px;
+        display: flex;
+        align-content: flex-start;
+}
+
+.sectionDos{
+        grid-area:carruseldos;
+        /*border: 1px solid rgb(149, 26, 173);*/
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+}
+
+.pagD{
+        grid-area:pagd;
+        /*border: 1px solid rgb(14, 145, 94);*/
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+}
+
+.titulosCarrusel{
+        font-family: 'Cinzel', serif;
+        color: rgb(153, 115, 71);
+        /*font-size: 14px;*/
+        font-weight: bold;
+        margin: 10px 15px;
+}     
+
+.footer{
+        grid-area: pie;
+        /*border: 1px solid coral;*/
+            /*margin-top: 50px;
+            justify-content: center;*/
+            margin-top: 50px;
+}
+
+.footerUno{
+        background-color: rgb(22, 59, 25);
+        height: 50px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        color: #E67E22; 
+        font-family: 'Cinzel', serif;
+        list-style-type: none;
+}
+
+.footerUno.listasFooter{
+            /* display: inline-block;*/
+    
+        /*font-size: smaller;*/ 
+        font-family: 'Cinzel', serif;
+        font-weight: bold; 
+        list-style-type: none;
+            /*padding: 5px 100px;
+            margin: 10px 15px; */
+            /* position: relative;
+            left: 200px;*/
+} 
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+
+.imagenBanner {
+    height: 300px;
+    width:100vw; 
+}
+
+#nombreDeLaMarca{
+    color: #E67E22;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    width: fit-content;
+        /*margin-top: -200px;
+        /* display: inline-block; */
+        /*border: 1px solid coral; */  
+    margin-left: 40%;
+}
+
+/*.contenedorBoton{
+    border: 1px solid violet;
+}*/
+
+.logo{
+    /*border: 1px solid coral;*/
+    width:fit-content;
+    right: 10vw;
+    bottom: 20vh;
+}
+
+.itemsNavBar{
+    margin-left: 8vw; 
+    padding:5px 40px;
+    transition: ease-in-out;
+}
+
+.itemsNavBar:hover{
+    background-color:#6d835e;
+}
+
+.itemsDropdown{
+    margin-left: 8vw;
+    background-color:#8CA979;
+}
+
+.main{
+    grid-area: contenido;
+    border: 1px solid coral;
+    margin-top: 10%;
+    align-content: center;
+}
+
+.titulosNosotros{
+    font-family: 'Cinzel', serif;
+    color: #E67E22 ;
+    text-align: center;
+}
+
+.imagenNosotrosa{
+    border: 1px solid coral;
+}
+
+
+.textoNosotros{
+    border: 1px solid coral;
+    font-family:'Cinzel', serif;
+    padding:0px 10px;
+}
+
+.imagenNosotrosb{
+    border: 1px solid coral;
+}
+
+.story{
+    grid-area: story;
+    border: 1px solid coral;
+    margin-top: 100px;
+        /*display: grid;
+        grid-template-areas: 
+        " imagendos imagentres imagencuatro"
+        " parrafouno parrafodos parrafotres";*/
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.aside{
+    grid-area: publi;
+        /* border: 1px solid coral;*/
+}
+
+.imagenPubli{
+    width: 200%;
+    height: 100%;
+}
+
+.publi{
+    width: 15%;
+    height: 100%; 
+    display: flex;
+    position: fixed;
+}
+
+.tituloCar{
+    grid-area:titulocar;
+        /* border: 1px solid coral;*/
+    margin-top: 100px;
+    display: flex;
+    align-content: flex-start;
+}
+
+.section{
+    grid-area:carrusel;
+        /*  border: 1px solid rgb(149, 26, 173);*/
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.pag{
+    grid-area:pag;
+        /* border: 1px solid rgb(14, 145, 94);*/
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.tituloCaru{
+    grid-area:titulocaru;
+        /*border: 1px solid coral;*/
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    align-content: flex-start
+}
+
+.sectionUno{
+    grid-area:carruseluno;
+        /*border: 1px solid rgb(149, 26, 173);*/
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.pagU{
+    grid-area:pagu;
+        /*border: 1px solid rgb(14, 145, 94);*/
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.tituloCara{
+    grid-area:titulocara;
+        /* border: 1px solid coral;*/
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    align-content: flex-start;
+}
+
+.sectionDos{
+    grid-area:carruseldos;
+        /*border: 1px solid rgb(149, 26, 173);*/
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.pagD{
+    grid-area:pagd;
+        /*border: 1px solid rgb(14, 145, 94);*/
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.titulosCarrusel{
+    font-family: 'Cinzel', serif;
+    color: rgb(153, 115, 71);
+    /*font-size: 14px;*/
+    font-weight: bold;
+    margin: 10px 15px;
+} 
+
+.footer{
+    grid-area: pie;
+        /*border: 1px solid coral;*/
+        /*margin-top: 50px;
+        justify-content: center;*/
+    margin-top: 50px;
+}
+
+.footerUno{
+    background-color: rgb(22, 59, 25);
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #E67E22; 
+    font-family: 'Cinzel', serif;
+    list-style-type: none;
+}
+
+.footerUno.listasFooter{
+        /* display: inline-block;*/
+    font-family: 'Cinzel', serif;
+    font-weight: bold; 
+    list-style-type: none;
+    /*font-size: x-small;*/
+        /*padding: 5px 100px;
+        margin: 10px 15px; */
+        /* position: relative;
+        left: 200px;*/
+} 
+
+}
