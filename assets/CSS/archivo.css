@@ -993,3 +993,7 @@ body {
       font-family: 'Cinzel', serif;
       list-style-type: none;
       color: #E67E22; }
+
+.seccionChat {
+  background-color: #deebdd;
+  background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%); }
