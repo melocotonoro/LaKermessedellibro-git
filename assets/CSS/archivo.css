@@ -834,7 +834,9 @@ body {
   background-color: #ffffff;
   background-image: linear-gradient(-315deg, #ffffff 0%, #d8896b 74%); }
   .headerUno .imagenBanner {
-    background: url("../../imagenes/bannerSinFondo.png"); }
+    background: url("../../imagenes/bannerSinFondo.png");
+  background-size: cover;
+  }
   .headerUno #nombreDeLaMarca {
     color: #E67E22;
     font-family: 'Cinzel', serif;
