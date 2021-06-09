@@ -40,7 +40,8 @@ body{
     background-image: linear-gradient(-315deg, #ffffff 0%, #d8896b 74%);
 
     .imagenBanner{
-        background-image: url(../../imagenes/bannerSinFondo.png);
+        background: url("../../imagenes/bannerSinFondo.png");
+        background-size: cover;
         }
         
 
