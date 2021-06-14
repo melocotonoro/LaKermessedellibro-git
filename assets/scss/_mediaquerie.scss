@@ -6,73 +6,26 @@
 height: 500px;
 width:100vw; 
 background-size: cover;
-border: 1px solid coral
 }
 
 #nombreDeLaMarca{
-color: #E67E22;
-font-family: 'Cinzel', serif;
 text-align: center;
 width: fit-content;
-    /*margin-top: -200px;
-    /* display: inline-block; */
-    /*border: 1px solid coral; */  
 margin-left: 40%;
 }
 
-.contenedorBoton{
-    /*border: 1px solid violet;*/
-width: fit-content;
-height: fit-content;
-position: relative;
-left: 35vw;
-bottom: 10vh;
-}
-
-.banner{
-    color: rgb(46, 43, 43);
-    background-color: #d8896b;
-        /*font-size: 18px;
-        text-decoration: none;*/
-    font-family: 'Cinzel', serif;
-    text-align: center;
-        /*display: inline-block;*/
-    padding: 5px;
-    margin: 10px;
-    border:groove;
-    border-radius: 10px;
-    border-color: #db7f5b;
-}
-
 .logo{
-    /*border: 1px solid coral;*/
-    padding: 0%;
-    left: 5vw;
-    top: 5vh;
+    border: 1px solid coral;
 }   
 
-.nav{
-    grid-area:barra;
-        /*border: 1px solid blueviolet;
-        background-color:#8CA979;*/
-}
 
 .listasNav{
-        /*display: inline-block;*/
-    font-family:  'Cinzel', serif;
-        /*font-size: 18px;*/
-    background-color:#8CA979;
     width: 100vw;
-    display: flex;
-    flex-flow: row nowrap; 
-    justify-content: space-around; 
 }
 
 .itemsNavBar{
-        /*grid-area: home;*/
     margin-left: 8vw; 
     padding:5px 40px;
-        /*border: 1px solid blue;*/
     transition: ease-in-out;
 }
 
@@ -86,8 +39,6 @@ bottom: 10vh;
 }
 
 .main{
-    grid-area: contenido;
-        /*border: 1px solid coral;*/
     margin-top: 10%;
 }
 
@@ -287,17 +238,6 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
         /* display: inline-block; */
         /*border: 1px solid coral; */  
     margin-left: 40%;
-}
-
-/*.contenedorBoton{
-    border: 1px solid violet;
-}*/
-
-.logo{
-    /*border: 1px solid coral;*/
-    width:fit-content;
-    right: 10vw;
-    bottom: 20vh;
 }
 
 .itemsNavBar{

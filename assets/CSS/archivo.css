@@ -139,31 +139,23 @@ input:checked ~ .questions {
     /* display: inline-block; */
     /*border: 1px solid coral; */
     margin-left: 40%; }
-  .contenedorBoton {
-    /*border: 1px solid violet;*/
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    left: 35vw;
-    bottom: 10vh; }
+
   .banner {
     color: #2e2b2b;
     background-color: #d8896b;
-    /*font-size: 18px;
-        text-decoration: none;*/
+        text-decoration: none;
     font-family: 'Cinzel', serif;
     text-align: center;
-    /*display: inline-block;*/
     padding: 5px;
     margin: 10px;
     border: groove;
     border-radius: 10px;
     border-color: #db7f5b; }
   .logo {
-    /*border: 1px solid coral;*/
-    padding: 0%;
-    left: 5vw;
-    top: 5vh; }
+    border: 1px solid coral;
+    padding: 0%; 
+  }
+
   .nav {
     grid-area: barra;
     /*border: 1px solid blueviolet;
@@ -337,18 +329,11 @@ input:checked ~ .questions {
     font-family: 'Cinzel', serif;
     text-align: center;
     width: fit-content;
-    /*margin-top: -200px;
-        /* display: inline-block; */
-    /*border: 1px solid coral; */
-    margin-left: 40%; }
-  /*.contenedorBoton{
-    border: 1px solid violet;
-}*/
+  }
   .logo {
-    /*border: 1px solid coral;*/
-    width: fit-content;
-    right: 10vw;
-    bottom: 20vh; }
+    border: 1px solid coral;
+
+  }
   .itemsNavBar {
     margin-left: 8vw;
     padding: 5px 40px;
@@ -844,14 +829,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
-    /*border: 1px solid coral;*/ }
+  }
 
 /* BEM BOTONES BANNER*/
-.contenedorBoton {
-  /*border: 1px solid violet;*/
-  width: fit-content; }
-  .contenedorBoton .banner {
+
+  .botonRegistro .banner {
     color: #2e2b2b;
     background-color: #d8896b;
     font-family: 'Cinzel', serif;
@@ -863,8 +845,14 @@ body {
     border-color: #db7f5b; }
 
 .logo {
-  /*border: 1px solid coral;*/
-  padding: 0%; }
+  border: 1px solid coral;
+  height: fit-content;
+  width:fit-content;
+
+  margin-left: 2em;
+  position: relative;
+
+ }
 
 /*BEM DE NAVBAR*/
 .nav {

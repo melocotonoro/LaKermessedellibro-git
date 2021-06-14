@@ -35,15 +35,15 @@ body{
 /* BEM DE BANNER Y NAV BAR*/
 .headerUno{
     grid-area:cabeza;
-    /*border: 1px solid coral;*/
+/*border: 1px solid coral;*/
     background-color: #ffffff;
     background-image: linear-gradient(-315deg, #ffffff 0%, #d8896b 74%);
 
-    .imagenBanner{
-        background: url("../../imagenes/bannerSinFondo.png");
-        background-size: cover;
-        }
-        
+.imagenBanner{
+    background: url("../../imagenes/bannerSinFondo.png");
+    background-size: cover;
+}
+
 
 #nombreDeLaMarca{
     color: #E67E22;
@@ -57,27 +57,23 @@ body{
     }
 }
 
-/* BEM BOTONES BANNER*/
-.contenedorBoton{
-    /*border: 1px solid violet;*/
-    width:fit-content;
+.logo{
+    border: 1px solid coral;
+}
+
+.botonRegistro{
+border: 2px solid cyan;
+}
 
 .banner{
     color: rgb(46, 43, 43);
-    background-color: #d8896b;
+    color: #d8896b;
     font-family: 'Cinzel', serif;
     text-align: center;
     padding: 5px;
-    margin: 10px;
     border:groove;
     border-radius: 10px;
     border-color: #db7f5b;
-}
-}
-
-.logo{
-    /*border: 1px solid coral;*/
-    padding: 0%;
 }
 
 /*BEM DE NAVBAR*/
