@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px; }
@@ -128,52 +127,22 @@ input:checked ~ .questions {
   .imagenBanner {
     height: 500px;
     width: 100vw;
-    background-size: cover;
-    border: 1px solid coral; }
+    background-size: cover; }
   #nombreDeLaMarca {
-    color: #E67E22;
-    font-family: 'Cinzel', serif;
     text-align: center;
     width: fit-content;
-    /*margin-top: -200px;
-    /* display: inline-block; */
-    /*border: 1px solid coral; */
-    margin-left: 40%; }
-
-  .banner {
-    color: #2e2b2b;
-    background-color: #d8896b;
-        text-decoration: none;
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-    border: groove;
-    border-radius: 10px;
-    border-color: #db7f5b; }
+    margin-left: 30%; }
+  .botonRegistro {
+    position: relative;
+    top: 4vh;
+    left: 83vw; }
   .logo {
-    border: 1px solid coral;
-    padding: 0%; 
-  }
-
-  .nav {
-    grid-area: barra;
-    /*border: 1px solid blueviolet;
-        background-color:#8CA979;*/ }
+    border: 1px solid coral; }
   .listasNav {
-    /*display: inline-block;*/
-    font-family: 'Cinzel', serif;
-    /*font-size: 18px;*/
-    background-color: #8CA979;
-    width: 100vw;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around; }
+    width: 100vw; }
   .itemsNavBar {
-    /*grid-area: home;*/
     margin-left: 8vw;
     padding: 5px 40px;
-    /*border: 1px solid blue;*/
     transition: ease-in-out; }
   .itemsNavBar:hover {
     background-color: #6d835e; }
@@ -181,8 +150,6 @@ input:checked ~ .questions {
     margin-left: 8vw;
     background-color: #8CA979; }
   .main {
-    grid-area: contenido;
-    /*border: 1px solid coral;*/
     margin-top: 10%; }
   .titulosNosotros {
     grid-area: tituloN;
@@ -211,9 +178,6 @@ input:checked ~ .questions {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly; }
-  .aside {
-    grid-area: publi;
-    /* border: 1px solid coral;*/ }
   .imagenPubli {
     width: 200%;
     height: 100%; }
@@ -321,19 +285,10 @@ input:checked ~ .questions {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
-  .imagenBanner {
-    height: 300px;
-    width: 100vw; }
   #nombreDeLaMarca {
-    color: #E67E22;
-    font-family: 'Cinzel', serif;
-    text-align: center;
+    text-align: start;
     width: fit-content;
-  }
-  .logo {
-    border: 1px solid coral;
-
-  }
+    margin: 0%; }
   .itemsNavBar {
     margin-left: 8vw;
     padding: 5px 40px;
@@ -815,49 +770,41 @@ body {
 /* BEM DE BANNER Y NAV BAR*/
 .headerUno {
   grid-area: cabeza;
-  /*border: 1px solid coral;*/
   background-color: #ffffff;
   background-image: linear-gradient(-315deg, #ffffff 0%, #d8896b 74%); }
   .headerUno .imagenBanner {
     background: url("../../imagenes/bannerSinFondo.png");
-  background-size: cover;
-  }
+    background-repeat: no-repeat;
+    border: 5px solid #7351; }
   .headerUno #nombreDeLaMarca {
-    color: #E67E22;
+    color: #8CA979;
     font-family: 'Cinzel', serif;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-  }
+    align-content: center; }
 
-/* BEM BOTONES BANNER*/
+.logo {
+  border: 1px solid coral;
+  width: fit-content; }
 
+.botonRegistro {
+  border: 3px solid cyan;
+  width: fit-content; }
   .botonRegistro .banner {
-    color: #2e2b2b;
-    background-color: #d8896b;
+    background: #db7f5b;
+    color: #ffffff;
     font-family: 'Cinzel', serif;
     text-align: center;
-    padding: 5px;
-    margin: 10px;
+    padding: 3px;
     border: groove;
     border-radius: 10px;
     border-color: #db7f5b; }
 
-.logo {
-  border: 1px solid coral;
-  height: fit-content;
-  width:fit-content;
-
-  margin-left: 2em;
-  position: relative;
-
- }
-
 /*BEM DE NAVBAR*/
 .nav {
   grid-area: barra;
-  /* border: 1px solid blueviolet;*/
   background-color: #8CA979; }
   .nav .listasNav {
     font-family: 'Cinzel', serif;
@@ -933,7 +880,7 @@ body {
   color: #8ca979; }
 
 .parrafoLibros {
-  font-family: "Cinzel", serif; }
+  font-family: "Benne", serif; }
 
 /* BEM FOOTER*/
 .footer {

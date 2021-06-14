@@ -7,7 +7,8 @@
 //VARIABLE//
 $nombrePortadaLibros: #566e46;
 $SubtituloPortada:#8ca979;
-$fuente: 'Cinzel', serif;
+$fuentetitulo: 'Cinzel', serif;
+$fuentetexto: 'Benne', serif;
 $parrafoPrincipal:1.05em;
 $parrafoSecundario:0.9em;   
 
@@ -35,51 +36,50 @@ body{
 /* BEM DE BANNER Y NAV BAR*/
 .headerUno{
     grid-area:cabeza;
-/*border: 1px solid coral;*/
     background-color: #ffffff;
     background-image: linear-gradient(-315deg, #ffffff 0%, #d8896b 74%);
 
 .imagenBanner{
     background: url("../../imagenes/bannerSinFondo.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid #7351;
 }
 
-
 #nombreDeLaMarca{
-    color: #E67E22;
+    color: #8CA979;
     font-family: 'Cinzel', serif;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-        /*border: 1px solid coral;*/
     }
 }
 
+
 .logo{
     border: 1px solid coral;
+    width: fit-content;
 }
 
 .botonRegistro{
-border: 2px solid cyan;
-}
-
+border: 3px solid cyan;
+width: fit-content;
 .banner{
-    color: rgb(46, 43, 43);
-    color: #d8896b;
+    background: #db7f5b;
+    color: #ffffff;
     font-family: 'Cinzel', serif;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     border:groove;
     border-radius: 10px;
     border-color: #db7f5b;
+}
 }
 
 /*BEM DE NAVBAR*/
 .nav{
     grid-area:barra;
-        /* border: 1px solid blueviolet;*/
     background-color:#8CA979;
 .listasNav{
     font-family:  'Cinzel', serif;
@@ -139,7 +139,7 @@ color: $nombrePortadaLibros;
 
 .textoStory{
     font-size: $parrafoSecundario;
-    font-family: $fuente;
+    font-family: $fuentetitulo;
 }
 }
 
@@ -168,17 +168,17 @@ color: $nombrePortadaLibros;
 }
 
 .fuentesTitulo{
-    font-family: $fuente;
+    font-family: $fuentetitulo;
     color: $nombrePortadaLibros;
 }
 
 .fuentesSubtitulo{
-    font-family: $fuente;
+    font-family: $fuentetitulo;
     color: $SubtituloPortada;
 }
 
 .parrafoLibros{
-    font-family: $fuente;
+    font-family: $fuentetexto;
 }
 
 

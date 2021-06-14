@@ -11,8 +11,15 @@ background-size: cover;
 #nombreDeLaMarca{
 text-align: center;
 width: fit-content;
-margin-left: 40%;
+margin-left: 30%;
 }
+
+.botonRegistro{
+    position:relative;
+    top: 4vh;
+    left:83vw;
+}
+
 
 .logo{
     border: 1px solid coral;
@@ -77,11 +84,6 @@ font-size: $parrafoPrincipal;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-}
-
-.aside{
-    grid-area: publi;
-        /* border: 1px solid coral;*/
 }
 
 .imagenPubli{
@@ -224,20 +226,11 @@ font-size: $parrafoPrincipal;
 and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
 
-.imagenBanner {
-    height: 300px;
-    width:100vw; 
-}
 
 #nombreDeLaMarca{
-    color: #E67E22;
-    font-family: 'Cinzel', serif;
-    text-align: center;
+    text-align: start;
     width: fit-content;
-        /*margin-top: -200px;
-        /* display: inline-block; */
-        /*border: 1px solid coral; */  
-    margin-left: 40%;
+    margin:0%;
 }
 
 .itemsNavBar{
