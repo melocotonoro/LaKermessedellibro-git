@@ -33,7 +33,7 @@ body{
 }
 
 
-/* BEM DE BANNER Y NAV BAR*/
+/* BEM DE BANNER*/
 .headerUno{
     grid-area:cabeza;
     background-color: #ffffff;
@@ -48,7 +48,6 @@ body{
 #nombreDeLaMarca{
     color: #8CA979;
     font-family: 'Cinzel', serif;
-    text-align: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -58,12 +57,10 @@ body{
 
 
 .logo{
-    border: 1px solid coral;
     width: fit-content;
 }
 
 .botonRegistro{
-border: 3px solid cyan;
 width: fit-content;
 .banner{
     background: #db7f5b;
@@ -74,8 +71,14 @@ width: fit-content;
     border:groove;
     border-radius: 10px;
     border-color: #db7f5b;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
 }
 }
+
+.banner:active{
+background-color: #b45b38;
+}
+
 
 /*BEM DE NAVBAR*/
 .nav{
@@ -105,33 +108,10 @@ width: fit-content;
     background-color:#8CA979;
 }
 
-/*-------------------------------*/
-
-
-/* ESTOS SON LOS BEM DEL ACORDEON*/
-
-.contenedorListaLibros {
-    max-width: 800px;
-    width: 100%;
-    margin: 10vh auto;
-
-.tituloPrincipalAcordion{
-  font-family: 'Cinzel', serif;
-  color: #E67E22;
-  text-align: center;
-}
-}
-/*-------------------------------------*/
-
-.portadaLibros{
-color: $nombrePortadaLibros;
-}
-
 /* STORY*/
 
 .story{
     grid-area: story;
-   /* border: 1px solid coral;*/
     margin-top: 100px;
     display: flex;
     flex-flow: row wrap;
@@ -139,7 +119,7 @@ color: $nombrePortadaLibros;
 
 .textoStory{
     font-size: $parrafoSecundario;
-    font-family: $fuentetitulo;
+    font-family: $fuentetexto;
 }
 }
 
@@ -180,6 +160,31 @@ color: $nombrePortadaLibros;
 .parrafoLibros{
     font-family: $fuentetexto;
 }
+
+
+
+
+
+
+/*-------------------------------*/
+
+
+/* ESTOS SON LOS BEM DEL ACORDEON*/
+
+.contenedorListaLibros {
+    max-width: 800px;
+    width: 100%;
+    margin: 10vh auto;
+
+.tituloPrincipalAcordion{
+  font-family: 'Cinzel', serif;
+  color: #E67E22;
+  text-align: center;
+}
+}
+/*-------------------------------------*/
+
+
 
 
 
