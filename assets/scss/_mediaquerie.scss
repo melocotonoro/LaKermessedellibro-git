@@ -20,6 +20,10 @@ margin-left: 30%;
     left:83vw;
 }
 
+.banner{
+    padding: 3px;
+    border-radius: 10px;
+}
 .listasNav{
     width: 100vw;
 }
@@ -227,6 +231,17 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
     margin:0%;
 }
 
+.botonRegistro{
+    position:absolute;
+    top: 4vh;
+    left: 20%;
+}
+
+.banner{
+    padding: 1px;
+    border-radius: 4px;
+    width: 3rem;
+}
 .itemsNavBar{
     margin-left: 8vw; 
     padding:5px 40px;

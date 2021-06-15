@@ -47,10 +47,12 @@ body{
 
 #nombreDeLaMarca{
     color: #8CA979;
-    font-family: 'Cinzel', serif;
+    font-family: $fuentetitulo; 
+    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    text-shadow:2px 1px#758d65 ;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: center;    
     align-content: center;
     }
 }
@@ -63,20 +65,19 @@ body{
 .botonRegistro{
 width: fit-content;
 .banner{
-    background: #db7f5b;
-    color: #ffffff;
+    background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
     font-family: 'Cinzel', serif;
     text-align: center;
+    text-shadow: 1px 1px #888888;
     padding: 3px;
-    border:groove;
     border-radius: 10px;
     border-color: #db7f5b;
-	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	box-shadow:2px 2px 5px #97553b;
 }
 }
 
 .banner:active{
-background-color: #b45b38;
+background: #c2704f;
 }
 
 
@@ -84,6 +85,11 @@ background-color: #b45b38;
 .nav{
     grid-area:barra;
     background-color:#8CA979;
+    position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 4;
+
 .listasNav{
     font-family:  'Cinzel', serif;
     background-color:#8CA979;

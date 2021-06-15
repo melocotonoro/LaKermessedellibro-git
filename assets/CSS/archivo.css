@@ -136,6 +136,9 @@ input:checked ~ .questions {
     position: relative;
     top: 4vh;
     left: 83vw; }
+  .banner {
+    padding: 3px;
+    border-radius: 10px; }
   .listasNav {
     width: 100vw; }
   .itemsNavBar {
@@ -287,6 +290,14 @@ input:checked ~ .questions {
     text-align: center;
     width: fit-content;
     margin: 0%; }
+  .botonRegistro {
+    position: absolute;
+    top: 4vh;
+    left: 20%; }
+  .banner {
+    padding: 1px;
+    border-radius: 4px;
+    width: 3rem; }
   .itemsNavBar {
     margin-left: 8vw;
     padding: 5px 40px;
@@ -776,7 +787,9 @@ body {
     border: 5px solid #7351; }
   .headerUno #nombreDeLaMarca {
     color: #8CA979;
-    font-family: 'Cinzel', serif;
+    font-family: "Cinzel", serif;
+    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    text-shadow: 2px 1px #758d65;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -788,23 +801,26 @@ body {
 .botonRegistro {
   width: fit-content; }
   .botonRegistro .banner {
-    background: #db7f5b;
-    color: #ffffff;
+    background: linear-gradient(360deg, #db7f5b 90%, #df9173 20%);
     font-family: 'Cinzel', serif;
     text-align: center;
+    text-shadow: 1px 1px #888888;
     padding: 3px;
-    border: groove;
     border-radius: 10px;
     border-color: #db7f5b;
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: 2px 2px 5px #97553b; }
 
 .banner:active {
-  background-color: #b45b38; }
+  background: #c2704f; }
 
 /*BEM DE NAVBAR*/
 .nav {
   grid-area: barra;
-  background-color: #8CA979; }
+  background-color: #8CA979;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 4; }
   .nav .listasNav {
     font-family: 'Cinzel', serif;
     background-color: #8CA979;
