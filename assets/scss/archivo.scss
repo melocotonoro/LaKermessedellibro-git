@@ -10,7 +10,7 @@ $SubtituloPortada:#8ca979;
 $fuentetitulo: 'Cinzel', serif;
 $fuentetexto: 'Benne', serif;
 $parrafoPrincipal:1.05em;
-$parrafoSecundario:0.9em;   
+$parrafoSecundario:1.05em;   
 
 
 
@@ -57,9 +57,9 @@ body{
     }
 }
 
-
 .logo{
     width: fit-content;
+    margin-top: 10px;
 }
 
 .botonRegistro{
@@ -69,10 +69,12 @@ width: fit-content;
     font-family: 'Cinzel', serif;
     text-align: center;
     text-shadow: 1px 1px #888888;
+    font-size: clamp(.65rem, 1vw, 1rem);
     padding: 3px;
     border-radius: 10px;
     border-color: #db7f5b;
 	box-shadow:2px 2px 5px #97553b;
+    margin: 0px;
 }
 }
 
@@ -81,7 +83,7 @@ background: #c2704f;
 }
 
 
-/*BEM DE NAVBAR*/
+/*NAVBAR*/
 .nav{
     grid-area:barra;
     background-color:#8CA979;
@@ -114,6 +116,15 @@ background: #c2704f;
     background-color:#8CA979;
 }
 
+/*NOSOTROS*/
+.titulosNosotros{
+font-size: clamp(.70rem, 1vw, 1rem);
+}
+
+.textoNosotros{
+    font-family: $fuentetexto;
+}
+
 /* STORY*/
 
 .story{
@@ -128,6 +139,8 @@ background: #c2704f;
     font-family: $fuentetexto;
 }
 }
+
+/*CARRUSEL*/
 
 .tituloCar{
     grid-area:titulocar;

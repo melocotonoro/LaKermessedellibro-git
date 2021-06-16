@@ -134,22 +134,14 @@ input:checked ~ .questions {
     margin-left: 30%; }
   .botonRegistro {
     position: relative;
-    top: 4vh;
-    left: 83vw; }
+    top: 1vh;
+    left: 80vw; }
   .banner {
-    padding: 3px;
-    border-radius: 10px; }
+    position: relative;
+    left: 20%;
+    margin: 0px; }
   .listasNav {
     width: 100vw; }
-  .itemsNavBar {
-    margin-left: 8vw;
-    padding: 5px 40px;
-    transition: ease-in-out; }
-  .itemsNavBar:hover {
-    background-color: #6d835e; }
-  .itemsDropdown {
-    margin-left: 8vw;
-    background-color: #8CA979; }
   .main {
     margin-top: 10%; }
   .titulosNosotros {
@@ -160,14 +152,9 @@ input:checked ~ .questions {
     /*border: 1px solid coral;*/
     text-align: center; }
   .imagenNosotrosa {
-    /* border: 1px solid coral;*/
     margin-right: 6%; }
   .textoNosotros {
-    /*border: 1px solid coral;*/
-    font-family: 'Cinzel', serif;
-    /*font-size: 100%;
-    padding:0px 10px;*/
-    font-size: 1.05em; }
+    font-size: 1.3rem; }
   .imagenNosotrosb {
     /*border: 1px solid coral;*/
     margin-top: 88%;
@@ -290,26 +277,13 @@ input:checked ~ .questions {
     text-align: center;
     width: fit-content;
     margin: 0%; }
-  .botonRegistro {
-    position: absolute;
-    top: 4vh;
-    left: 20%; }
   .banner {
-    padding: 1px;
-    border-radius: 4px;
-    width: 3rem; }
-  .itemsNavBar {
-    margin-left: 8vw;
-    padding: 5px 40px;
-    transition: ease-in-out; }
-  .itemsNavBar:hover {
-    background-color: #6d835e; }
-  .itemsDropdown {
-    margin-left: 8vw;
-    background-color: #8CA979; }
+    position: relative;
+    left: 80%;
+    padding: 2px;
+    height: 20px; }
   .main {
     grid-area: contenido;
-    border: 1px solid coral;
     margin-top: 10%;
     align-content: center; }
   .titulosNosotros {
@@ -317,44 +291,28 @@ input:checked ~ .questions {
     color: #E67E22;
     text-align: center; }
   .imagenNosotrosa {
-    border: 1px solid coral; }
+    width: 400px;
+    height: 250px; }
   .textoNosotros {
-    border: 1px solid coral;
-    font-family: 'Cinzel', serif;
-    padding: 0px 10px; }
+    padding: 0px 10px;
+    font-size: 1rem; }
   .imagenNosotrosb {
-    border: 1px solid coral; }
+    width: 400px;
+    height: 250px; }
   .story {
     grid-area: story;
     border: 1px solid coral;
     margin-top: 100px;
-    /*display: grid;
-        grid-template-areas: 
-        " imagendos imagentres imagencuatro"
-        " parrafouno parrafodos parrafotres";*/
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly; }
-  .aside {
-    grid-area: publi;
-    /* border: 1px solid coral;*/ }
-  .imagenPubli {
-    width: 200%;
-    height: 100%; }
-  .publi {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    position: fixed; }
   .tituloCar {
     grid-area: titulocar;
-    /* border: 1px solid coral;*/
     margin-top: 100px;
     display: flex;
     align-content: flex-start; }
   .section {
     grid-area: carrusel;
-    /*  border: 1px solid rgb(149, 26, 173);*/
     margin-top: 110px;
     display: flex;
     justify-content: space-evenly;
@@ -796,7 +754,8 @@ body {
     align-content: center; }
 
 .logo {
-  width: fit-content; }
+  width: fit-content;
+  margin-top: 10px; }
 
 .botonRegistro {
   width: fit-content; }
@@ -805,15 +764,17 @@ body {
     font-family: 'Cinzel', serif;
     text-align: center;
     text-shadow: 1px 1px #888888;
+    font-size: clamp(0.65rem, 1vw, 1rem);
     padding: 3px;
     border-radius: 10px;
     border-color: #db7f5b;
-    box-shadow: 2px 2px 5px #97553b; }
+    box-shadow: 2px 2px 5px #97553b;
+    margin: 0px; }
 
 .banner:active {
   background: #c2704f; }
 
-/*BEM DE NAVBAR*/
+/*NAVBAR*/
 .nav {
   grid-area: barra;
   background-color: #8CA979;
@@ -840,6 +801,13 @@ body {
   margin-left: 8vw;
   background-color: #8CA979; }
 
+/*NOSOTROS*/
+.titulosNosotros {
+  font-size: clamp(0.7rem, 1vw, 1rem); }
+
+.textoNosotros {
+  font-family: "Benne", serif; }
+
 /* STORY*/
 .story {
   grid-area: story;
@@ -848,9 +816,10 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly; }
   .story .textoStory {
-    font-size: 0.9em;
+    font-size: 1.05em;
     font-family: "Benne", serif; }
 
+/*CARRUSEL*/
 .tituloCar {
   grid-area: titulocar;
   /* border: 1px solid coral;*/
