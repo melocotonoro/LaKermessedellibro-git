@@ -268,27 +268,32 @@ height: 1000px;
     display: none;
 }
 
+.contenedorImagenCard{
+border:2px solid #21007a;
+}
+
+.portadaLibroH{
+    margin-left: 60px;
+}
 
 .pag{
     grid-area:pag;
-
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
 }
 
-.tituloCaru{
+/*.tituloCaru{
     grid-area:titulocaru;
     margin-top: 10px;
     padding-bottom: 50px;
     display: flex;
     align-content: flex-start
-}
+}*/
 
 .sectionUno{
     grid-area:carruseluno;
-        /*border: 1px solid rgb(149, 26, 173);*/
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -297,25 +302,22 @@ height: 1000px;
 
 .pagU{
     grid-area:pagu;
-        /*border: 1px solid rgb(14, 145, 94);*/
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
 }
 
-.tituloCara{
+/*.tituloCara{
     grid-area:titulocara;
-        /* border: 1px solid coral;*/
     margin-top: 10px;
     padding-bottom: 50px;
     display: flex;
     align-content: flex-start;
-}
+}*/
 
 .sectionDos{
     grid-area:carruseldos;
-        /*border: 1px solid rgb(149, 26, 173);*/
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -324,7 +326,6 @@ height: 1000px;
 
 .pagD{
     grid-area:pagd;
-        /*border: 1px solid rgb(14, 145, 94);*/
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -334,16 +335,12 @@ height: 1000px;
 .titulosCarrusel{
     font-family: 'Cinzel', serif;
     color: rgb(153, 115, 71);
-    /*font-size: 14px;*/
     font-weight: bold;
     margin: 10px 15px;
 } 
 
 .footer{
     grid-area: pie;
-        /*border: 1px solid coral;*/
-        /*margin-top: 50px;
-        justify-content: center;*/
     margin-top: 50px;
 }
 
@@ -361,15 +358,9 @@ height: 1000px;
 }
 
 .footerUno.listasFooter{
-        /* display: inline-block;*/
     font-family: 'Cinzel', serif;
     font-weight: bold; 
     list-style-type: none;
-    /*font-size: x-small;*/
-        /*padding: 5px 100px;
-        margin: 10px 15px; */
-        /* position: relative;
-        left: 200px;*/
 } 
 
 }
