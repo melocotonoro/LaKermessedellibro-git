@@ -148,48 +148,35 @@ input:checked ~ .questions {
     grid-area: tituloN;
     font-family: 'Cinzel', serif;
     color: #E67E22;
-    /*font-size: 30px;  */
-    /*border: 1px solid coral;*/
     text-align: center; }
   .imagenNosotrosa {
     margin-right: 6%; }
   .textoNosotros {
     font-size: 1.3rem; }
   .imagenNosotrosb {
-    /*border: 1px solid coral;*/
     margin-top: 88%;
     margin-left: 1vh; }
   .story {
     grid-area: story;
-    /* border: 1px solid coral;*/
     margin-top: 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly; }
-  .imagenPubli {
-    width: 200%;
-    height: 100%; }
-  .publi {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    position: fixed; }
   .tituloCar {
     grid-area: titulocar;
-    /* border: 1px solid coral;*/
     margin-top: 100px;
     display: flex;
     align-content: flex-start; }
   .section {
     grid-area: carrusel;
-    /*  border: 1px solid rgb(149, 26, 173);*/
-    margin-top: 110px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start; }
+  .portadaLibroH {
+    margin-left: 20%; }
   .pag {
     grid-area: pag;
-    /* border: 1px solid rgb(14, 145, 94);*/
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -306,6 +293,10 @@ input:checked ~ .questions {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly; }
+  .contenedorStory {
+    height: 1000px; }
+    .contenedorStory .imagenStory {
+      height: 200px; }
   .tituloCar {
     grid-area: titulocar;
     margin-top: 100px;
@@ -313,20 +304,20 @@ input:checked ~ .questions {
     align-content: flex-start; }
   .section {
     grid-area: carrusel;
-    margin-top: 110px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start; }
+  .cardHidden {
+    display: none; }
   .pag {
     grid-area: pag;
-    /* border: 1px solid rgb(14, 145, 94);*/
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center; }
   .tituloCaru {
     grid-area: titulocaru;
-    /*border: 1px solid coral;*/
     margin-top: 10px;
     padding-bottom: 50px;
     display: flex;
@@ -816,13 +807,15 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly; }
   .story .textoStory {
-    font-size: 1.05em;
     font-family: "Benne", serif; }
+
+.cardStory {
+  background: transparent; }
 
 /*CARRUSEL*/
 .tituloCar {
   grid-area: titulocar;
-  /* border: 1px solid coral;*/
+  border: 1px solid coral;
   margin-top: 100px;
   display: flex;
   align-content: flex-start; }
@@ -833,11 +826,25 @@ body {
     margin: 10px 15px; }
     .tituloCar .titulosCarrusel .section {
       grid-area: carrusel;
-      /*  border: 1px solid rgb(149, 26, 173);*/
-      margin-top: 110px;
       display: flex;
       justify-content: space-evenly;
       align-content: flex-start; }
+
+.cardFondo {
+  background: linear-gradient(to bottom, #8ca97969 36%, #e1ecda2a 100%);
+  box-shadow: 1px 1px 5px #888888;
+  border-radius: 10px; }
+
+.espacioBlanco {
+  margin-bottom: 2rem; }
+
+.iconoLike {
+  position: absolute;
+  top: 12.5em;
+  left: 14em; }
+
+.iconoLike:active {
+  background-image: url(../../imagenes/likeactivo-01.png); }
 
 .fuentesTitulo {
   font-family: "Cinzel", serif;

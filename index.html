@@ -17,10 +17,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
 
-<!--Google Fonts-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
-
 <!--Bottstrap CDN-->
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -35,13 +31,13 @@
 <div class="contenedorProyecto"id="home">
 
   <div class="headerUno"> 
-
+    
     <header class="imagenBanner">
 
       <div class="botonRegistro">
-      <a href="./views/Iniciar_sesion.html"><button type="button" class="btn btn-mg banner">Iniciar Sesión</button></a>
+        <a href="./views/Iniciar_sesion.html"><button type="button" class="btn btn-light btn-mg banner">Iniciar Sesión</button></a>
 
-      <a href="./views/registrarte.html"><button type="button" class="btn btn-mg banner">Registrarse</button></a>
+        <a href="./views/registrarte.html"><button type="button" class="btn btn-light btn-mg banner">Registrarse</button></a>
       </div>
 
       <div class="logo container"><img src="./imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
@@ -55,257 +51,243 @@
   <div class="nav container-fluid">
 
     <nav class="navbar navbar-expand-lg navbar-light listasNav">
-
+      <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-
-          <li class="nav-item">
-            <a class="nav-link itemsNavBar text-light" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-light itemsNavBar" href="./views/mi-perfil.html">Mi Perfil</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
+      <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link itemsNavBar text-light" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light itemsNavBar" href="./views/mi-perfil.html">Mi Perfil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          Libros Disponibles</a>
 
           <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-
-          <li><a class="dropdown-item text-light" href="./views/Libros_disponibles-grid.html">Físicos</a></li>
-          <li><a class="dropdown-item text-light" href="./views/Libros_disponibles-grid.html">Virtuales</a></li>
-          <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-light" href="./views/Libros_disponibles.html">Físicos</a></li>
+            <li><a class="dropdown-item text-light" href="./views/Libros_disponibles.html">Virtuales</a></li>
+            <li><hr class="dropdown-divider"></li>
           </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-light itemsNavBar" href="./views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-light itemsNavBar" href="./views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
-          </li>
-
-        </ul>
-          <form class="d-flex">
-            <input class="form-control mr-2 input" type="search" placeholder="Search" aria-label="Search">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light itemsNavBar" href="./views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light itemsNavBar" href="./views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+        </li>
+      </ul>
+        <form class="d-flex">
+          <input class="form-control mr-2 input" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
+        </form>
       </div>
     </nav>
   </div>
 
-        <section class="container main"> 
-            <div class="row">
-
-            <div class="col-12 col-sm-12 col-ms-12 col-lg-4 col-xl-4"> 
-                
-                <div><img src="./imagenes/Nosotros1disfuso-01.png" alt="" class="imagenNosotrosa float-right img-fluid"></div>
-                
-            </div>
-
-            <div class="col-12 col-sm-12 col-ms-12 col-lg-4 col-xl-4">
-                
-                <div class="titulosNosotros text"><h2>Nosotros</h2></div>
-                
-                <div class="textoNosotros font-italic text-justify container">
-                  <p> ¿Sos  una de esas personas curiosas que disfrutan leer y comprar libros para adentrarse en una nueva historia pero que ya no tiene espacio físico para seguir adquiriendo más y más?</p>
-                  <p> ¿Ya te cansaste de leer por tercera vez ese libro que antes te re emocionaba?</p>
-                  <p> En <strong>la Kermesse </strong> podrás intercambiar libros  físicos y virtuales con otras personas, además de compartir charlas, debates y otras índoles literarias con la gente que forma esta hermosa comunidad.</p>
-                  <p> Adentrate a este portal que no sólo te da la posibilidad de interrelacionarte con gente que disfrutan de la lectura, sino que te brinda la posibilidad de que “recicles” tus libros.</p>
-                </div>
-            </div>
-                
-            <div class="col-12 col-sm-12 col-ms-12 col-lg-4 col-xl-4">
-                
-                <div><img src="./imagenes/Nosotros2disfuso-01.png" alt="" class="imagenNosotrosb float-left img-fluid"></div>
-            
-            </div>
-           
-            </div>
-                
-            
-        </section>
-
-
-<section class="container story">
+  <section class="container main"> 
     <div class="row">
 
-    <div class="card col-12 col-sm-12 col-ms-4 col-lg-4 col-xl-4 container">
-        <img src="./imagenes/storytelling1.png" class="card-img-top img-fluid" alt="...">
+      <div class="col-12 col-sm-12 col-ms-12 col-lg-4 col-xl-4"> 
+
+        <div><img src="./imagenes/Nosotros1disfuso-01.png" alt="collage libros" class="imagenNosotrosa float-right img-fluid"></div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-ms-12 col-lg-4 col-xl-4">
+                
+        <div class="titulosNosotros text"><h2>Nosotros</h2></div>
+
+        <div class="textoNosotros font-italic text-justify container">
+          <p> ¿Sos una de esas personas curiosas que disfrutan leer y comprar libros para adentrarse en una nueva historia pero que ya no tiene espacio físico para seguir comprando más y más?</p>
+          <p> ¿Ya te cansaste de leer por 3° vez ese libro que antes te re emocionaba?</p>
+          <p> En <strong>la Kermesse</strong> podrás intercambiar libros físicos y virtuales con otras personas, además de compartir charlas, debates y otras índoles literarias con la gente que forma esta hermosa comunidad.</p>
+          <p>Adentrate a este portal que no sólo te da la posibilidad de interrelacionarte con gente que disfrutan de la lectura, sino que te brinda la posibilidad de que “recicles” tus libros.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-ms-12 col-lg-4 col-xl-4">
+      <div><img src="./imagenes/Nosotros2disfuso-01.png" alt="collage libros" class="imagenNosotrosb float-left img-fluid"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container story">
+    <div class="row">
+
+      <div class="card col-12 col-sm-12 col-ms-4 col-lg-4 col-xl-4 container cardStory">
+
+        <img src="./imagenes/storytelling1.png" class="card-img-top img-fluid imagenStory" alt="storytelling">
         <div class="card-body">
-          <p class="card-text textoStory">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text textoStory">Busca en la Kermesse el libro que querés, das click en "trocar" e inmediatamente te ponés en contacto con el dueño del libro.</p>
         </div>
       </div>
 
-      <div class="card col-12 col-sm-12 col-ms-4 col-lg-4 col-xl-4 container">
-        <img src="./imagenes/storytelling2.png" class="card-img-top img-fluid" alt="...">
+      <div class="card col-12 col-sm-12 col-ms-4 col-lg-4 col-xl-4 container cardStory">
+        <img src="./imagenes/storytelling2.png" class="card-img-top img-fluid imagenStory" alt="storytelling">
         <div class="card-body container">
-          <p class="card-text textoStory">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text textoStory">Si vos y la otra persona coinciden en que tienen libros para compartir, se produce el canje.</p>
         </div>
       </div>
 
-      <div class="card col-12 col-sm-12 col-ms-4 col-lg-4 col-xl-4 container">
-        <img src="./imagenes/storytelling3.png" class="card-img-top img-fluid" alt="...">
+      <div class="card col-12 col-sm-12 col-ms-4 col-lg-4 col-xl-4 container cardStory">
+        <img src="./imagenes/storytelling3.png" class="card-img-top img-fluid imagenStory" alt="storytelling">
         <div class="card-body container">
-          <p class="card-text textoStory">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text textoStory">Si uno de los dos no le fue de su agrado los libros propuestos por el otro, gana puntos para canjear por libros de otros usuarios de la página.</p>
         </div>
       </div>
     </div>
 
 </section>
 
-
 <div class="tituloCar">
   <h5 class="titulosCarrusel">Titulos según gustos</h5>
 </div>
 
-    <section class="section container-fluid">
-  <div class="row">
+  <section class="section container-fluid">
+    <div class="row">
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/PortadaHomero01-01.png"  class="card-img-top" alt="Portada Homero La Iliada"style="width: 140px; height: 180px" >
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/PortadaHomero01-01.png"  class="card-img-top portadaLibroH" alt="Portada Homero La Iliada"style="width: 140px; height: 180px" >
         <div class="card-body">
-          <h5 class="card-title fuentesTitulo">Homero, La Iliada</h5>
+          <h5 class="card-title fuentesTitulo">Homero, <br> La Iliada</h5>
           <h6 class="card-title fuentesSubtitulo">Épica,Epopeya griega</h6>
           <p class="card-text sub,sup text-justify small parrafoLibros"> Apolo está furioso con los aqueos mandándoles plagas a sus animales y a ellos. Todos por causa de Agamenón, el cual no aceptó el inmenso rescate del sacerdote Crises para liberar a su hija Criseida, al que despidió de mal modo.</p>
           <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadaAnaKarenina.jpg" class="card-img-top" alt="Portada Ana Karenina" style="width: 140px; height: 180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/portadaAnaKarenina.jpg" class="card-img-top portadaLibroH" alt="Portada Ana Karenina" style="width: 140px; height: 180px">
         <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Anna Karenina</h5>
-        <h6 class="card-title fuentesSubtitulo">Novela Romántica</h6>
-        <p class="card-text sub,sup text-justify small parrafoLibros">Ana Karenina es una mujer casada con un alto funcionario que se enamora de un joven militar y decide dejarlo todo por él, desafiando así las férreas convenciones sociales de la época.</p>
-        <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a> 
+          <h5 class="card-title fuentesTitulo">Anna <br> Karenina</h5>
+          <h6 class="card-title fuentesSubtitulo">Novela Romántica</h6>
+          <p class="card-text sub,sup text-justify small parrafoLibros">Ana Karenina es una mujer casada con un alto funcionario que se enamora de un joven militar y decide dejarlo todo por él, desafiando así las férreas convenciones sociales de la época.</p>
+          <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a> 
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/PortadaCienañosdesoledad.jpg" class="card-img-top" alt="Portada 100 años de soledad" style="width: 140px; height: 180px;">
-        <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Cien años de soledad</h5>
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardFondo" style="width: 18rem;">
+        <img src="./imagenes/PortadaCienañosdesoledad.jpg" class="card-img-top portadaLibroH" alt="Portada 100 años de soledad" style="width: 140px; height: 180px;">
+      <div class="card-body">
+        <h5 class="card-title fuentesTitulo">Cien años <br> de soledad</h5>
         <h6 class="card-title fuentesSubtitulo">Novela</h6>
         <p class="card-text sub,sup text-justify small parrafoLibros">Narra la historia de la peculiar familia Buendía en el pueblo de Macondo, una aldea fundada por el cabeza de familia, y lugar de donde parte la historia que se desarrolla a través de las aventuras y desventuras que sufre la familia.</p>
         <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
-        </div>
+      </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/Portadaprincipeymendigo.jpg" class="card-img-top" alt="Portada Principe y Mendigo" style="width: 140px;height: 180px;">
-        <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Príncipe y Mendigo</h5>
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/Portadaprincipeymendigo.jpg" class="card-img-top portadaLibroH" alt="Portada Principe y Mendigo" style="width: 140px;height: 180px;">
+      <div class="card-body">
+        <h5 class="card-title fuentesTitulo">Príncipe <br> y Mendigo</h5>
         <h6 class="card-title fuentesSubtitulo">Novela</h6>
         <p class="card-text sub,sup text-justify small parrafoLibros">Tom Canty es un niño mendigo que sueña con convertirse en príncipe; Eduardo VI es el heredero al trono de Inglaterra. Ambos crecen en mundos completamente diferentes, pero un día se encuentran y al ver que con casi idénticos, Eduardo decide que pueden intercambiarse.</p>
         <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-      <img src="./imagenes/portadaExpiacion.jpeg" class="card-img-top" alt="Portada Expiación" style="width: 140px; height: 180px;">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+      <img src="./imagenes/portadaExpiacion.jpeg" class="card-img-top portadaLibroH" alt="Portada Expiación" style="width: 140px; height: 180px;">
       <div class="card-body">
-      <h5 class="card-title fuentesTitulo">Expiación</h5>
-      <h6 class="card-title fuentesSubtitulo">Novela</h6>
-      <p class="card-text sub,sup text-justify small parrafoLibros">En la gran casa de campo de la familia Tallis todo parece fluir con apacible elegancia en el dia más caluroso del verano de 1935.La tensión estallará después de que Cecilia, salga empapada de una fuente, vestida solamente con su ropa interior, mientras Robbie, la contempla.</p>
-      <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
+        <h5 class="card-title fuentesTitulo espacioBlanco">Expiación</h5>
+        <h6 class="card-title fuentesSubtitulo">Novela</h6>
+        <p class="card-text sub,sup text-justify small parrafoLibros">En la gran casa de campo de la familia Tallis todo parece fluir con apacible elegancia en el dia más caluroso del verano de 1935.La tensión estallará después de que Cecilia, salga empapada de una fuente, vestida solamente con su ropa interior, mientras Robbie, la contempla.</p>
+        <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-      <img src="./imagenes/PortadaHamlet.jpg" class="card-img-top" alt="Portada Hamlet" style="width: 140px; height: 180PX;">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardFondo" style="width: 18rem;">
+      <img src="./imagenes/PortadaHamlet.jpg" class="card-img-top portadaLibroH" alt="Portada Hamlet" style="width: 140px; height: 180PX;">
       <div class="card-body">
-      <h5 class="card-title fuentesTitulo">Hamlet</h5>
-      <h6 class="card-title fuentesSubtitulo">Tragedia</h6>
-      <p class="card-text sub,sup text-justify small parrafoLibros">Tras la muerte de su padre, el príncipe Hamlet cae en una profunda melancolía, pues su madre se ha casado con su tío Claudio, que ahora es el nuevo monarca. Una noche, Hamlet ve el espectro de su padre, que le confiesa que ha sido asesinado por su hermano para conseguir el trono.</p>
-      <a href="#" class="btn btn-primary">Ver Más</a>
+        <h5 class="card-title fuentesTitulo espacioBlanco">Hamlet</h5>
+        <h6 class="card-title fuentesSubtitulo">Tragedia</h6>
+        <p class="card-text sub,sup text-justify small parrafoLibros">Tras la muerte de su padre, el príncipe Hamlet cae en una profunda melancolía, pues su madre se ha casado con su tío Claudio, que ahora es el nuevo monarca. Una noche, Hamlet ve el espectro de su padre, que le confiesa que ha sido asesinado por su hermano para conseguir el trono.</p>
+        <a href="#" class="btn btn-primary">Ver Más</a>
       </div>
     </div>
 
-  </div>
+    </div>
 
 </section>
 
-<div aria-label="..." class="pag">
-  <ul class="pagination pagination-lg">
+  <div aria-label="..." class="pag">
+    <ul class="pagination pagination-lg">
       <li class="page-item active" aria-current="page">
-          <span class="page-link">1</span>
+        <span class="page-link">1</span>
       </li>
       <li class="page-item"><a class="page-link" href="#">2</a></li>
       <li class="page-item"><a class="page-link" href="#">3</a></li>
-  </ul>
-</div> 
+    </ul>
+  </div> 
 
-<div class="tituloCar">
-  <h5 class="titulosCarrusel">Más Vistos</h5>
-</div>
+  <div class="tituloCar">
+    <h5 class="titulosCarrusel">Más Vistos</h5>
+  </div>
 
-    <section class="sectionUno container-fluid">
-  <div class="row">
+  <section class="sectionUno container-fluid">
+    <div class="row">
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadaantigona.jpg" class="card-img-top" alt="Portada Antigona"style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/portadaantigona.jpg" class="card-img-top portadaLibroH" alt="Portada Antigona"style="width: 140px; height:180px">
         <div class="card-body">
-          <h5 class="card-title titulos fuentesTitulo">Antigona</h5>
+          <h5 class="card-title titulos fuentesTitulo espacioBlanco">Antigona</h5>
           <h6 class="card-title fuentesSubtitulo">Tragedia</h6>
           <p class="card-text sub,sup text-justify small parrafoLibros"> La trama gira entorno a Antígona, quien desafía la ley para rendir la muerte de su hermano Polinices, considerado traidor de la patria.El tema principal de esta tragedia es la contraposición entre el orden cívico y el divino</p>
           <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadacrimenycastigo.jpg" class="card-img-top" alt="Portada Crimen y Castigo" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardFondo" style="width: 18rem;">
+        <img src="./imagenes/portadacrimenycastigo.jpg" class="card-img-top portadaLibroH" alt="Portada Crimen y Castigo" style="width: 140px; height:180px">
         <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Crimen y Castigo</h5>
-        <h6 class="card-title fuentesSubtitulo">Novela</h6>
-        <p class="card-text sub,sup text-justify small parrafoLibros">El joven estudiante Raskolnikov, cuya firme creencia en que los fines humanitarios justifican la maldad le conduce al asesinato de una usurera petersburgués. Pero, desde que comete el crimen, la culpabilidad será una pesadilla constante.</p>
-        <a href="#" class="btn btn-primary parrafoLibros">Ver Más</a> 
+          <h5 class="card-title fuentesTitulo">Crimen <br> y Castigo</h5>
+          <h6 class="card-title fuentesSubtitulo">Novela</h6>
+          <p class="card-text sub,sup text-justify small parrafoLibros">El joven estudiante Raskolnikov, cuya firme creencia en que los fines humanitarios justifican la maldad le conduce al asesinato de una usurera petersburgués. Pero, desde que comete el crimen, la culpabilidad será una pesadilla constante.</p>
+          <a href="#" class="btn btn-primary parrafoLibros">Ver Más</a> 
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
         <img src="./imagenes/PortadaElCodigoDaVinci.jpg" class="card-img-top" alt="Portada El Código Da Vinci" style="width: 140px; height:180px">
         <div class="card-body">
-        <h5 class="card-title fuentesTitulo">El Código Da Vinci</h5>
+        <h5 class="card-title fuentesTitulo">El Código <br> Da Vinci</h5>
         <h6 class="card-title fuentesSubtitulo">Novela</h6>
         <p class="card-text sub,sup text-justify small parrafoLibros">Robert Langdon intenta resolver el misterioso asesinato de Jacques Saunière ocurrido en el Museo del Louvre en París; dónde el cuerpo es encontrado en la postura del Hombre de Vitruvio con un mensaje críptico escrito a su costado y un pentáculo dibujado en el pecho con su propia sangre.</p>
         <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadaDracula.jpg" class="card-img-top" alt="Portada Drácula" style="width: 140px; height:180px">
-        <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Drácula</h5>
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardFondo" style="width: 18rem;">
+      <img src="./imagenes/portadaDracula.jpg" class="card-img-top portadaLibroH" alt="Portada Drácula" style="width: 140px; height:180px">
+      <div class="card-body">
+        <h5 class="card-title fuentesTitulo espacioBlanco">Drácula</h5>
         <h6 class="card-title fuentesSubtitulo">Novela</h6>
         <p class="card-text sub,sup text-justify small parrafoLibros">Cuando Jonathan Harker viajó a Transilvania por asuntos de negocios, nunca imaginó el peligro que corría. Su cliente, el magnético conde Drácula, lo mantiene prisionero y Harker adivina sus oscuros propósitos: viajar a Londres para cosechar víctimas con las que saciar su apetito de sangre.</p>
         <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-      <img src="./imagenes/Portadadiariosdeunapasion.jpg" class="card-img-top" alt="Portada Diarios de una pasión" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+      <img src="./imagenes/Portadadiariosdeunapasion.jpg" class="card-img-top portadaLibroH" alt="Portada Diarios de una pasión" style="width: 140px; height:180px">
       <div class="card-body">
-      <h5 class="card-title fuentesTitulo">Diarios de una pasión</h5>
-      <h6 class="card-title fuentesSubtitulo">Novela</h6>
-      <p class="card-text sub,sup text-justify small parrafoLibros">En un verano de 1932 en New Bern, Allie Nelson y Noah Calhoun se conocen, se gustan y se enamoran. Sin embargo, la mano del destino, la diferencia de clases y los padres de Allie les caerán encima, obligándolos a separarse por catorce años y cambiándolos para siempre.</p>
-      <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
+        <h5 class="card-title fuentesTitulo">Diarios de una pasión</h5>
+        <h6 class="card-title fuentesSubtitulo">Novela</h6>
+        <p class="card-text sub,sup text-justify small parrafoLibros">En un verano de 1932 en New Bern, Allie Nelson y Noah Calhoun se conocen, se gustan y se enamoran. Sin embargo, la mano del destino, la diferencia de clases y los padres de Allie les caerán encima, obligándolos a separarse por catorce años y cambiándolos para siempre.</p>
+        <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-      <img src="./imagenes/portadaolivertwist.jpg" class="card-img-top" alt="..." style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+      <img src="./imagenes/portadaolivertwist.jpg" class="card-img-top portadaLibroH" alt="..." style="width: 140px; height:180px">
       <div class="card-body">
-      <h5 class="card-title fuentesTitulo">Oliver Twist</h5>
-      <h6 class="card-title fuentesSubtitulo">Novela</h6>
-      <p class="card-text sub,sup text-justify small parrafoLibros">Cuenta las peripecias y desventuras de un muchacho llamado Oliver Twist. Su nacimiento es un hospicio, donde queda huérfano y pasa su infancia sometido al hambre, el frío y los continuos maltratos.Huye a Londres donde se encuentra en compañía de ladrones y otras gentes de mala calaña. </p>
-      <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
+        <h5 class="card-title fuentesTitulo espacioBlanco">Oliver Twist</h5>
+        <h6 class="card-title fuentesSubtitulo">Novela</h6>
+        <p class="card-text sub,sup text-justify small parrafoLibros">Cuenta las peripecias y desventuras de un muchacho llamado Oliver Twist. Su nacimiento es un hospicio, donde queda huérfano y pasa su infancia sometido al hambre, el frío y los continuos maltratos.Huye a Londres donde se encuentra en compañía de ladrones y otras gentes de mala calaña. </p>
+        <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
@@ -313,26 +295,25 @@
 
 </section>
 
-<div aria-label="..." class="pagU">
-  <ul class="pagination pagination-lg">
+  <div aria-label="..." class="pagU">
+    <ul class="pagination pagination-lg">
       <li class="page-item active" aria-current="page">
           <span class="page-link">1</span>
       </li>
       <li class="page-item"><a class="page-link" href="#">2</a></li>
       <li class="page-item"><a class="page-link" href="#">3</a></li>
-  </ul>
-</div> 
+    </ul>
+  </div> 
 
+  <div class="tituloCar">
+    <h5 class="titulosCarrusel">Últimos Agregados</h5>
+  </div>
 
-<div class="tituloCar">
-  <h5 class="titulosCarrusel">Últimos Agregados</h5>
-</div>
+  <section class="sectionDos container-fluid">
+    <div class="row">
 
-    <section class="sectionDos container-fluid">
-  <div class="row">
-
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadasueñosdeunanochedeverano.jpg" class="card-img-top" alt="Portada Sueños de una noche de verano"style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/portadasueñosdeunanochedeverano.jpg" class="card-img-top portadaLibroH" alt="Portada Sueños de una noche de verano"style="width: 140px; height:180px">
         <div class="card-body">
           <h5 class="card-title fuentesTitulo">Sueño de una noche de verano</h5>
           <h6 class="card-title fuentesSubtitulo">Comedia</h6>
@@ -341,18 +322,18 @@
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadaromeoyjulieta.jpg" class="card-img-top" alt="Portada Romeo y Julieta" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/portadaromeoyjulieta.jpg" class="card-img-top portadaLibroH" alt="Portada Romeo y Julieta" style="width: 140px; height:180px">
         <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Romeo y Julieta</h5>
-        <h6 class="card-title fuentesSubtitulo">Novela Romántica</h6>
-        <p class="card-text sub,sup text-justify small parrafoLibros">Él se llama Romeo, y es un Montesco; ella, Julieta, una Capuleto. Hijos de dos nobles familias rivales de Verona, no lo tienen fácil, pero saben que están hechos el uno para el otro.</p>
-        <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a> 
+          <h5 class="card-title fuentesTitulo espacioBlanco">Romeo y Julieta</h5>
+          <h6 class="card-title fuentesSubtitulo">Novela Romántica</h6>
+          <p class="card-text sub,sup text-justify small parrafoLibros">Él se llama Romeo, y es un Montesco; ella, Julieta, una Capuleto. Hijos de dos nobles familias rivales de Verona, no lo tienen fácil, pero saben que están hechos el uno para el otro.</p>
+          <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a> 
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/Portadaunaeducacionmortal.jpg" class="card-img-top" alt="Portada Una educación mortal" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardFondo" style="width: 18rem;">
+        <img src="./imagenes/Portadaunaeducacionmortal.jpg" class="card-img-top portadaLibroH" alt="Portada Una educación mortal" style="width: 140px; height:180px">
         <div class="card-body">
         <h5 class="card-title fuentesTitulo">Una Educación Mortal</h5>
         <h6 class="card-title fuentesSubtitulo">Novela</h6>
@@ -361,39 +342,39 @@
         </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-        <img src="./imagenes/portadatransmite.jpg" class="card-img-top" alt="Portada Transmite" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+        <img src="./imagenes/portadatransmite.jpg" class="card-img-top portadaLibroH" alt="Portada Transmite" style="width: 140px; height:180px">
         <div class="card-body">
-        <h5 class="card-title fuentesTitulo">Transmite</h5>
+        <h5 class="card-title fuentesTitulo espacioBlanco">Transmite</h5>
         <h6 class="card-title fuentesSubtitulo">Fotografía</h6>
         <p class="card-text sub,sup text-justify small parrafoLibros">La fotografía, como toda forma de arte, busca transmitir emociones y sensaciones. Y ese es el objetivo que persigo en cada toma: hacerte sentir lo que yo siento y mostrarte mi visión personal del mundo a través de la cámara. ... Cómo organizar una buena sesión de fotos.</p>
         <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-      <img src="./imagenes/Portadatodosquierenadaisyjones.jpg" class="card-img-top" alt="Portada todos quieren a Daisy Jones" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardFondo" style="width: 18rem;">
+      <img src="./imagenes/Portadatodosquierenadaisyjones.jpg" class="card-img-top portadaLibroH" alt="Portada todos quieren a Daisy Jones" style="width: 140px; height:180px">
       <div class="card-body">
-      <h5 class="card-title fuentesTitulo">Portada Todos quieren a Daisy Jones</h5>
+      <h5 class="card-title fuentesTitulo">Todos quieren a Daisy Jones</h5>
       <h6 class="card-title fuentesSubtitulo">Biografía</h6>
       <p class="card-text sub,sup text-justify small parrafoLibros">Daisy Jones & The Six fue la banda de rock más exitosa de todos los tiempos, en los años 70´s conviertiendose en toda una leyenda, estando en las listas TOP de música en los medios. Daisy Jones, aquella chica que los llevaría al éxito y que cambiaría cada una de sus vidas.</p>
       <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-    <div class="card col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-2" style="width: 18rem;">
-      <img src="./imagenes/PortadaPieldeébano.jpg" class="card-img-top" alt="Portada Piel de Ebano" style="width: 140px; height:180px">
+    <div class="card col-12 col-sm-12 col-ms-3 col-lg-3 col-xl-2 cardHidden cardFondo" style="width: 18rem;">
+      <img src="./imagenes/PortadaPieldeébano.jpg" class="card-img-top portadaLibroH" alt="Portada Piel de Ebano" style="width: 140px; height:180px">
       <div class="card-body">
-      <h5 class="card-title fuentesTitulo">Piel de Ébano</h5>
+      <h5 class="card-title fuentesTitulo espacioBlanco">Piel de Ébano</h5>
       <h6 class="card-title fuentesSubtitulo">Novela</h6>
       <p class="card-text sub,sup text-justify small parrafoLibros">En la fascinante Cartagena de Indias del siglo XVIII se dan cita el esclavismo, la incipiente libertad, el comercio de ultramar y las rencillas por el poder. El esclavismo que se irriga por toda la sociedad americana y en especial en Cartagena de Indias, puerto obligado por los tratantes de esclavos.</p>
       <a href="#" class="btn btn-primary fuentesTexto">Ver Más</a>
       </div>
     </div>
 
-  </div>
+    </div>
 
-</section>
+  </section>
 
 <div aria-label="..." class="pagD">
   <ul class="pagination pagination-lg">
@@ -404,9 +385,6 @@
       <li class="page-item"><a class="page-link" href="#">3</a></li>
   </ul>
 </div> 
-
-
-
 
 <div class="footer">
     <ul class="footerUno">
@@ -420,7 +398,8 @@
 
 
 
-</div> 
+</div>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
@@ -429,20 +408,3 @@
 </head>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

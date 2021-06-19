@@ -135,16 +135,18 @@ font-size: clamp(.70rem, 1vw, 1rem);
     justify-content: space-evenly;
 
 .textoStory{
-    font-size: $parrafoSecundario;
-    font-family: $fuentetexto;
+    font-family:$fuentetexto;
 }
 }
 
+.cardStory{
+    background:transparent;
+}
 /*CARRUSEL*/
 
 .tituloCar{
     grid-area:titulocar;
-   /* border: 1px solid coral;*/
+   border: 1px solid coral;
     margin-top: 100px;
     display: flex;
     align-content: flex-start;
@@ -157,13 +159,30 @@ font-size: clamp(.70rem, 1vw, 1rem);
 
 .section{
     grid-area:carrusel;
-        /*  border: 1px solid rgb(149, 26, 173);*/
-    margin-top: 110px;
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
         }        
     } 
+}
+
+.cardFondo{
+    background: linear-gradient(to bottom, #8ca97969 36%, #e1ecda2a 100%);
+    box-shadow:1px 1px 5px #888888;
+    border-radius: 10px;
+}
+.espacioBlanco{
+margin-bottom: 2rem;
+}
+.iconoLike{
+position: absolute;
+top: 12.5em;
+left: 14em;
+}
+
+.iconoLike:active
+{
+background-image: url(../../imagenes/likeactivo-01.png);
 }
 
 .fuentesTitulo{

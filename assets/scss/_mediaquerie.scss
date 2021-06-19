@@ -37,8 +37,6 @@ margin-left: 30%;
     grid-area: tituloN;
     font-family: 'Cinzel', serif;
     color: #E67E22 ;
-        /*font-size: 30px;  */
-        /*border: 1px solid coral;*/
     text-align: center;
 }
 
@@ -51,35 +49,21 @@ margin-left: 30%;
 }
 
 .imagenNosotrosb{
-    /*border: 1px solid coral;*/
     margin-top: 88%;
     margin-left: 1vh;
 }
 
 .story{
     grid-area: story;
-        /* border: 1px solid coral;*/
     margin-top: 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
-.imagenPubli{
-        width: 200%;
-        height: 100%;
-}
-
-.publi{
-        width: 15%;
-        height: 100%; 
-        display: flex;
-        position: fixed;
-}
 
 .tituloCar{
         grid-area:titulocar;
-       /* border: 1px solid coral;*/
         margin-top: 100px;
         display: flex;
         align-content: flex-start;
@@ -87,16 +71,18 @@ margin-left: 30%;
 
 .section{
         grid-area:carrusel;
-    /*  border: 1px solid rgb(149, 26, 173);*/
-        margin-top: 110px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-evenly;
         align-content: flex-start;
 }
 
+.portadaLibroH{
+    margin-left: 20%;
+}
+
 .pag{
         grid-area:pag;
-       /* border: 1px solid rgb(14, 145, 94);*/
         display: flex;
         flex-direction: row;
         align-content: center;
@@ -256,6 +242,13 @@ height: 20px;
     justify-content: space-evenly;
 }
 
+.contenedorStory{
+height: 1000px;
+.imagenStory{
+    height: 200px;
+}
+}
+
 .tituloCar{
     grid-area:titulocar;
     margin-top: 100px;
@@ -265,15 +258,20 @@ height: 20px;
 
 .section{
     grid-area:carrusel;
-    margin-top: 110px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
 }
 
+.cardHidden{
+    display: none;
+}
+
+
 .pag{
     grid-area:pag;
-        /* border: 1px solid rgb(14, 145, 94);*/
+
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -282,7 +280,6 @@ height: 20px;
 
 .tituloCaru{
     grid-area:titulocaru;
-        /*border: 1px solid coral;*/
     margin-top: 10px;
     padding-bottom: 50px;
     display: flex;
