@@ -188,6 +188,17 @@ left: 14em;
 background-image: url(../../imagenes/likeactivo-01.png);
 }
 
+.botonActivo{
+    background: linear-gradient(to top, #566e46 85%, #8bb173 100%);
+    border: #566e46;
+    z-index: 3;
+    box-shadow: 1px 1px 5px #405234;
+}
+
+.botonActivo:hover{
+    background-color: #233329;
+}
+
 .fuentesTitulo{
     font-family: $fuentetitulo;
     color: $nombrePortadaLibros;
@@ -202,10 +213,47 @@ background-image: url(../../imagenes/likeactivo-01.png);
     font-family: $fuentetexto;
 }
 
+.botonPagina{
+    border: #566e46;
+    z-index: 3;
+    box-shadow: 1px 1px 5px #405234;
+}
+
+.contenedorPagina{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+.numeroPagina{
+border: 0.5px solid #566e469d;
+border-radius: 4px;
+width: 4rem;
+height: 4rem;
+padding: 1em 1.6em;
+color: #566e46;
+font-size: $parrafoPrincipal;
+box-shadow: 0px 0px 3px #405234a9;
 
 
+}
+}
+.numeroPagina:hover{
+background: #566e462a;
+}
 
+.btnActivo{
+border: 0.5px solid #566e469d;
+border-radius: 4px;
+width: 4rem;
+height: 4rem;
+padding: 1em 1.6em;
+color: #566e26;
+font-size: $parrafoPrincipal;
+background:#233329;
+    } 
 
+.btnActivo:active{
+    background:#233329;
+}
 
 /*-------------------------------*/
 
