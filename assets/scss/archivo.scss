@@ -6,11 +6,11 @@
 
 //VARIABLE//
 $nombrePortadaLibros: #566e46;
-$SubtituloPortada:#8ca979;
+$SubtituloPortada:#779165;
 $fuentetitulo: 'Cinzel', serif;
 $fuentetexto: 'Benne', serif;
-$parrafoPrincipal:1.05em;
-$parrafoSecundario:1.05em;   
+$parrafoPrincipal:1.50em;
+$parrafoSecundario:1.10em;   
 
 
 
@@ -23,7 +23,7 @@ $parrafoSecundario:1.05em;
 @for $titulos from 1 through 6 {
     h#{$titulos}{
         font-size: 4.75em - $titulos; 
-    }
+}
 }
 
 
@@ -42,19 +42,18 @@ body{
 .imagenBanner{
     background: url("../../imagenes/bannerSinFondo.png");
     background-repeat: no-repeat;
-    border: 5px solid #7351;
 }
 
 #nombreDeLaMarca{
     color: #8CA979;
     font-family: $fuentetitulo; 
     font-size: clamp(2.5rem, 5vw, 3.75rem);
-    text-shadow:2px 1px#758d65 ;
+    text-shadow:2px 1px#758d65;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;    
     align-content: center;
-    }
+}
 }
 
 .logo{
@@ -63,7 +62,7 @@ body{
 }
 
 .botonRegistro{
-width: fit-content;
+    width: fit-content;
 .banner{
     background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
     font-family: 'Cinzel', serif;
@@ -73,13 +72,13 @@ width: fit-content;
     padding: 3px;
     border-radius: 10px;
     border-color: #db7f5b;
-	box-shadow:2px 2px 5px #97553b;
+	box-shadow:2px 2px 5px  ;
     margin: 0px;
 }
 }
 
 .banner:active{
-background: #c2704f;
+    background: #c2704f;
 }
 
 
@@ -88,9 +87,9 @@ background: #c2704f;
     grid-area:barra;
     background-color:#8CA979;
     position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-  z-index: 4;
+    position: sticky;
+    top: -1px;
+    z-index: 4;
 
 .listasNav{
     font-family:  'Cinzel', serif;
@@ -136,24 +135,24 @@ font-size: clamp(.70rem, 1vw, 1rem);
 
 .textoStory{
     font-family:$fuentetexto;
+    font-size: $parrafoSecundario;
 }
 }
 
 .cardStory{
     background:transparent;
 }
-/*CARRUSEL*/
 
+/*CARRUSEL*/
 .tituloCar{
     grid-area:titulocar;
-   border: 1px solid coral;
     margin-top: 100px;
     display: flex;
     align-content: flex-start;
 
 .titulosCarrusel{
     font-family: 'Cinzel', serif;
-    color: rgb(153, 115, 71);
+    color: #E67E22;
     font-weight: bold;
     margin: 10px 15px;
 
@@ -162,33 +161,34 @@ font-size: clamp(.70rem, 1vw, 1rem);
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
-        }        
-    } 
+}        
+} 
 }
 
 .portadaLibroH{
     margin-top: 10px;
 }
 .cardFondo{
+    height: min-content;
     background: linear-gradient(to bottom, #8ca97969 36%, #e1ecda2a 100%);
     box-shadow:1px 1px 5px #888888;
     border-radius: 10px;
 }
 .espacioBlanco{
-margin-bottom: 2rem;
+    margin-bottom: 2.14rem;
 }
 .iconoLike{
-position: absolute;
-top: 12.5em;
-left: 14em;
+    position: absolute;
+    top: 12.5em;
+    left: 14em;
 }
 
-.iconoLike:active
-{
-background-image: url(../../imagenes/likeactivo-01.png);
+.iconoLike:active{
+    background-image: url(../../imagenes/likeactivo-01.png);
 }
 
 .botonActivo{
+    margin: 0.90em;
     background: linear-gradient(to top, #566e46 85%, #8bb173 100%);
     border: #566e46;
     z-index: 3;
@@ -196,7 +196,19 @@ background-image: url(../../imagenes/likeactivo-01.png);
 }
 
 .botonActivo:hover{
-    background-color: #233329;
+    background-color: #6d835e;
+}
+
+.botonActivoUno{
+    margin: 0.90em;
+    background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
+    border-color: #db7f5b;
+    z-index: 3;
+    box-shadow: 1px 1px 5px #97553b ;
+}
+
+.botonActivoUno:hover{
+    background-color: #c2704f;
 }
 
 .fuentesTitulo{
@@ -211,12 +223,7 @@ background-image: url(../../imagenes/likeactivo-01.png);
 
 .parrafoLibros{
     font-family: $fuentetexto;
-}
-
-.botonPagina{
-    border: #566e46;
-    z-index: 3;
-    box-shadow: 1px 1px 5px #405234;
+    font-size: $parrafoSecundario;
 }
 
 .contenedorPagina{
@@ -224,39 +231,40 @@ background-image: url(../../imagenes/likeactivo-01.png);
     flex-flow: row nowrap;
     justify-content: center;
 .numeroPagina{
-border: 0.5px solid #566e469d;
-border-radius: 4px;
-width: 4rem;
-height: 4rem;
-padding: 1em 1.6em;
-color: #566e46;
-font-size: $parrafoPrincipal;
-box-shadow: 0px 0px 3px #405234a9;
-
-
+    border: 0.5px solid #566e469d;
+    border-radius: 4px;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.6em 1em;
+    box-shadow: 0px 0px 3px #405234a9;
+    color: #566e46;
+    font-size: $parrafoPrincipal;
+    font-family: $fuentetitulo;
 }
 }
+
 .numeroPagina:hover{
-background: #566e462a;
+    background: #6d835e60;
+}
+
+.nPagColor{
+    color: #8db374;
 }
 
 .btnActivo{
-border: 0.5px solid #566e469d;
-border-radius: 4px;
-width: 4rem;
-height: 4rem;
-padding: 1em 1.6em;
-color: #566e26;
-font-size: $parrafoPrincipal;
-background:#233329;
-    } 
+    border: 0.5px solid #566e469d;
+    border-radius: 4px;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.5em 1em;
+    color: #566e46;
+    font-size: $parrafoPrincipal;
+    background:#455839;
+} 
 
 .btnActivo:active{
-    background:#233329;
+    background:#455839;
 }
-
-/*-------------------------------*/
-
 
 /* ESTOS SON LOS BEM DEL ACORDEON*/
 
@@ -271,33 +279,26 @@ background:#233329;
   text-align: center;
 }
 }
-/*-------------------------------------*/
-
-
-
 
 
 /* BEM FOOTER*/
 .footer{
     grid-area: pie;
-        /*border: 1px solid coral;*/
-    margin-top: 50px;
+    margin-top: 100px;
 .footerUno{
-    background-color: rgb(22, 59, 25);
-    height: 50px;
+    background-color: #233329;
+    height: 200px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-
 .listasFooter{
-    font-family: 'Cinzel', serif; 
+    font-family: $fuentetexto; 
     list-style-type: none;
-    color: #E67E22; 
+    color:  #df9173; 
 } 
-
 }
 }
 
@@ -305,5 +306,4 @@ background:#233329;
     background-color: #63d471;
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);     
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);    
-
 }

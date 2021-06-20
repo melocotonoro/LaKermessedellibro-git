@@ -5,31 +5,25 @@
 
     "barra barra barra barra barra barra"
 
-    " . contenido contenido contenido . publi"
+    " . contenido contenido contenido contenido ."
 
-    ". story story story . publi"
+    ". story story story story ."
 
     "titulocar titulocar titulocar titulocar titulocar titulocar"
     
     " carrusel carrusel carrusel carrusel carrusel carrusel"
     
-    "pag pag pag pag pag pag"
-    
-    "titulocaru titulocaru titulocaru titulocaru titulocaru titulocaru"
+    "titulocar titulocar titulocar titulocar titulocar titulocar"
 
     " carruseluno carruseluno carruseluno carruseluno carruseluno carruseluno"
-    
-    "pagu pagu pagu pagu pagu pagu"
-    
-    "titulocara titulocara titulocara titulocara titulocara titulocara"
+
+    "titulocar titulocar titulocar titulocar titulocar titulocar"
     
     " carruseldos carruseldos carruseldos carruseldos carruseldos carruseldos"
     
-    "pagd pagd pagd pagd pagd pagd"
-    
     "pie pie pie pie pie pie";
 
-    grid-template-rows: 500px 57px 700px 600px 40px 500px 60px 40px 500px 60px 40px 500px 60px 100px;
+    grid-template-rows: 500px 57px 700px 600px 40px 500px 40px 500px 40px 500px 200px;
     grid-template-columns: 10% 1fr 1fr 1fr 5% 15%;
 }
 
@@ -45,12 +39,12 @@
     grid-area: contenido;
 }
 
-.titulosNosotros{
-    grid-area: tituloN;
-}
-
 .story{
     grid-area: story;
+}
+
+.titulosNosotros{
+    grid-area: tituloN;
 }
 
 .tituloCar{
@@ -61,10 +55,15 @@
     grid-area:carrusel;
 }
 
-.pag{
-    grid-area:pag;
+.sectionUno {
+    grid-area: carruseluno;
 }
 
-.tituloCaru{
-    grid-area:titulocaru;
+.sectionDos {
+    grid-area: carruseldos;
+}
+
+.footer {
+    grid-area: pie;
+
 }

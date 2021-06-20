@@ -721,8 +721,7 @@ body {
   background-image: linear-gradient(-315deg, #ffffff 0%, #d8896b 74%); }
   .headerUno .imagenBanner {
     background: url("../../imagenes/bannerSinFondo.png");
-    background-repeat: no-repeat;
-    border: 5px solid #7351; }
+    background-repeat: no-repeat; }
   .headerUno #nombreDeLaMarca {
     color: #8CA979;
     font-family: "Cinzel", serif;
@@ -748,7 +747,7 @@ body {
     padding: 3px;
     border-radius: 10px;
     border-color: #db7f5b;
-    box-shadow: 2px 2px 5px #97553b;
+    box-shadow: 2px 2px 5px;
     margin: 0px; }
 
 .banner:active {
@@ -796,7 +795,8 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly; }
   .story .textoStory {
-    font-family: "Benne", serif; }
+    font-family: "Benne", serif;
+    font-size: 1.1em; }
 
 .cardStory {
   background: transparent; }
@@ -804,13 +804,12 @@ body {
 /*CARRUSEL*/
 .tituloCar {
   grid-area: titulocar;
-  border: 1px solid coral;
   margin-top: 100px;
   display: flex;
   align-content: flex-start; }
   .tituloCar .titulosCarrusel {
     font-family: 'Cinzel', serif;
-    color: #997347;
+    color: #E67E22;
     font-weight: bold;
     margin: 10px 15px; }
     .tituloCar .titulosCarrusel .section {
@@ -823,12 +822,13 @@ body {
   margin-top: 10px; }
 
 .cardFondo {
+  height: min-content;
   background: linear-gradient(to bottom, #8ca97969 36%, #e1ecda2a 100%);
   box-shadow: 1px 1px 5px #888888;
   border-radius: 10px; }
 
 .espacioBlanco {
-  margin-bottom: 2rem; }
+  margin-bottom: 2.14rem; }
 
 .iconoLike {
   position: absolute;
@@ -839,13 +839,24 @@ body {
   background-image: url(../../imagenes/likeactivo-01.png); }
 
 .botonActivo {
+  margin: 0.90em;
   background: linear-gradient(to top, #566e46 85%, #8bb173 100%);
   border: #566e46;
   z-index: 3;
   box-shadow: 1px 1px 5px #405234; }
 
 .botonActivo:hover {
-  background-color: #233329; }
+  background-color: #6d835e; }
+
+.botonActivoUno {
+  margin: 0.90em;
+  background: linear-gradient(360deg, #db7f5b 90%, #df9173 20%);
+  border-color: #db7f5b;
+  z-index: 3;
+  box-shadow: 1px 1px 5px #97553b; }
+
+.botonActivoUno:hover {
+  background-color: #c2704f; }
 
 .fuentesTitulo {
   font-family: "Cinzel", serif;
@@ -853,15 +864,11 @@ body {
 
 .fuentesSubtitulo {
   font-family: "Cinzel", serif;
-  color: #8ca979; }
+  color: #779165; }
 
 .parrafoLibros {
-  font-family: "Benne", serif; }
-
-.botonPagina {
-  border: #566e46;
-  z-index: 3;
-  box-shadow: 1px 1px 5px #405234; }
+  font-family: "Benne", serif;
+  font-size: 1.1em; }
 
 .contenedorPagina {
   display: flex;
@@ -872,28 +879,31 @@ body {
     border-radius: 4px;
     width: 4rem;
     height: 4rem;
-    padding: 1em 1.6em;
+    padding: 0.6em 1em;
+    box-shadow: 0px 0px 3px #405234a9;
     color: #566e46;
-    font-size: 1.05em;
-    box-shadow: 0px 0px 3px #405234a9; }
+    font-size: 1.5em;
+    font-family: "Cinzel", serif; }
 
 .numeroPagina:hover {
-  background: #566e462a; }
+  background: #6d835e60; }
+
+.nPagColor {
+  color: #8db374; }
 
 .btnActivo {
   border: 0.5px solid #566e469d;
   border-radius: 4px;
   width: 4rem;
   height: 4rem;
-  padding: 1em 1.6em;
-  color: #566e26;
-  font-size: 1.05em;
-  background: #233329; }
+  padding: 0.5em 1em;
+  color: #566e46;
+  font-size: 1.5em;
+  background: #455839; }
 
 .btnActivo:active {
-  background: #233329; }
+  background: #455839; }
 
-/*-------------------------------*/
 /* ESTOS SON LOS BEM DEL ACORDEON*/
 .contenedorListaLibros {
   max-width: 800px;
@@ -904,15 +914,13 @@ body {
     color: #E67E22;
     text-align: center; }
 
-/*-------------------------------------*/
 /* BEM FOOTER*/
 .footer {
   grid-area: pie;
-  /*border: 1px solid coral;*/
-  margin-top: 50px; }
+  margin-top: 100px; }
   .footer .footerUno {
-    background-color: #163b19;
-    height: 50px;
+    background-color: #233329;
+    height: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -920,9 +928,9 @@ body {
     align-items: center;
     list-style-type: none; }
     .footer .footerUno .listasFooter {
-      font-family: 'Cinzel', serif;
+      font-family: "Benne", serif;
       list-style-type: none;
-      color: #E67E22; }
+      color: #df9173; }
 
 .seccionChat {
   background-color: #63d471;
