@@ -287,7 +287,6 @@ font-size: clamp(.70rem, 1vw, 1rem);
     margin-top: 100px;
 .footerUno{
     background-color: #233329;
-    height: 200px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -295,13 +294,44 @@ font-size: clamp(.70rem, 1vw, 1rem);
     align-items: center;
     list-style-type: none;
 .listasFooter{
-    font-family: $fuentetexto; 
+    font-family: $fuentetitulo; 
     list-style-type: none;
     color:  #df9173; 
 } 
 }
 }
+.redesSociales{
+    display: flex;
+    flex-flow: row nowrap;
+}
 
+.logoRedSocial{
+    margin: 8px;
+}
+
+.contacto{
+    margin-left:10px;
+    font-family: $fuentetitulo;
+}
+
+.tituloFooter{
+    font-family: $fuentetitulo;
+    color: #df9173;
+}
+.subtituloFooter{
+    font-family: $fuentetexto;
+    color: #df9173;
+}
+
+.inicio{
+    color: #df9173;
+}
+.derechos{
+    background-color: #233329;
+    color: #df9173;
+    font-family: $fuentetitulo;
+    position: relative;
+}
 .seccionChat{
     background-color: #63d471;
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);     
