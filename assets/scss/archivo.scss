@@ -332,8 +332,60 @@ font-size: clamp(.70rem, 1vw, 1rem);
     font-family: $fuentetitulo;
     position: relative;
 }
-.seccionChat{
-    background-color: #63d471;
-    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);     
-    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);    
+
+
+.fondoSecciones{
+    background: url(../../imagenes/fondobody-01-04.png);
+    background-repeat:no-repeat ;
+}
+
+/*************************************/
+/* SECCION MI PERFIL*/
+
+.perfil{
+justify-self: center;
+margin-top: 50px;
+}
+.fotoMiPerfil{
+    position: absolute;
+    left: 30%;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+
+.tituloDatos{
+    position: relative;
+    top: 30px;
+    left: 40%;
+    bottom: 30px;
+}
+.datosPersonales{
+    position: relative;
+    top: 30px;
+    left: 40%;
+    font-size: $parrafoPrincipal;
+    font-family: $fuentetexto;
+}
+
+.modificarDatos{
+    position: relative;
+    top: 40px;
+    left: 60%;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+
+.librosPublicados{
+    margin: 50px 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    width: min-content;
+    height: 250px;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+.agregarQuitarCanjear{
+    position: relative;
+    left: 60%;
 }

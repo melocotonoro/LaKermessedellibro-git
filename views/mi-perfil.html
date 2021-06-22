@@ -4,326 +4,230 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="keywords" content="libro, canje, cambiar,trueque, intercambio, permutar, permuto, libros físicos, e-book, virtual, favoritos, preferencias,datos personales,puntos">
-
-    <meta name="description" content="Aquí podrás dejar tus preferencias para que sea más personalizada tu búsqueda.">
-
-<title>Mi Perfil-La Kermesse del Libro</title>
+    <meta name="keywords" content="libro, libros, canje, cambiar,escrito, escrituras, tratado,trueque, intercambio, permutar, permuto">
+    <meta name="description" content="Sumate a la experiencia de canjear libros, tanto virtuales como físicos. Canjeamos emociones, canjeamos anécdotas">
+<title>Home- La Kermesse del Libro</title>
 
 <!--Google Fonts-->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&display=swap" rel="stylesheet">
 
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+
 <!--Bottstrap CDN-->
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-<!--Estilo Bootstrap Chat-->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-
 <!--Estilos CSS-->
 <link rel="stylesheet" href="../assets/CSS/archivo.css">
+
 </head>
 
-<body id="home">
+<body>
 
-    <div class="contenedorProyecto">
+  <div class="contenedorProyecto fondoSecciones" id="home">
 
-        <div class="headerUno"> 
-    
-            <header class="imagenBanner">
-                <div class="logo container-fluid"><img src="../imágenes/logo 100x100.png" alt="Logo" class="img-fluid"></div>
-                
-                <div class="container-fluid contenedorBoton"><a href="./Iniciar_sesion.html"><button type="button" class="btn btn-light btn-lg banner">Iniciar Sesión</button></a>
-            
-                  <a href="./registrarte.html"><button type="button" class="btn btn-light btn-lg banner">Registrarse</button></a>
-                </div>
+  <div class="headerUno"> 
 
-                <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
+    <header class="imagenBanner">
 
-            </header>
-        
-        </div>
-
-        <div class="nav container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light listasNav">
-                <a class="navbar-brand" href="#"> logo</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                  <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-                    <li class="nav-item">
-                      <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secundary itemsNavBar nav-link disabled" href="./mi-perfil.html">Mi Perfil</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Libros Disponibles</a>
-
-                        <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-                          <li><a class="dropdown-item text-light" href="./Libros_disponibles-grid.html">Físicos</a></li>
-                          <li><a class="dropdown-item text-light" href="./Libros_disponibles-grid.html">Virtuales</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light itemsNavBar" href="#" tabindex="-1" aria-disabled="true">Chats</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light itemsNavBar" href="./Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
-                      </li>
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control mr-2 input" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-        </div>
-
-<section> 
-  <div class="container">
-    <div class="row">
-    <div class="col-md-10 ">
-    <form class="form-horizontal">
-    <fieldset>
+      <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
     
-    <!-- Form Name -->
-    <legend>Edit Profile</legend>
+        <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
     
-    <!-- Text input-->
+    </header>
     
+  </div>
     
+  <div class="nav container-fluid">
     
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Name (Full name)">Name (Full name)</label>  
-      <div class="col-md-4">
-     <div class="input-group">
-           <input id="Name (Full name)" name="Name (Full name)" type="text" placeholder="Name (Full name)" class="form-control">
-          </div>
-    
-        
-      </div>
-    
-      
-    </div>
-    
-    <!-- File Button --> 
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Upload photo">Upload photo</label>
-      <div class="col-md-4">
-        <input id="Upload photo" name="Upload photo" class="input-file" type="file">
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Date Of Birth">Date Of Birth</label>  
-      <div class="col-md-4">
-    
-      <div class="input-group">
-           <input id="dob" name="Date Of Birth" type="text" placeholder="Date Of Birth" class="form-control input-md">
-          </div>
-      
-        
-      </div>
-    </div>
-    
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Father">Father's name</label>  
-      <div class="col-md-4">
-      <div class="input-group">
-          <input id="Father" name="Father" type="text" placeholder="Father's name" class="form-control input-md">
-    
-          </div>
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Mother">Mother's Name</label>  
-      <div class="col-md-4">
-      <div class="input-group">
-      <input id="Mother" name="Mother" type="text" placeholder="Mother's Name" class="form-control input-md">
-    
-          </div>
-        
-      </div>
-    </div>
-    
-    <!-- Multiple Radios (inline) -->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Gender">Gender</label>
-      <div class="col-md-4"> 
-        <label class="radio-inline" for="Gender-0">
-          <input type="radio" name="Gender" id="Gender-0" value="1" checked="checked">
-          Male
-        </label> 
-        <label class="radio-inline" for="Gender-1">
-          <input type="radio" name="Gender" id="Gender-1" value="2">
-          Female
-        </label> 
-        <label class="radio-inline" for="Gender-2">
-          <input type="radio" name="Gender" id="Gender-2" value="3">
-          Other
-        </label>
-      </div>
-    </div>
-    
-    <!-- Multiple Radios (inline) -->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="radios">Marital Status:</label>
-      <div class="col-md-4"> 
-        <label class="radio-inline" for="radios-0">
-          <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
-          Married
-        </label> 
-        <label class="radio-inline" for="radios-1">
-          <input type="radio" name="radios" id="radios-1" value="2">
-          Unmarried
-        </label>
-      </div>
-    </div>
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label col-xs-12" for="Permanent Address">Permanent Address</label>  
-      <div class="col-md-2  col-xs-4">
-      <input id="Permanent Address" name="Permanent Address" type="text" placeholder="District" class="form-control input-md ">
-      </div>
-    
-      <div class="col-md-2 col-xs-4">
-    
-      <input id="Permanent Address" name="Permanent Address" type="text" placeholder="Area" class="form-control input-md ">
-      </div>
-    
-      
-    </div>
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Permanent Address"></label>  
-      <div class="col-md-2  col-xs-4">
-      <input id="Permanent Address" name="Permanent Address" type="text" placeholder="Street" class="form-control input-md ">
-      
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Email Address">Phone No</label>  
-      <div class="col-md-4">
-      <div class="input-group">
-        <input id="phoneno" name="phoneno" type="text" placeholder="Phone No" class="form-control input-md">
-          </div>
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Email Address">Email Address</label>  
-      <div class="col-md-4">
-      <div class="input-group">
-        <input id="Email Address" name="Email Address" type="text" placeholder="Email Address" class="form-control input-md">
-        
-          </div>
-      
-      </div>
-    </div>
-    
-    <!-- Multiple Checkboxes -->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Languages Known">Languages Known</label>
-      <div class="col-md-4">
-      <div class="checkbox">
-        <label for="Languages Known-0">
-          <input type="checkbox" name="Languages Known" id="Languages Known-0" value="1">
-          Nepali
-        </label>
-        </div>
-      <div class="checkbox">
-        <label for="Languages Known-1">
-          <input type="checkbox" name="Languages Known" id="Languages Known-1" value="2">
-          Newari
-        </label>
-        </div>
-      <div class="checkbox">
-        <label for="Languages Known-2">
-          <input type="checkbox" name="Languages Known" id="Languages Known-2" value="3">
-          English
-        </label>
-        </div>
-      <div class="checkbox">
-        <label for="Languages Known-3">
-          <input type="checkbox" name="Languages Known" id="Languages Known-3" value="4">
-          Hindi
-        </label>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-    <!-- Textarea -->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="Overview (max 200 words)">Overview (max 200 words)</label>
-      <div class="col-md-4">                     
-        <textarea class="form-control" rows="10"  id="Overview (max 200 words)" name="Overview (max 200 words)">Overview</textarea>
-      </div>
-    </div>
-    
-    
-    <div class="form-group">
-      <label class="col-md-4 control-label" ></label>  
-      <div class="col-md-4">
-      <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-thumbs-up"></span> Submit</a>
-      <a href="#" class="btn btn-danger" value=""><span class="glyphicon glyphicon-remove-sign"></span> Clear</a>
-        
-      </div>
-    </div>
-    
-    </fieldset>
-    </form>
-    </div>
-    
-    </div>
-       </div>
-
-       <section>
-        <h3 class="titulosSeccion">Mi Perfil</h3>
-        <ul>
-    <li class="listasMiPerfil">Mis Datos</li>
-    <br>
-    <li class="listasMiPerfil">Mis Libros Publicados</li>
-    <br>
-    <li class="listasMiPerfil"> <a href="./mis-preferencias.html">Preferencias</a></li>
-    <br>
-    <li class="listasMiPerfil">Mis Puntos</li>
-    <br>
+    <nav class="navbar navbar-expand-lg navbar-light listasNav">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-secundary itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
+              <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
+                <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light itemsNavBar" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+            </li>
         </ul>
-    
-        </section>
+        <form class="d-flex">
+          <input class="form-control mr-2 input" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+<section>
+<div class="titulosNosotros perfil"><h2>Mi Perfil</h2></div>
+
+  <div class="fotoMiPerfil">
+    <img src="../imagenes/fotoperfil-01.png" alt="">
+    <div><a href="#">Cambiar Foto</a></div>
+  </div>
+
+<div class="fuentesTitulo tituloDatos"><h3>Mis Datos</h3></div>
+  <div class="datosPersonales">
+    <ul>
+    <li> <strong>Nombre:</strong> Sabina Mosquera</li>
+    <li> <strong>Mail:</strong>sabinamosquera@outlook.com</li>
+    <li> <strong>Edad:</strong> 29 años</li>
+    <li> <strong>Dirección:</strong> Dr. Soler 1450</li>
+    <li> <strong>Localidad:</strong> Santa Rosa de Rio Primero</li>
+    <li> <strong>Provincia:</strong> Córdoba</li>
+    <li> <strong>Usuario desde:</strong> Junio 2020</li>
+    </ul>
+  </div>
+
+<div class="modificarDatos">
+  <a href="#">Cambiar datos</a>
+</div>
+
+<div class="fuentesTitulo tituloDatos"><h3>Mis Libros Publicados</h3></div>
+<div class="container-fluid librosPublicados">
+<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
+  <img src="../imagenes/komorebi.png" alt="portadakomorebi">
+  <h5>Komorebi</h5>
+</div>
+<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
+  <img src="../imagenes/lainstitutriz.png" alt="portadalainstitutriz">
+<h5>La Institutriz</h5>
+</div>
+<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
+  <img src="../imagenes/lamiradaperdida.png" alt="portadalamiradaperdida">
+<h5>La Mirada Perdida</h5>
+</div>
+<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
+  <img src="../imagenes/Nuestrapartedenoche-02.png" alt="portadanuestrapartedenoche">
+<h5>Nuestra Parte de Noche</h5>
+</div>
+</div>
+<div><a href="#" class="agregarQuitarCanjear"><img src="../imagenes/signomas.png" alt="mas">Agregar libro</a></div>
+<div><a href="#" class="agregarQuitarCanjear"><img src="../imagenes/signomenos.png" alt="menos"> Quitar libro</a></div>
+
+
+<div class="fuentesTitulo tituloDatos"><h3>Preferencias</h3></div>
+
+<div class="datosPersonales"> 
+
+  <div>
+    <form action="">
+      <div>Físico
+        <input type="checkbox" name="Fisico" value="1">
+      </div> 
+      <div> Virtual
+        <input type="checkbox" name="Virtual" value="1">
+      </div>
+    </form>
+  </div>
+
+  <div>
+    <form >
+      <div>Literatura Romántica
+      <input type="checkbox" name="Literatura Romántica" value="1">
+      </div> 
+      <div> Literatura Erótica
+      <input type="checkbox" name="Literatura Erótica" value="1">
+      </div>
+      <div>Biografía
+      <input type="checkbox" name="Biografía" value="1">
+      </div>
+      <div>Fotografía
+        <input type="checkbox" name="Fotografía" value="1">
+      </div>
+      </form>
+  </div>
+
+  <div>
+  <form action="">
+    <div>Ciencia Ficción
+      <input type="checkbox" name="Ciencia Ficción" value="1">
+      </div>
+      <div>Cómic/Manga
+      <input type="checkbox" name="Cómic/Manga" value="1">
+      </div>
+      <div>Literatura Infantil
+      <input type="checkbox" name="Literatura Infantil" value="1">
+      </div>
+      <div>Literatura Juvenil
+      <input type="checkbox" name="Literatura Juvenil" value="1">
+      </div>
+  </form>
+  </div>
+
+  <div>
+  <form action="">
+    <div>Fantasía
+      <input type="checkbox" name="Fantasía" value="1">
+    </div>
+    <div>Actualidad
+      <input type="checkbox" name=" Actualidad" value="1">
+    </div>
+    <div>Arte
+      <input type="checkbox" name="Arte" value="1">
+    </div>
+  </form>
+  </div>
+
+</div>
+
+<div class="fuentesTitulo tituloDatos"><h3>Mis Puntos</h3></div>
+<div class="datosPersonales">250 puntos</div>
+<div><a href="#" class="agregarQuitarCanjear">Canjear Puntos</a></div>
 
 </section>
 
+<footer class="footer">
+  <div class="footerUno container-fluid"> 
+  <div class="listasFooter inicio col-sm-12 col-lg-3"><a href="#home" class="listasFooter">Inicio</a></div>
+    <div class="listasFooter col-sm-12 col-lg-3 secciones">
+      <ul>
+        <a href="../views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
+        <a href="../views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
+        <a href="../views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
+      </ul>
+    </div>
+    <div class="listasFooter tituloFooter col-sm-12 col-lg-3 libros"> 
+      <div class="footerLibro"><h6>Libros Disponibles</h6></div>  
+      <ul>
+        <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
+        <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
+      </ul>
+    </div>
+    <div class="listasFooter"> <h6 class="contacto col-sm-12 col-lg-3">Contáctanos</h6>
+      <div class="redesSociales">
+      <div class="logoRedSocial"><a href="#"><img src="../imagenes/mail-01-01.png" class="img-fluid" alt="mail"></a></div>
+      <div class="logoRedSocial"><a href="#"><img src="../imagenes/facebook-01-01.png" class="img-fluid"  alt="facebook"></a></div>
+      <div class="logoRedSocial"> <a href="#"><img src="../imagenes/twitter-01-01.png" class="img-fluid" alt="twitter"></a></div>
+    </div>
+  </div>
 
-<div class="footer">
-    <ul class="footerUno">
-        <a href="home"><li class="listasFooter font-italic"> <h6>Ir Arriba</h6></li></a> 
-         <li class="listasFooter font-italic"> <h6>Nosotros</h6></li>
-         <li class="listasFooter font-italic"><h6>FAQ</h6></li>
-         <li class="listasFooter font-italic"><h6>Contáctanos</h6></li>
-         <li class="listasFooter font-italic"><h6>Políticas y Condiciones</h6></li>
-     </ul>
-</div>
-
+  <div class="derechos">
+    <p>©Todos los derechos reservados. Argentina, 2021 - Melisa Oro </p>
+  </div>
+  </div>
+</footer>
 
 
 </div> 
