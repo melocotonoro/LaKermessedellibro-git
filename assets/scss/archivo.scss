@@ -81,6 +81,10 @@ body{
     background: #c2704f;
 }
 
+.bannerUno{
+padding: 3px;
+height: 32px;
+}
 
 /*NAVBAR*/
 .nav{
@@ -334,17 +338,12 @@ font-size: clamp(.70rem, 1vw, 1rem);
 }
 
 
-.fondoSecciones{
-    background: url(../../imagenes/fondobody-01-04.png);
-    background-repeat:no-repeat ;
-}
-
 /*************************************/
 /* SECCION MI PERFIL*/
 
 .perfil{
-justify-self: center;
-margin-top: 50px;
+    justify-self: center;
+    margin-top: 50px;
 }
 .fotoMiPerfil{
     position: absolute;
@@ -358,34 +357,55 @@ margin-top: 50px;
     top: 30px;
     left: 40%;
     bottom: 30px;
+    width: max-content;
+    font-size: clamp(0.1em, 30vw, 0.8rem);
 }
+
+.tituloDatosUno{
+    position: relative;
+    top: 50px;
+    bottom:30px;
+    width: max-content;
+    font-size: clamp(0.1em, 30vw, 0.8rem);
+}
+
 .datosPersonales{
     position: relative;
-    top: 30px;
-    left: 40%;
-    font-size: $parrafoPrincipal;
-    font-family: $fuentetexto;
-}
-
-.modificarDatos{
-    position: relative;
     top: 40px;
-    left: 60%;
-    font-size: $parrafoSecundario;
+    left: 40%;
+    font-size: clamp(1.2em, 100%, 1.60rem);
     font-family: $fuentetexto;
 }
 
-.librosPublicados{
-    margin: 50px 40%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content:space-around;
-    width: min-content;
-    height: 250px;
-    font-size: $parrafoSecundario;
+.datosPersonalesUno{
+    position: relative;
+    top: 60px;
+    font-size: clamp(1.2em, 100%, 1.60rem);
     font-family: $fuentetexto;
+    width: max-content;
 }
 .agregarQuitarCanjear{
     position: relative;
     left: 60%;
+    top: 40px;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+    width: max-content;
+}
+
+.librosPublicados{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    justify-content: center;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+    position: relative;
+    top: 40px;
+}
+
+.imagenLibroPerfil{
+    height: max-content;
+    width: max-content;
+
 }

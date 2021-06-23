@@ -62,18 +62,18 @@ margin-left: 30%;
 }
 
 .tituloCar{
-        grid-area:titulocar;
-        margin-top: 100px;
-        display: flex;
-        align-content: flex-start;
+    grid-area:titulocar;
+    margin-top: 100px;
+    display: flex;
+    align-content: flex-start;
 }
 
 .section{
-        grid-area:carrusel;
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        align-content: flex-start;
+    grid-area:carrusel;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
 
 .portadaLibroH{
@@ -122,6 +122,27 @@ margin-left: 30%;
     color:  #df9173; 
 } 
 }
+
+/*MI PERFIL*/
+
+.librosPublicados{
+    height: max-content;
+    width: 32em;
+}
+
+.tituloDatosUno{
+    left: 40%;
+}
+
+.datosPersonalesUno{
+    left: 40%;
+}
+
+.fondoSecciones{
+    background: url(../../imagenes/fondobody-01-04.png);
+    background-repeat:no-repeat ;
+}
+
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -136,12 +157,15 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 }
 
 .banner{
-position:relative;
-left: 80%;
-padding:2px;
-height: 20px;
+    position:relative;
+    left: 80%;
+    padding:2px;
+    height: 20px;
 }
 
+.bannerUno{
+    height: 15px;
+}
 .main{
     grid-area: contenido;
     margin-top: 10%;
@@ -249,7 +273,7 @@ height: 20px;
 }
 
 .footerLibro{
-margin-right: 60px;
+    margin-right: 60px;
 }
 .redesSociales{
     height: 60px;
@@ -258,5 +282,63 @@ margin-right: 60px;
 }
 .contacto{
     margin-right:40px;
+}
+
+.tituloDatosUno{
+    position: relative;
+    top: 50px;
+    left: 40%;
+}
+
+.datosPersonalesUno{
+    position: relative;
+    top: 60px;
+    left: 40%;
+}
+/*************************************/
+/* SECCION MI PERFIL*/
+
+.fotoMiPerfil{
+    position: absolute;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+
+.tituloDatos{
+    width: max-content;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.tituloDatosUno{
+    position: relative;
+    left: 10%;
+    width: max-content;
+}
+
+.datosPersonales{
+    position: relative;
+    font-size: .60em;
+    font-family: $fuentetexto;
+    width: max-content;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.datosPersonalesUno{
+    position: relative;
+    left:10%;
+    font-size: clamp(1.2em, 100%, 1.60rem);
+    font-family: $fuentetexto;
+    width: max-content;
+}
+.agregarQuitarCanjear{
+    position: relative;
+    left: 60%;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+
+.fondoSecciones{
+    background: url(../../imagenes/fondobodycelu-01.png);
+    background-repeat:no-repeat ;
 }
 }

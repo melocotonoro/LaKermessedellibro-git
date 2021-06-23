@@ -143,7 +143,18 @@ input:checked ~ .questions {
     .footerUno .listasFooter {
       font-family: "Cinzel", serif;
       list-style-type: none;
-      color: #df9173; } }
+      color: #df9173; }
+  /*MI PERFIL*/
+  .librosPublicados {
+    height: max-content;
+    width: 32em; }
+  .tituloDatosUno {
+    left: 40%; }
+  .datosPersonalesUno {
+    left: 40%; }
+  .fondoSecciones {
+    background: url(../../imagenes/fondobody-01-04.png);
+    background-repeat: no-repeat; } }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -157,6 +168,8 @@ input:checked ~ .questions {
     left: 80%;
     padding: 2px;
     height: 20px; }
+  .bannerUno {
+    height: 15px; }
   .main {
     grid-area: contenido;
     margin-top: 10%;
@@ -235,7 +248,50 @@ input:checked ~ .questions {
     width: 130px;
     margin-left: 15px; }
   .contacto {
-    margin-right: 40px; } }
+    margin-right: 40px; }
+  .tituloDatosUno {
+    position: relative;
+    top: 50px;
+    left: 40%; }
+  .datosPersonalesUno {
+    position: relative;
+    top: 60px;
+    left: 40%; }
+  /*************************************/
+  /* SECCION MI PERFIL*/
+  .fotoMiPerfil {
+    position: absolute;
+    font-size: 1.1em;
+    font-family: "Benne", serif; }
+  .tituloDatos {
+    width: max-content;
+    margin-top: 100px;
+    margin-left: -100px; }
+  .tituloDatosUno {
+    position: relative;
+    left: 10%;
+    width: max-content; }
+  .datosPersonales {
+    position: relative;
+    font-size: .60em;
+    font-family: "Benne", serif;
+    width: max-content;
+    margin-top: 20px;
+    margin-left: -100px; }
+  .datosPersonalesUno {
+    position: relative;
+    left: 10%;
+    font-size: clamp(1.2em, 100%, 1.6rem);
+    font-family: "Benne", serif;
+    width: max-content; }
+  .agregarQuitarCanjear {
+    position: relative;
+    left: 60%;
+    font-size: 1.1em;
+    font-family: "Benne", serif; }
+  .fondoSecciones {
+    background: url(../../imagenes/fondobodycelu-01.png);
+    background-repeat: no-repeat; } }
 
 ody {
   margin-top: 20px; }
@@ -610,6 +666,10 @@ body {
 .banner:active {
   background: #c2704f; }
 
+.bannerUno {
+  padding: 3px;
+  height: 32px; }
+
 /*NAVBAR*/
 .nav {
   grid-area: barra;
@@ -816,10 +876,6 @@ body {
   font-family: "Cinzel", serif;
   position: relative; }
 
-.fondoSecciones {
-  background: url(../../imagenes/fondobody-01-04.png);
-  background-repeat: no-repeat; }
-
 /*************************************/
 /* SECCION MI PERFIL*/
 .perfil {
@@ -836,32 +892,49 @@ body {
   position: relative;
   top: 30px;
   left: 40%;
-  bottom: 30px; }
+  bottom: 30px;
+  width: max-content;
+  font-size: clamp(0.1em, 30vw, 0.8rem); }
+
+.tituloDatosUno {
+  position: relative;
+  top: 50px;
+  bottom: 30px;
+  width: max-content;
+  font-size: clamp(0.1em, 30vw, 0.8rem); }
 
 .datosPersonales {
   position: relative;
-  top: 30px;
-  left: 40%;
-  font-size: 1.5em;
-  font-family: "Benne", serif; }
-
-.modificarDatos {
-  position: relative;
   top: 40px;
-  left: 60%;
-  font-size: 1.1em;
+  left: 40%;
+  font-size: clamp(1.2em, 100%, 1.6rem);
   font-family: "Benne", serif; }
 
-.librosPublicados {
-  margin: 50px 40%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  width: min-content;
-  height: 250px;
-  font-size: 1.1em;
-  font-family: "Benne", serif; }
+.datosPersonalesUno {
+  position: relative;
+  top: 60px;
+  font-size: clamp(1.2em, 100%, 1.6rem);
+  font-family: "Benne", serif;
+  width: max-content; }
 
 .agregarQuitarCanjear {
   position: relative;
-  left: 60%; }
+  left: 60%;
+  top: 40px;
+  font-size: 1.1em;
+  font-family: "Benne", serif;
+  width: max-content; }
+
+.librosPublicados {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  font-family: "Benne", serif;
+  position: relative;
+  top: 40px; }
+
+.imagenLibroPerfil {
+  height: max-content;
+  width: max-content; }

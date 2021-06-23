@@ -33,6 +33,10 @@
   <div class="headerUno"> 
 
     <header class="imagenBanner">
+      <div class="bannerUno">
+
+      </div>
+
 
       <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
     
@@ -83,7 +87,7 @@
 <div class="titulosNosotros perfil"><h2>Mi Perfil</h2></div>
 
   <div class="fotoMiPerfil">
-    <img src="../imagenes/fotoperfil-01.png" alt="">
+    <img src="../imagenes/fotoperfil-01.png" alt="fotoperfil" class="img-fluid">
     <div><a href="#">Cambiar Foto</a></div>
   </div>
 
@@ -100,31 +104,51 @@
     </ul>
   </div>
 
-<div class="modificarDatos">
-  <a href="#">Cambiar datos</a>
-</div>
+<div><a href="#" class="agregarQuitarCanjear">Canjear Datos</a></div>
 
 <div class="fuentesTitulo tituloDatos"><h3>Mis Libros Publicados</h3></div>
-<div class="container-fluid librosPublicados">
-<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
-  <img src="../imagenes/komorebi.png" alt="portadakomorebi">
-  <h5>Komorebi</h5>
-</div>
-<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
-  <img src="../imagenes/lainstitutriz.png" alt="portadalainstitutriz">
-<h5>La Institutriz</h5>
-</div>
-<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
-  <img src="../imagenes/lamiradaperdida.png" alt="portadalamiradaperdida">
-<h5>La Mirada Perdida</h5>
-</div>
-<div class="col-6 col-sm-6 col-ms-6 col-lg-3 col-xl-3">
-  <img src="../imagenes/Nuestrapartedenoche-02.png" alt="portadanuestrapartedenoche">
-<h5>Nuestra Parte de Noche</h5>
-</div>
-</div>
-<div><a href="#" class="agregarQuitarCanjear"><img src="../imagenes/signomas.png" alt="mas">Agregar libro</a></div>
-<div><a href="#" class="agregarQuitarCanjear"><img src="../imagenes/signomenos.png" alt="menos"> Quitar libro</a></div>
+
+<section class="container librosPublicados">
+
+    <div class="col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-3">
+      <div class="imagenLibroPerfil">
+        <img src="../imagenes/komorebi.png"class="img-fluid " alt="portadaKomerebi">
+      </div>
+      <div>
+        <h5>Komerebi</h5>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-3">
+      <div class="imagenLibroPerfil">
+        <img src="../imagenes/lainstitutriz.png"class="img-fluid " alt="portadalainstitutriz">
+      </div>
+      <div>
+        <h5>La Institutriz</h5>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-3 cardHidden">
+      <div class="imagenLibroPerfil">
+        <img src="../imagenes/lamiradaperdida.png"class="img-fluid " alt="portadalamiradaperdida">
+      </div>
+      <div>
+        <h5>La Mirada Perdida</h5>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-6 col-ms-3 col-lg-3 col-xl-3 cardHidden">
+      <div class="imagenLibroPerfil">
+        <img src="../imagenes/Nuestrapartedenoche-02.png"class="img-fluid" alt="portadanuestrapartedenoche">
+      </div>
+      <div>
+        <h5> Nuestra Parte <br> de Noche</h5>
+      </div>
+    </div>
+</section>
+
+<div class="agregarQuitarCanjear"><a href="#"><img src="../imagenes/signomas.png" alt="mas">Agregar libro</a></div>
+<div class="agregarQuitarCanjear"><a href="#"><img src="../imagenes/signomenos.png" alt="menos"> Quitar libro</a></div>
 
 
 <div class="fuentesTitulo tituloDatos"><h3>Preferencias</h3></div>
@@ -139,11 +163,6 @@
       <div> Virtual
         <input type="checkbox" name="Virtual" value="1">
       </div>
-    </form>
-  </div>
-
-  <div>
-    <form >
       <div>Literatura Romántica
       <input type="checkbox" name="Literatura Romántica" value="1">
       </div> 
@@ -156,12 +175,7 @@
       <div>Fotografía
         <input type="checkbox" name="Fotografía" value="1">
       </div>
-      </form>
-  </div>
-
-  <div>
-  <form action="">
-    <div>Ciencia Ficción
+      <div>Ciencia Ficción
       <input type="checkbox" name="Ciencia Ficción" value="1">
       </div>
       <div>Cómic/Manga
@@ -173,14 +187,9 @@
       <div>Literatura Juvenil
       <input type="checkbox" name="Literatura Juvenil" value="1">
       </div>
-  </form>
-  </div>
-
-  <div>
-  <form action="">
-    <div>Fantasía
+      <div>Fantasía
       <input type="checkbox" name="Fantasía" value="1">
-    </div>
+      </div>
     <div>Actualidad
       <input type="checkbox" name=" Actualidad" value="1">
     </div>
@@ -192,8 +201,8 @@
 
 </div>
 
-<div class="fuentesTitulo tituloDatos"><h3>Mis Puntos</h3></div>
-<div class="datosPersonales">250 puntos</div>
+<div class="fuentesTitulo tituloDatosUno"><h3>Mis Puntos</h3></div>
+<div class="datosPersonalesUno">250 puntos</div>
 <div><a href="#" class="agregarQuitarCanjear">Canjear Puntos</a></div>
 
 </section>
