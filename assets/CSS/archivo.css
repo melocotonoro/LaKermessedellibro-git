@@ -11,7 +11,8 @@
   height: 40px;
   cursor: pointer;
   border: 3px solid #8CA979;
-  background-image: linear-gradient(315deg, #ffffff 0%, #8CA979 74%);
+  background: linear-gradient(to top, #566e46 85%, #8bb173 100%);
+  border: #566e46;
   border-radius: 8px;
   user-select: none; }
   .labelLibro .abc {
@@ -293,17 +294,10 @@ input:checked ~ .questions {
     background: url(../../imagenes/fondobodycelu-01.png);
     background-repeat: no-repeat; } }
 
-ody {
+body {
   margin-top: 20px; }
 
-/*************** 1.Variables ***************/
-/* ------------------ Color Pallet ------------------ */
-/*************** 2.Mixins ***************/
-/************************************************
-    ************************************************
-										Search Box
-	************************************************
-************************************************/
+/**Search Box***/
 .chat-search-box {
   -webkit-border-radius: 3px 0 0 0;
   -moz-border-radius: 3px 0 0 0;
@@ -334,11 +328,7 @@ ody {
   .chat-search-box {
     display: none; } }
 
-/************************************************
-	************************************************
-									Users Container
-	************************************************
-************************************************/
+/**Users Container**/
 .users-container {
   position: relative;
   padding: 1rem 0;
@@ -349,11 +339,7 @@ ody {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-/************************************************
-	************************************************
-											Users
-	************************************************
-************************************************/
+/**Users**/
 .users {
   padding: 0; }
 
@@ -452,11 +438,7 @@ ody {
   .users .person p.name-time .time {
     display: none; } }
 
-/************************************************
-	************************************************
-									Chat right side
-	************************************************
-************************************************/
+/**Chat right side**/
 .selected-user {
   width: 100%;
   padding: 0 15px;
@@ -938,3 +920,19 @@ body {
 .imagenLibroPerfil {
   height: max-content;
   width: max-content; }
+
+/*SECCION LIBROS DISPONIBLES*/
+.itemsLista {
+  display: flex;
+  flex-grow: row;
+  margin-left: 20%;
+  margin-top: 10px; }
+
+.portadaLibros {
+  font-family: "Cinzel", serif;
+  color: #566e46;
+  margin: 1px 1.5em; }
+
+.iconoLibro {
+  width: min-content;
+  height: min-content; }

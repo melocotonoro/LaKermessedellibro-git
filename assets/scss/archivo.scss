@@ -407,5 +407,24 @@ font-size: clamp(.70rem, 1vw, 1rem);
 .imagenLibroPerfil{
     height: max-content;
     width: max-content;
+}
 
+/*SECCION LIBROS DISPONIBLES*/
+
+.itemsLista{
+    display: flex;
+    flex-grow: row;
+    margin-left:20%;
+    margin-top: 10px;
+}
+
+.portadaLibros{
+    font-family: $fuentetitulo;
+    color: $nombrePortadaLibros;
+    margin:1px 1.5em;
+}
+
+.iconoLibro{
+    width: min-content;
+    height: min-content;
 }
