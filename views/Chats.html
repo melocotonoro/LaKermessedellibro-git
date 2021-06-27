@@ -32,50 +32,57 @@
     <div class="contenedorProyecto fondoSecciones" id="home">
 
         <div class="headerUno"> 
-            <header class="imagenBanner">
-                <div class="bannerUno"></div>
-                <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
-                <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
-            </header>
+
+        <header class="imagenBanner">
+            <div class="bannerUno"></div>
+        
+            <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
+            
+            <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
+        </header>
+            
         </div>
             
         <div class="nav container-fluid">
+            
             <nav class="navbar navbar-expand-lg navbar-light listasNav">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-                    <li class="nav-item">
-                    <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
-                        <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
-                        <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secundary itemsNavBar disabled" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control mr-2 input" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-light" type="submit">Buscar</button>
-                </form>
+                    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
+                            <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
+                                <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secundary disabled itemsNavBar" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control mr-2 input" type="search" placeholder="buscar" aria-label="buscar">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
                 </div>
             </nav>
         </div>
-
+            <div class="titulosNosotros perfil">
+            <h2>Chats</h2>
+            </div>
         <section class= "container-fluid contenedorChat">
             <div class="content-wrapper">
             <div class="row gutters">
@@ -93,7 +100,7 @@
                 <input class="form-control" placeholder="Buscar">
                 <div class="input-group-btn">
                 <button type="button" class="btn btn-info">
-                    <i class="fa fa-search"></i>
+                    <i class="fa fa-search" ></i>
                 </button>
                 </div>
                 </div>
@@ -103,7 +110,7 @@
                         <li class="person" data-chat="person1">
                         <div class="user">
                             <img src="../imagenes/profile2.png" alt="Usuario2">
-                            <span class="status offline"></span>
+                            <span class="status busy"></span>
                         </div>
                         <p class="name-time">
                             <span class="name">Elizabeth Romero</span>
@@ -125,7 +132,7 @@
                         <li class="person active-user" data-chat="person3">
                         <div class="user">
                             <img src="../imagenes/profile4.png" alt="Usuario4">
-                            <span class="status busy"></span>
+                            <span class="status online"></span>
                         </div>
                         <p class="name-time">
                             <span class="name">Juan Larson</span>
@@ -136,10 +143,10 @@
                         <li class="person" data-chat="person4">
                         <div class="user">
                             <img src="../imagenes/profile5.png" alt="Usuario5">
-                            <span class="status offline"></span>
+                            <span class="status busy"></span>
                         </div>
                         <p class="name-time">
-                            <span class="name">Luis Guerrero</span>
+                            <span class="name">Luis Guerra</span>
                             <small class="small font-weight-bold">6 de Junio</small>
                         </p>
                         <p class="font-italic text-small parrafoLibros hidden">Hola Sabina. Me pasarías el código de seguimiento?</p>
@@ -167,7 +174,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+                </div>
             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-9 col-9">
                 <div class="selected-user">
                     <span>De: <span class="name">Juan Larson</span></span>

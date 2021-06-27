@@ -27,218 +27,211 @@
 </head>
 
 <body>
-    <div class="contenedorProyecto">
-
+    <div class="contenedorProyecto" id="home">
         <div class="headerUno"> 
+
+            <header class="imagenBanner">
+                <div class="bannerUno"></div>
         
-          <header class="imagenBanner">
-            <div class="logo container-fluid"><img src="../imágenes/logo 100x100.png" alt="Logo" class="img-fluid"></div>
-                    
-            <div class="container-fluid contenedorBoton">
-              <a href="./Iniciar_sesion.html"><button type="button" class="btn btn-light btn-lg banner">Iniciar Sesión</button></a>
-                
-              <a href="./registrarte.html"><button type="button" class="btn btn-light btn-lg banner">Registrarse</button></a>
-            </div>
-    
-            <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
-    
-          </header>
+                <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
             
-        </div>
-    
-        <div class="nav container-fluid">
-    
-          <nav class="navbar navbar-expand-lg navbar-light listasNav">
-    
-            <a class="navbar-brand" href="#">logo</a>
-    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              
-              <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-                <li class="nav-item">
+                <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
+            </header>
+            
+            </div>
+            <div class="nav container-fluid">
+            
+            <nav class="navbar navbar-expand-lg navbar-light listasNav">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                    <li class="nav-item">
                     <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light itemsNavBar" href="./mi-perfil.html">Mi Perfil</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Libros Disponibles</a>
-    
-                    <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item text-light" href="./Libros_disponibles-grid.html">Físicos</a></li>
-                        <li><a class="dropdown-item text-light" href="./Libros_disponibles-grid.html">Virtuales</a></li>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
+                        <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
+                        <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
                         <li><hr class="dropdown-divider"></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light itemsNavBar" href="./Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secundary itemsNavBar nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comunidad</a>
-                </li>
-              </ul>
-                      <form class="d-flex">
-                        <input class="form-control mr-2 input" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit">Search</button>
-                      </form>
-                    </div>
-          </nav>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light itemsNavBar" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secundary disabled itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control mr-2 input" type="search" placeholder="buscar" aria-label="buscar">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+                </div>
+            </nav>
         </div>
 
         <section>
-            <div class="container pb50">
+            <div class="titulosNosotros perfil">
+            <h2>Comunidad</h2>
+            </div>
+            <div class="container-fluid contenedorComunidad">
                 <div class="row">
                     <div class="col-md-9 mb40">
                         <article>
-                            <img src="https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="" class="img-fluid mb30">
-                            <div class="post-content">
-                                <h3>Neuromarketing: Estas son las bases neurológicas de la lectura</h3>
+                            <img src="../imagenes/imagen-comunidad.jpg" alt="" class="img-fluid mb30">
+                            <div>
+                                <h3 class="tituloComunidad">Nature Writing: literatura en contacto con la naturaleza</h3>
                                 <ul class="post-meta list-inline">
                                     <li class="list-inline-item">
-                                        <i class="fa fa-user-circle-o"></i> <a href="#">Nahum Montagud Rubio
+                                        <i class="fa fa-user-circle-o"></i> <a href="#" class="subtitulosComunidadUno">Elena Martínez
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <i class="fa fa-calendar-o"></i> <a href="#">21 Junio 2020</a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <i class="fa fa-tags"></i> <a href="#">Bootstrap4</a>
+                                        <i class="fa fa-calendar-o"></i> <a href="#" class="subtitulosComunidadUno">2 de Junio de 2021</a>
                                     </li>
                                 </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, </p>
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, </p>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, </p>
+                                <p class="textoComunidad">El <span class="font-italic">Nature Writing </span> se ha convertido en una categoría literaria que engloba todos aquellos escritos cuyo tema principal sea la naturaleza.
+                                    Algunos escritores que practican este género se caracterizan por observar la naturaleza desde una perspectiva única y singular. </p>
+                                <p class="textoComunidad">Es innegable que en apenas unos años, el mundo de la escritura y la literatura han ido evolucionando de manera vertiginosa. Hoy en día nos encontramos ante nuevos géneros y subgéneros literarios que antes no se consideraban, así como diversidad de plataformas emergentes que nos permiten crear y dar a conocer nuestras propias obras. Pues bien, parece ser que entre estos nuevos géneros hay uno en concreto, aunque quizás no sea tan nuevo, que ha venido para quedarse.</p>
+                                <p class="textoComunidad">Este género encuentra sus orígenes en aquellos ensayos y novelas que naturalistas franceses, estadounidenses y británicos, comenzaron a redactar a finales del siglo XVIII y principios del siglo XIX.  Entre ellos, podemos destacar al autor <strong>Gilbert White </strong>, que fue un naturalista inglés que en el año 1789 publicó una relevante obra sobre historia natural.</p>
+                                <p class="textoComunidad">Debido en parte a la <strong>emergencia climática que vive nuestro planeta</strong>, donde la contaminación, la desertificación o la deforestación son problemas reales y que requieren de una solución inmediata, en una parte de la población se ha despertado cierta curiosidad y anhelo por leer y documentarse sobre el tema, y todo lo que pueda afectar al medio natural.</p>
+                                <p class="textoComunidad">No obstante, hay escritores que deciden dar un paso más allá y no se contentan únicamente con escribir una novela sobre la naturaleza, sino que además, se proponen como reto escribir sobre el tema mientras se documentan en <strong>convivencia con la propia natura. </strong></p>
+                                <p class="textoComunidad">Estos autores afirman que esta experiencia inmersiva es única, pues la proximidad con la naturaleza les permite reflejar con mucha más claridad todos aquellos fenómenos e ideas que pueden llegar a observar a lo largo de esta etapa. </p>
+                                <p class="textoComunidad"> Sin embargo, este género nos permite a los lectores poder conocer mucho más a fondo un hábitat que para muchos, debido al frenético ritmo de nuestras vidas, nos resulta lejano e incluso un regalo. Además, algunas de estas novelas brindan una parte didáctica, aportando <strong>información sobre especies de flora y fauna </strong>que nos son desconocidas, así como acontecimientos que ocurren habitualmente en nuestros ecosistemas y de los cuales no somos conocedores. Así que, si el día a día no te permite escaparte al campo o a la montaña, hazte con un buen libro de este género y déjate envolver por la naturaleza.</p>
                                 <ul class="list-inline share-buttons">
-                                    <li class="list-inline-item">Share Post:</li>
+                                    <li class="list-inline-item subtitulosComunidad">Compartir:</li>
                                     <li class="list-inline-item">
                                         <a href="#" class="social-icon-sm si-dark si-colored-facebook si-gray-round">
-                                            <i class="fa fa-facebook"></i>
-                                            <i class="fa fa-facebook"></i>
+                                            <i class="fa fa-facebook subtitulosComunidad"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
                                         <a href="#" class="social-icon-sm si-dark si-colored-twitter si-gray-round">
-                                            <i class="fa fa-twitter"></i>
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="social-icon-sm si-dark si-colored-linkedin si-gray-round">
-                                            <i class="fa fa-linkedin"></i>
-                                            <i class="fa fa-linkedin"></i>
+                                            <i class="fa fa-twitter subtitulosComunidad"></i>
                                         </a>
                                     </li>
                                 </ul>
                                 <hr class="mb40">
-                                <h4 class="mb40 text-uppercase font500">About Author</h4>
+                                <h4 class="mb40 text-uppercase subtitulosComunidad font-weight-bold">Comentario</h4>
                                 <div class="media mb40">
-                                    <i class="d-flex mr-3 fa fa-user-circle fa-5x text-primary"></i>
+                                    <img src="../imagenes/profile5.png" alt="Usuario5">
                                     <div class="media-body">
-                                        <h5 class="mt-0 font700">Jane Doe</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                        <h5 class="mt-0 font400 clearfix">
+                                        <a href="#" class="float-right btn btn-primary fuentesTexto botonActivoUno">Responder</a>
+                                        <div class="subtitulosComunidadDos">Luis Guerra</div> 
+                                    </h5> 
+                                        <div class="textoComentarios">Muchas gracias Elena por compartir tus conocimientos en el tema!</div> 
+                                        <hr class="mb40">
+                                    </div>
+                                </div>
+                                <div class="media mb40">
+                                    <img src="../imagenes/profile6.png" alt="Usuario6">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 font400 clearfix">
+                                        <a href="#" class="float-right btn btn-primary fuentesTexto botonActivoUno">Responder </a>
+                                        <div class="subtitulosComunidadDos">Michael Jordan</div>
+                                    </h5> 
+                                        <div class="textoComentarios">Muy buen post! Me parece bastante completo.</div>
+                                        <hr class="mb40">
+                                    </div>
+                                </div>
+                                <div class="media mb40">
+                                    <img src="../imagenes/profile7.png" alt="Usuario7">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 font400 clearfix">
+                                            <a href="#" class="float-right btn btn-primary fuentesTexto botonActivoUno">Responder</a>
+                                            <div class="subtitulosComunidadDos"> Samuel Vargas</div>
+                                        </h5> 
+                                            <div class="textoComentarios">Creo que se podría ahondar un poco más sobre la literatura Nature  Writing.</div>
+                                            <hr class="mb40">
                                     </div>
                                 </div>
                                 <hr class="mb40">
-                                <h4 class="mb40 text-uppercase font500">Comments</h4>
-                                <div class="media mb40">
-                                    <i class="d-flex mr-3 fa fa-user-circle-o fa-3x"></i>
-                                    <div class="media-body">
-                                        <h5 class="mt-0 font400 clearfix">
-                                                    <a href="#" class="float-right">Reply</a>
-                                                    Jane Doe</h5> Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                    </div>
-                                </div>
-                                <div class="media mb40">
-                                    <i class="d-flex mr-3 fa fa-user-circle-o fa-3x"></i>
-                                    <div class="media-body">
-                                        <h5 class="mt-0 font400 clearfix">
-                                                    <a href="#" class="float-right">Reply</a>
-                                                    Jane Doe</h5> Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                    </div>
-                                </div>
-                                <div class="media mb40">
-                                    <i class="d-flex mr-3 fa fa-user-circle-o fa-3x"></i>
-                                    <div class="media-body">
-                                        <h5 class="mt-0 font400 clearfix">
-                                                    <a href="#" class="float-right">Reply</a>
-                                                    Jane Doe</h5> Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                    </div>
-                                </div>
-                                <hr class="mb40">
-                                <h4 class="mb40 text-uppercase font500">Post a comment</h4>
+                                <h4 class="mb40 text-uppercase subtitulosComunidad font-weight-bold">Escribir un comentario</h4>
                                 <form role="form">
                                     <div class="form-group">
-                                        <label>Name</label>
-                                        <input type="text" class="form-control" placeholder="John Doe">
+                                        <label>Usuario</label>
+                                        <input type="text" class="form-control" placeholder=" Introduzca Nombre">
                                     </div>
                                     <div class="form-group">
                                         <label>Email</label>
-                                        <input type="email" class="form-control" placeholder="john@doe.com">
+                                        <input type="email" class="form-control" placeholder="Introduzca mail">
                                     </div>
                                     <div class="form-group">
-                                        <label>Comment</label>
-                                        <textarea class="form-control" rows="5" placeholder="Comment"></textarea>
+                                        <label>Comentario</label>
+                                        <textarea class="form-control" rows="5" placeholder="Commentario"></textarea>
                                     </div>
                                     <div class="clearfix float-right">
-                                        <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                                        <button type="button" class="btn btn-primary btn-lg fuentesTexto botonActivoUno">Enviar</button>
                                     </div>
                                 </form>
                             </div>
                         </article>
-                        <!-- post article-->
-            
                     </div>
                     <div class="col-md-3 mb40">
                         <div class="mb40">
                             <form>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search..." aria-describedby="basic-addon2">
-                                    <button class="input-group-addon" id="basic-addon2"><i class="fa fa-search"></i></button>
+                                    <input type="text" class="form-control" placeholder="Buscar..." aria-describedby="basic-addon2">
+                                    <button type="button" class="btn btn-info">
+                                        <i class="fa fa-search" ></i>
+                                    </button>
                                 </div>
                             </form>
                         </div>
-                        <!--/col-->
+
                         <div class="mb40">
-                            <h4 class="sidebar-title">Categories</h4>
+                            <h3 class="sidebar-title  font-weight-bold subtitulosComunidad">Categorias</h3>
                             <ul class="list-unstyled categories">
-                                <li><a href="#">Rent</a></li>
-                                <li><a href="#">Sale</a></li>
-                                <li class="active"><a href="#">Apartment</a>
+                                <li><a href="#" class="subtitulosComunidadUno">Diccionario para entender las redes sociales literarias</a></li>
+                                <li><a href="#" class="subtitulosComunidadUno">Retellings</a></li>
+                                <li class="active" class="subtitulosComunidadUno"><a href="#" class="subtitulosComunidadUno">Lector de Sensibilidad</a>
                                     <ul class="list-unstyled">
-                                        <li><a href="#">Office</a></li>
-                                        <li><a href="#">Godown</a></li>
-                                        <li><a href="#">Gerage</a></li>
+                                        <li><a href="#" class="subtitulosComunidadUno">Recomiendáme un libro</a></li>
+                                        <li><a href="#" class="subtitulosComunidadUno">Libros Vituales vs Libros Físicos</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Top Rating</a></li>
-                                <li><a href="#">Trending</a></li>
-                                <li><a href="#">Newest Properties</a></li>
+                                <li><a href="#" class="subtitulosComunidadUno">Top Rating</a></li>
+                                <li><a href="#" class="subtitulosComunidadUno">Trending Topic</a></li>
+                                <li><a href="#" class="subtitulosComunidadUno">Nuenos post</a></li>
                             </ul>
                         </div>
-                        <!--/col-->
+
                         <div>
-                            <h4 class="sidebar-title">Latest News</h4>
+                            <h3 class="sidebar-title font-weight-bold subtitulosComunidad">Destacados</h3>
                             <ul class="list-unstyled">
                                 <li class="media">
-                                    <img class="d-flex mr-3 img-fluid" width="64" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Generic placeholder image">
+                                    <img class="d-flex mr-3 img-fluid" width="64" src="../imagenes/profile1.png" alt="Generic placeholder image">
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1"><a href="#">Lorem ipsum dolor sit amet</a></h5> April 05, 2017
+                                        <h5 class="mt-0 mb-1"><a href="#" class="subtitulosComunidadDos">Ficciones Breves</a></h5>
+                                        <div class="subtitulosComunidadDos">
+                                            05 de Abril, 2019
+                                        </div> 
                                     </div>
                                 </li>
                                 <li class="media my-4">
-                                    <img class="d-flex mr-3 img-fluid" width="64" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Generic placeholder image">
+                                    <img class="d-flex mr-3 img-fluid" width="64" src="../imagenes/profile2.png" alt="Generic placeholder image">
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1"><a href="#">Lorem ipsum dolor sit amet</a></h5> Jan 05, 2017
+                                        <h5 class="mt-0 mb-1"><a href="#" class="subtitulosComunidadDos">Por qué amamos los libros?</a></h5> 
+                                        <div class="subtitulosComunidadDos">
+                                            05 de Enero, 2019
+                                        </div> 
                                     </div>
                                 </li>
                                 <li class="media">
-                                    <img class="d-flex mr-3 img-fluid" width="64" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Generic placeholder image">
+                                    <img class="d-flex mr-3 img-fluid" width="64" src="../imagenes/profile4.png" alt="Generic placeholder image">
                                     <div class="media-body">
-                                        <h5 class="mt-0 mb-1"><a href="#">Lorem ipsum dolor sit amet</a></h5> March 15, 2017
+                                        <h5 class="mt-0 mb-1"><a href="#" class="subtitulosComunidadDos">30 grandes citas de la Literatura Universal</a></h5> 
+                                        <div class="subtitulosComunidadDos">
+                                            15 de Diciembre, 2018
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
@@ -248,17 +241,36 @@
             </div>
         </section>
 
-
-
-<div class="footer">
-    <ul class="footerUno">
-        <a href="home"><li class="listasFooter font-italic"> <h6>Ir Arriba</h6></li></a> 
-         <li class="listasFooter font-italic"> <h6>Nosotros</h6></li>
-         <li class="listasFooter font-italic"><h6>FAQ</h6></li>
-         <li class="listasFooter font-italic"><h6>Contáctanos</h6></li>
-         <li class="listasFooter font-italic"><h6>Políticas y Condiciones</h6></li>
-     </ul>
-</div>  
+        <footer class="footer">
+            <div class="footerUno container-fluid"> 
+            <div class="listasFooter inicio col-sm-12 col-lg-3"><a href="#home" class="listasFooter">Inicio</a></div>
+            <div class="listasFooter col-sm-12 col-lg-3 secciones">
+                <ul>
+                <a href="../views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
+                <a href="../views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
+                <a href="../views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
+                </ul>
+            </div>
+            <div class="listasFooter tituloFooter col-sm-12 col-lg-3 libros"> 
+                <div class="footerLibro"><h6>Libros Disponibles</h6></div>  
+                <ul>
+                <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
+                <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
+                </ul>
+            </div>
+            <div class="listasFooter"> <h6 class="contacto col-sm-12 col-lg-3">Contáctanos</h6>
+                <div class="redesSociales">
+                <div class="logoRedSocial"><a href="#"><img src="../imagenes/mail-01-01.png" class="img-fluid" alt="mail"></a></div>
+                <div class="logoRedSocial"><a href="#"><img src="../imagenes/facebook-01-01.png" class="img-fluid"  alt="facebook"></a></div>
+                <div class="logoRedSocial"> <a href="#"><img src="../imagenes/twitter-01-01.png" class="img-fluid" alt="twitter"></a></div>
+            </div>
+            </div>
+        
+            <div class="derechos">
+                <p>©Todos los derechos reservados. Argentina, 2021 - Melisa Oro </p>
+            </div>
+            </div>
+        </footer> 
 
 </div>
 
