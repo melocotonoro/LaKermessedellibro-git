@@ -1,0 +1,49 @@
+.contenedorChat{
+    margin-top: 100px;
+    padding-top: 10px;
+    width: 90%;
+    border: 1px solid #bfceb4;
+    border-radius: 10px;
+    background-color: #e9f3e2;
+    font-size: 100%;
+}
+
+.contenedorUser{
+background-color: #bfceb4;
+border-radius: 10px;
+}
+
+.fotoPerfil{
+    position:relative;
+    bottom: 5px;
+}
+
+.parrafoLibrosUno{
+    font-family: $fuentetexto;
+    font-size: clamp(1em, 2vw ,1.3em);
+    margin-left: 10px;
+    color: #08180E;
+}
+
+.botonActivoDos{
+    margin: 0.50em;
+    background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
+    border-color: #db7f5b;
+    z-index: 3;
+    box-shadow: 1px 1px 5px #97553b;
+}
+
+
+
+
+.color{
+    border: 1px solid blueviolet;
+}
+
+.coloruno{
+    border: 1px solid yellowgreen;
+}
+
+.colorDos{
+    border: 1px solid rgb(50, 174, 205);
+}

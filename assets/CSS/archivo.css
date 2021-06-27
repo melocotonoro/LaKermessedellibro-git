@@ -59,6 +59,21 @@ input:checked ~ .questions {
   border-bottom: 2px solid #3E474F;
   transition: 1s; }
 
+.itemsLista {
+  display: flex;
+  flex-grow: row;
+  margin-left: 20%;
+  margin-top: 10px; }
+
+.portadaLibros {
+  font-family: "Cinzel", serif;
+  color: #566e46;
+  margin: 1px 1.5em; }
+
+.iconoLibro {
+  width: min-content;
+  height: min-content; }
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */
@@ -155,7 +170,13 @@ input:checked ~ .questions {
     left: 40%; }
   .fondoSecciones {
     background: url(../../imagenes/fondobody-01-04.png);
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat; }
+  .hiddenUno {
+    display: none; } }
+
+@media only screen and (max-device-width: 1224px) and (min-device-width: 480px) {
+  .hiddenUno {
+    display: none; } }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -209,7 +230,7 @@ input:checked ~ .questions {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start; }
-  .cardHidden {
+  .hidden {
     display: none; }
   .portadaLibroH {
     margin-left: 60px; }
@@ -587,6 +608,45 @@ ul {
   margin-bottom: 2rem;
   box-shadow: none; }
 
+.contenedorChat {
+  margin-top: 100px;
+  padding-top: 10px;
+  width: 90%;
+  border: 1px solid #bfceb4;
+  border-radius: 10px;
+  background-color: #e9f3e2;
+  font-size: 100%; }
+
+.contenedorUser {
+  background-color: #bfceb4;
+  border-radius: 10px; }
+
+.fotoPerfil {
+  position: relative;
+  bottom: 5px; }
+
+.parrafoLibrosUno {
+  font-family: "Benne", serif;
+  font-size: clamp(1em, 2vw, 1.3em);
+  margin-left: 10px;
+  color: #08180E; }
+
+.botonActivoDos {
+  margin: 0.50em;
+  background: linear-gradient(360deg, #db7f5b 90%, #df9173 20%);
+  border-color: #db7f5b;
+  z-index: 3;
+  box-shadow: 1px 1px 5px #97553b; }
+
+.color {
+  border: 1px solid blueviolet; }
+
+.coloruno {
+  border: 1px solid yellowgreen; }
+
+.colorDos {
+  border: 1px solid #32aecd; }
+
 h1 {
   font-size: 3.75em; }
 
@@ -659,7 +719,8 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
-  z-index: 4; }
+  z-index: 4;
+  color: #08180E; }
   .nav .listasNav {
     font-family: 'Cinzel', serif;
     background-color: #8CA979;
@@ -828,7 +889,7 @@ body {
     .footer .footerUno .listasFooter {
       font-family: "Cinzel", serif;
       list-style-type: none;
-      color: #df9173; }
+      color: #FEB092; }
 
 .redesSociales {
   display: flex;
@@ -854,7 +915,7 @@ body {
 
 .derechos {
   background-color: #233329;
-  color: #df9173;
+  color: #FEB092;
   font-family: "Cinzel", serif;
   position: relative; }
 
@@ -862,7 +923,7 @@ body {
 /* SECCION MI PERFIL*/
 .perfil {
   justify-self: center;
-  margin-top: 50px; }
+  margin-top: 100px; }
 
 .fotoMiPerfil {
   position: absolute;
@@ -920,19 +981,3 @@ body {
 .imagenLibroPerfil {
   height: max-content;
   width: max-content; }
-
-/*SECCION LIBROS DISPONIBLES*/
-.itemsLista {
-  display: flex;
-  flex-grow: row;
-  margin-left: 20%;
-  margin-top: 10px; }
-
-.portadaLibros {
-  font-family: "Cinzel", serif;
-  color: #566e46;
-  margin: 1px 1.5em; }
-
-.iconoLibro {
-  width: min-content;
-  height: min-content; }

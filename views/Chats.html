@@ -29,282 +29,247 @@
 
 <body id="home">
 
-    <div class="contenedorProyecto">
+    <div class="contenedorProyecto fondoSecciones" id="home">
 
         <div class="headerUno"> 
-    
             <header class="imagenBanner">
-                <div class="logo container-fluid"><img src="../imágenes/logo 100x100.png" alt="Logo" class="img-fluid"></div>
-                
-                <div class="container-fluid contenedorBoton"><a href="./Iniciar_sesion.html"><button type="button" class="btn btn-light btn-lg banner">Iniciar Sesión</button></a>
-            
-                  <a href="./registrarte.html"><button type="button" class="btn btn-light btn-lg banner">Registrarse</button></a>
-                </div>
-
+                <div class="bannerUno"></div>
+                <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
                 <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
-
             </header>
-        
         </div>
-
+            
         <div class="nav container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light listasNav">
-                <a class="navbar-brand" href="#"> logo</a>
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                  <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
                     <li class="nav-item">
-                      <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light itemsNavBar" href="./mi-perfil.html">Mi Perfil</a>
+                    <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Libros Disponibles</a>
-
+                    <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
                         <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-                          <li><a class="dropdown-item text-light" href="./Libros_disponibles-grid.html">Físicos</a></li>
-                          <li><a class="dropdown-item text-light" href="./Libros_disponibles-grid.html">Virtuales</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                      </ul>
+                        <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
+                        <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secundary itemsNavBar nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Chats</a>
-                      </li>
+                        <a class="nav-link text-secundary itemsNavBar disabled" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light itemsNavBar" href="./Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
-                      </li>
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control mr-2 input" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                  </form>
+                        <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control mr-2 input" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
                 </div>
-              </nav>
+            </nav>
         </div>
 
-<<<<<<< HEAD
-<section> 
-    <div class="container-fluid seccionChat">
-=======
-<section  class="container-fluid seccionChat"> 
->>>>>>> chats1
-
-        <!-- Page header start -->
-        <div class="page-title">
+        <section class= "container-fluid contenedorChat">
+            <div class="content-wrapper">
             <div class="row gutters">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <h5 class="title">Chat App</h5>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="daterange-container">
-                        <div class="date-range">
-                            <div id="reportrange">
-                                <i class="fa fa-calendar cal"></i>
-                                <span class="range-text">Jun 11, 2019 - Jul 10, 2019</span>
-                                <i class="fa fa-chevron-down arrow"></i>
-                            </div>
-                        </div>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="" class="download-reports" data-original-title="Download CSV">
-                            <i class="fa fa-download"></i>
-                        </a>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div>
+                    <div>
+                        <img src="../imagenes/profile1.png" alt="Usuario1" class="fotoPerfil"> 
+                        <small class="parrafoLibrosUno">Sabina Mosqueira</small>
                     </div>
+                <div class="row no-gutters">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
+                <div class="users-container contenedorUser">
+                <div class="chat-search-box">
+                <div class="input-group">
+                <input class="form-control" placeholder="Buscar">
+                <div class="input-group-btn">
+                <button type="button" class="btn btn-info">
+                    <i class="fa fa-search"></i>
+                </button>
+                </div>
+                </div>
+                </div>
+                    <ul class="users">
+
+                        <li class="person" data-chat="person1">
+                        <div class="user">
+                            <img src="../imagenes/profile2.png" alt="Usuario2">
+                            <span class="status offline"></span>
+                        </div>
+                        <p class="name-time">
+                            <span class="name">Elizabeth Romero</span>
+                            <small class="small font-weight-bold">2 de Febrero</small>
+                        </p>
+                        <p class="font-italic text-small parrafoLibros hidden">Hola Sabina, como estas? Tendrás disponible el libro de Daisy Jones?</p>
+                        </li>
+                        <li class="person" data-chat="person2">
+                        <div class="user">
+                            <img src="../imagenes/profile3.png" alt="Usuario3">
+                            <span class="status away"></span>
+                        </div>
+                        <p class="name-time">
+                            <span class="name">Wade Wilson</span>
+                            <small class="small font-weight-bold">15 de Mayo</small>
+                        </p>
+                        <p class="font-italic text-small font-weight-bold parrafoLibros hidden">Me llegó el libro Sabina, muy bueno!! Muchas Gracias</p>
+                        </li>
+                        <li class="person active-user" data-chat="person3">
+                        <div class="user">
+                            <img src="../imagenes/profile4.png" alt="Usuario4">
+                            <span class="status busy"></span>
+                        </div>
+                        <p class="name-time">
+                            <span class="name">Juan Larson</span>
+                            <small class="small font-weight-bold">25 de Mayo</small>
+                        </p>
+                        <p class="font-italic text-small parrafoLibros hidden">Hola, todavía tenés el libro Antigona?</p>
+                        </li>
+                        <li class="person" data-chat="person4">
+                        <div class="user">
+                            <img src="../imagenes/profile5.png" alt="Usuario5">
+                            <span class="status offline"></span>
+                        </div>
+                        <p class="name-time">
+                            <span class="name">Luis Guerrero</span>
+                            <small class="small font-weight-bold">6 de Junio</small>
+                        </p>
+                        <p class="font-italic text-small parrafoLibros hidden">Hola Sabina. Me pasarías el código de seguimiento?</p>
+                        </li>
+                        <li class="person" data-chat="person5">
+                        <div class="user">
+                            <img src="../imagenes/profile6.png" alt="Usuario6">
+                            <span class="status away"></span>
+                        </div>
+                        <p class="name-time">
+                            <span class="name">Michael Jordan</span>
+                            <small class="small font-weight-bold">24 de Junio</small>
+                        </p>
+                        <p class="font-italic font-weight-bold text-small parrafoLibros hidden">Como estás? Te dejo mi link para que puedas ver mis libros disponibles <br>
+                        <a href="" class="parrafoLibros text-dark">www.lakermessedellibro.com/michaeljordan/</a>
+                        </p>
+                        </li>
+                        <li>
+                            <div class="btn btn-primary fuentesTexto botonActivoUno hidden">
+                                <a href="" class="text-light"> Nuevo Mensaje</a>
+                            </div>
+                            <div class="btn btn-primary fuentesTexto botonActivoDos hiddenUno">
+                                <img src="../imagenes/mail-01.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <!-- Page header end -->
-    
-        <!-- Content wrapper start -->
-        <div class="content-wrapper">
-    
-            <!-- Row start -->
-            <div class="row gutters">
-    
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-    
-                    <div class="card m-0">
-    
-                        <!-- Row start -->
-                        <div class="row no-gutters">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
-                                <div class="users-container">
-                                    <div class="chat-search-box">
-                                        <div class="input-group">
-                                            <input class="form-control" placeholder="Search">
-                                            <div class="input-group-btn">
-                                                <button type="button" class="btn btn-info">
-                                                    <i class="fa fa-search"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <ul class="users">
-                                        <li class="person" data-chat="person1">
-                                            <div class="user">
-                                                <img src="../imágenes/profile 1-01.png" alt="Retail Admin">
-                                                <span class="status busy"></span>
-                                            </div>
-                                            <p class="name-time">
-                                                <span class="name">Steve Bangalter</span>
-                                                <span class="time">15/02/2019</span>
-                                            </p>
-                                        </li>
-                                        <li class="person" data-chat="person1">
-                                            <div class="user">
-                                                <img src="../imágenes/profile 2-01.png" alt="Retail Admin">
-                                                <span class="status offline"></span>
-                                            </div>
-                                            <p class="name-time">
-                                                <span class="name">Steve Bangalter</span>
-                                                <span class="time">15/02/2019</span>
-                                            </p>
-                                        </li>
-                                        <li class="person active-user" data-chat="person2">
-                                            <div class="user">
-                                                <img src="../imágenes/profile 3-01.png" alt="Retail Admin">
-                                                <span class="status away"></span>
-                                            </div>
-                                            <p class="name-time">
-                                                <span class="name">Peter Gregor</span>
-                                                <span class="time">12/02/2019</span>
-                                            </p>
-                                        </li>
-                                        <li class="person" data-chat="person3">
-                                            <div class="user">
-                                                <img src="../imágenes/profile 4-01.png" alt="Retail Admin">
-                                                <span class="status busy"></span>
-                                            </div>
-                                            <p class="name-time">
-                                                <span class="name">Jessica Larson</span>
-                                                <span class="time">11/02/2019</span>
-                                            </p>
-                                        </li>
-                                        <li class="person" data-chat="person4">
-                                            <div class="user">
-                                                <img src="../imágenes/profile 5-01.png" alt="Retail Admin">
-                                                <span class="status offline"></span>
-                                            </div>
-                                            <p class="name-time">
-                                                <span class="name">Lisa Guerrero</span>
-                                                <span class="time">08/02/2019</span>
-                                            </p>
-                                        </li>
-                                        <li class="person" data-chat="person5">
-                                            <div class="user">
-                                                <img src="../imágenes/profile 6-01-01.png" alt="Retail Admin">
-                                                <span class="status away"></span>
-                                            </div>
-                                            <p class="name-time">
-                                                <span class="name">Michael Jordan</span>
-                                                <span class="time">05/02/2019</span>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-9 col-9">
-                                <div class="selected-user">
-                                    <span>To: <span class="name">Emily Russell</span></span>
-                                </div>
-                                <div class="chat-container">
-                                    <ul class="chat-box chatContainerScroll">
-                                        <li class="chat-left">
-                                            <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Retail Admin">
-                                                <div class="chat-name">Russell</div>
-                                            </div>
-                                            <div class="chat-text">Hola! Como estas? Soy Russell
-                                                <br>Queria saber si tenias disponible el libro que COmo agua para chocolate.</div>
-                                            <div class="chat-hour">08:55 <span class="fa fa-check-circle"></span></div>
-                                        </li>
-                                        <li class="chat-right">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-9 col-9">
+                <div class="selected-user">
+                    <span>De: <span class="name">Juan Larson</span></span>
+                </div>
+                <div class="chat-container">
+                    <ul class="chat-box chatContainerScroll">
+                        <li class="chat-left">
+                <div class="chat-avatar">
+                    <img src="../imagenes/profile4.png" alt="Usuario1">
+                    <div class="chat-name">Juan</div>
+                </div>
+                <div class="chat-text">Hola, todavía tenés el libro Antigona?
+                </div>
+                <div class="chat-hour">08:55 <span class="fa fa-check-circle"></span></div>
+                        </li>
+                        <li class="chat-right">
                                             <div class="chat-hour">08:56 <span class="fa fa-check-circle"></span></div>
-                                            <div class="chat-text">Hola Russell.Como estas?
+                                            <div class="chat-text">Hola Juan.Como estas?
                                                 <br> Si, lo tengo disponible para canjear. Me podrás pasar tus listas de libros para ver cual me interesa para canjear?</div>
                                             <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Retail Admin">
-                                                <div class="chat-name">Sam</div>
+                                                <img src="../imagenes/profile1.png" alt="Retail Admin">
+                                                <div class="chat-name">Sabina</div>
                                             </div>
                                         </li>
                                         <li class="chat-left">
                                             <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Retail Admin">
-                                                <div class="chat-name">Russell</div>
+                                                <img src="../imagenes/profile4.png" alt="Retail Admin">
+                                                <div class="chat-name">Juan</div>
                                             </div>
-                                            <div class="chat-text">Are we meeting today?
-                                                <br>Project has been already finished and I have results to show you.</div>
+                                            <div class="chat-text">Te paso el link  <br><a href="" class="text-dark"> www.lakermessedellibro.com/ <br> juanLarson/</a></div>
                                             <div class="chat-hour">08:57 <span class="fa fa-check-circle"></span></div>
                                         </li>
                                         <li class="chat-right">
                                             <div class="chat-hour">08:59 <span class="fa fa-check-circle"></span></div>
-                                            <div class="chat-text">Well I am not sure.
-                                                <br>I have results to show you.</div>
+                                            <div class="chat-text"> Veo que tenés Anna Karenina.
+                                                <br>Ya autoricé tu solicitud. Autorizame la mia que te envie por el libro.</div>
                                             <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar5.png" alt="Retail Admin">
-                                                <div class="chat-name">Joyse</div>
+                                                <img src="../imagenes/profile1.png" alt="Retail Admin">
+                                                <div class="chat-name">Sabina</div>
                                             </div>
                                         </li>
                                         <li class="chat-left">
                                             <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Retail Admin">
-                                                <div class="chat-name">Russell</div>
+                                                <img src="../imagenes/profile4.png" alt="Retail Admin">
+                                                <div class="chat-name">Juan</div>
                                             </div>
-                                            <div class="chat-text">The rest of the team is not here yet.
-                                                <br>Maybe in an hour or so?</div>
+                                            <div class="chat-text"> Perfecto, ya estaría hecho. Coordinemos la entrega, te parece?
+                                            </div>
                                             <div class="chat-hour">08:57 <span class="fa fa-check-circle"></span></div>
                                         </li>
                                         <li class="chat-right">
                                             <div class="chat-hour">08:59 <span class="fa fa-check-circle"></span></div>
-                                            <div class="chat-text">Have you faced any problems at the last phase of the project?</div>
+                                            <div class="chat-text">Me parece bien.</div>
                                             <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar4.png" alt="Retail Admin">
-                                                <div class="chat-name">Jin</div>
+                                                <img src="../imagenes/profile1.png" alt="Retail Admin">
+                                                <div class="chat-name">Sabina</div>
                                             </div>
                                         </li>
-                                        <li class="chat-left">
-                                            <div class="chat-avatar">
-                                                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Retail Admin">
-                                                <div class="chat-name">Russell</div>
-                                            </div>
-                                            <div class="chat-text">Actually everything was fine.
-                                                <br>I'm very excited to show this to our team.</div>
-                                            <div class="chat-hour">07:00 <span class="fa fa-check-circle"></span></div>
-                                        </li>
+                                        
                                     </ul>
                                     <div class="form-group mt-3 mb-0">
-                                        <textarea class="form-control" rows="3" placeholder="Type your message here..."></textarea>
+                                        <textarea class="form-control" rows="3" placeholder="Escriba su mensaje aquí..."></textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Row end -->
                     </div>
-    
                 </div>
-    
             </div>
-            <!-- Row end -->
-    
-        </div>
-        <!-- Content wrapper end -->
+            </div>
+        </section>
 
-</section>
+<footer class="footer">
+    <div class="footerUno container-fluid"> 
+    <div class="listasFooter inicio col-sm-12 col-lg-3"><a href="#home" class="listasFooter">Inicio</a></div>
+    <div class="listasFooter col-sm-12 col-lg-3 secciones">
+        <ul>
+        <a href="../views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
+        <a href="../views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
+        <a href="../views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
+        </ul>
+    </div>
+    <div class="listasFooter tituloFooter col-sm-12 col-lg-3 libros"> 
+        <div class="footerLibro"><h6>Libros Disponibles</h6></div>  
+        <ul>
+        <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
+        <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
+        </ul>
+    </div>
+    <div class="listasFooter"> <h6 class="contacto col-sm-12 col-lg-3">Contáctanos</h6>
+        <div class="redesSociales">
+        <div class="logoRedSocial"><a href="#"><img src="../imagenes/mail-01-01.png" class="img-fluid" alt="mail"></a></div>
+        <div class="logoRedSocial"><a href="#"><img src="../imagenes/facebook-01-01.png" class="img-fluid"  alt="facebook"></a></div>
+        <div class="logoRedSocial"> <a href="#"><img src="../imagenes/twitter-01-01.png" class="img-fluid" alt="twitter"></a></div>
+    </div>
+    </div>
 
-
-<div class="footer">
-    <ul class="footerUno">
-        <a href="home"><li class="listasFooter font-italic"> <h6>Ir Arriba</h6></li></a> 
-         <li class="listasFooter font-italic"> <h6>Nosotros</h6></li>
-         <li class="listasFooter font-italic"><h6>FAQ</h6></li>
-         <li class="listasFooter font-italic"><h6>Contáctanos</h6></li>
-         <li class="listasFooter font-italic"><h6>Políticas y Condiciones</h6></li>
-     </ul>
-</div>
-
-
+    <div class="derechos">
+        <p>©Todos los derechos reservados. Argentina, 2021 - Melisa Oro </p>
+    </div>
+    </div>
+</footer>
 
 </div> 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

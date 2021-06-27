@@ -15,9 +15,10 @@ $parrafoSecundario:1.10em;
 
 
 // IMPORT//
-@import "propiedadesAcordion";
+@import "librosDisponibles";
 @import "mediaquerie";
-@import "CssBootstrapForum";
+@import "comunidad";
+@import "chats";
 
 //CONDICIONAL//
 @for $titulos from 1 through 6 {
@@ -94,6 +95,7 @@ height: 32px;
     position: sticky;
     top: -1px;
     z-index: 4;
+    color: #08180E;
 
 .listasNav{
     font-family:  'Cinzel', serif;
@@ -300,7 +302,7 @@ font-size: clamp(.70rem, 1vw, 1rem);
 .listasFooter{
     font-family: $fuentetitulo; 
     list-style-type: none;
-    color:  #df9173; 
+    color:  #FEB092; 
 } 
 }
 }
@@ -332,7 +334,7 @@ font-size: clamp(.70rem, 1vw, 1rem);
 }
 .derechos{
     background-color: #233329;
-    color: #df9173;
+    color: #FEB092;
     font-family: $fuentetitulo;
     position: relative;
 }
@@ -343,7 +345,7 @@ font-size: clamp(.70rem, 1vw, 1rem);
 
 .perfil{
     justify-self: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .fotoMiPerfil{
     position: absolute;
@@ -409,22 +411,3 @@ font-size: clamp(.70rem, 1vw, 1rem);
     width: max-content;
 }
 
-/*SECCION LIBROS DISPONIBLES*/
-
-.itemsLista{
-    display: flex;
-    flex-grow: row;
-    margin-left:20%;
-    margin-top: 10px;
-}
-
-.portadaLibros{
-    font-family: $fuentetitulo;
-    color: $nombrePortadaLibros;
-    margin:1px 1.5em;
-}
-
-.iconoLibro{
-    width: min-content;
-    height: min-content;
-}
