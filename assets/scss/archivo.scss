@@ -208,13 +208,14 @@ font-size: clamp(.70rem, 1vw, 1rem);
 .botonActivoUno{
     margin: 0.90em;
     background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
-    border-color: #db7f5b;
     z-index: 3;
+    border-color:#db7f5b;
     box-shadow: 1px 1px 5px #97553b ;
 }
 
 .botonActivoUno:hover{
     background-color: #c2704f;
+    border-color: #db7f5b;
 }
 
 .fuentesTitulo{
@@ -280,9 +281,9 @@ font-size: clamp(.70rem, 1vw, 1rem);
     margin: 10vh auto;
 
 .tituloPrincipalAcordion{
-  font-family: 'Cinzel', serif;
-  color: #E67E22;
-  text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #E67E22;
+    text-align: center;
 }
 }
 

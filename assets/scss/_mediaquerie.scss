@@ -240,7 +240,7 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 }
 
 .portadaLibroH{
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .pag{
@@ -312,6 +312,7 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 
 .fotoMiPerfil{
     position: absolute;
+    top: 23.5em;
     font-size: $parrafoSecundario;
     font-family: $fuentetexto;
 }
