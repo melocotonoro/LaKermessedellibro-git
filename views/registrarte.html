@@ -20,273 +20,157 @@
 <link rel="stylesheet" href="../assets/CSS/archivo.css">
 
     </head>
- <body>
+<body>
 
-  <div class="contenedorProyecto">
-
+  <div class="contenedorProyecto fondoSecciones" id="home">
     <div class="headerUno"> 
-    
+
       <header class="imagenBanner">
-        <div class="logo container-fluid"><img src="../imágenes/logo 100x100.png" alt="Logo" class="img-fluid"></div>
-                
-        <div class="container-fluid contenedorBoton">
-          <a href="./Iniciar_sesion.html"><button type="button" class="btn btn-light btn-lg banner">Iniciar Sesión</button></a>
-            
-        <button type="button" class="btn btn-light btn-lg banner">Registrarse</button>
-        </div>
-
-        <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
-
+        <div class="bannerUno"></div>
+  
+        <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
+      
+          <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
+      
       </header>
-        
+      
     </div>
-
+      
     <div class="nav container-fluid">
-
+      
       <nav class="navbar navbar-expand-lg navbar-light listasNav">
-
-        <a class="navbar-brand" href="#">logo</a>
-
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarScroll">
-          
           <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
             <li class="nav-item">
-                <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light itemsNavBar" href="./mi-perfil.html">Mi Perfil</a>
+              <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-secundary itemsNavBar nav-link disabled" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
-
+              <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
                 <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item text-secundary" href="./Libros_disponibles-grid.html">Físicos</a></li>
-                    <li><a class="dropdown-item text-secundary" href="./Libros_disponibles-grid.html">Virtuales</a></li>
-                    <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
+                  <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
+                  <li><hr class="dropdown-divider"></li>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light itemsNavBar " href="./Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light itemsNavBar" href="./Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
-            </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light itemsNavBar" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+              </li>
           </ul>
-                  <form class="d-flex">
-                    <input class="form-control mr-2 input" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-light" type="submit">Buscar</button>
-                  </form>
-                </div>
+          <form class="d-flex">
+            <input class="form-control mr-2 input" type="search" placeholder="buscar" aria-label="buscar">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
       </nav>
     </div>
+
     <section>
-    <h3 class="titulosSeccion">Registrarte</h3>
-
-    <form action="">
-<fieldset> 
-    <legend>Datos personales</legend>
-<label for="Nombre" class="textoFormulario">Nombre</label> 
-<input type="text" name="Nombre"><br>
-<br>
-<label for="Apellido" class="textoFormulario">Apellido</label> 
-<input type="text" name="Apellido"><br>
-<br>
-<label for="Dirección" class="textoFormulario">Dirección</label> 
-<input type="text" name="Dirección"><br>
-<br>
-<label for="mail" class="textoFormulario">Mail</label> 
-<input type="text" name="mail"><br>
-<br>
-<label for=password class="textoFormulario">Contraseña</label> 
-<input type="password" name="password">
-<br>
-<br>
-</fieldset>
-<div>¿Desea recibir nuestras novedades? </div>
-<div>
-    <label for="Si">Si</label>
-    <input type="radio" name="si" value="si">
-</div>
-<br>
-<div>
-    <label for="Si">No</label>
-    <input type="radio" name="no" value="no">
-
-</div>
-<br>
-<input type="submit" value="Aceptar">
-<input type="reset" value="Resetear">
-<br>
-    </form>
-</section>
-
-<div class="container">
-    <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-5">
-        <div class="card cardbox">
-          <div class="card-header">Register</div>
-          <div class="card-body">
-        
-            <!-- socail media group -->
-            <div class="social-buttons">
-              <a href="#" class="btn btn-md btn-block btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-              <a href="#" class="btn btn-md btn-block btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
-            </div>
-            
-            <div class="login-or">
-              <hr class="hr-or">
-              <span class="span-or">or</span>
-            </div>
-            
-            <div class="form-group">
-              
-              <form id="login-nav" method="post" role="form" class="form" accept-charset="UTF-8">
-  
-                <div class="form-group">
-                  <label class="sr-only">Username</label>
-                  <input type="text" id="reg_username" name="user_name" class="form-control"
-                  value="" placeholder="Username" required>
-                </div>
-                
-                <!-- password group -->
-                <div class="form-group">
-                  
-                  <!-- password label -->
-                  <label class="sr-only">Password</label>
-                  <!-- password input -->
-                  <div class="input-group">
-                    <input type="password" id="reg_userpassword" name="user_password" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body"
-                    data-html="true" value="" placeholder="Password" required>
-  
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-secondary" type="button" id="button-append1" onclick="togglePassword()">
-                        <i class="fa fa-eye" aria-hidden="true"></i>
-                      </button>
-                    </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card-group mb-0">
+              <div class="card-body contenedorChat">
+                  <div class="titulosNosotros perfil">
+                  <h2>Registrarse</h2>
                   </div>
-                  <!-- password progresbar -->
-                  <div class="progress mt-1" id="reg-password-strength">
-                      <div id="password-strength" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                  <div class="botonRedSocial">
+                    <a href="#"> <img src="../imagenes/facebook-01-01.png" alt=""> </a>
+                    <a href="#"> <img src="../imagenes/twitter-01-01.png" alt=""> </a>
+                  </div>
+                  <div class="login-or">
+                    <hr class="hr-or">
+                    <span class="span-or">o</span>
+                  </div>
+                  <div class="form-group">
+                      <form id="login-nav" method="post" role="form" class="form" accept-charset="UTF-8">
+                        <div class="form-group">
+                          <input type="text" id="reg_username" name="user_name" class="form-control"
+                          value="" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input type="password" id="reg_userpassword" name="user_password" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" value="" placeholder="Contraseña" required>
+                          </div>
+                        </div>      
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input type="password" id="reg_userpasswordconfirm" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" placeholder="Confirmar Contraseña" required>
+                          </div>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" id="reg_remember" name="user_remember" class="form-check-input" value="1">
+                          <label class="form-check-label textoComentarios">Recordarme</label>
+                          <br>
+                        </div>
+                        <div class="textoComentarios">¿Desea recibir nuestras novedades? </div>
+                        <div class="textoComentarios">
+                            <label for="Si">Si</label>
+                            <input type="radio" name="si" value="si">
+                        </div>
+                        <div class="textoComentarios">
+                            <label for="Si">No</label>
+                            <input type="radio" name="no" value="no">
+                        </div>
+                        <div>
+                        <input type="reset" value="Resetear" class="botonReset text-light">
+                        </div>
+                      </form>
+                      <div>
+                        <button type="button" class="btn btn-primary px-4 botonActivoUno">Confirmar</button>
                       </div>
                     </div>
-                  <!-- password remember & results -->
-                  <div class="help-block text-right">
-                    <small><a href="#">Forgot Password</a></small>
-                    <span id="reg-password-quality" class="hide pull-left block-help">
-                     <small>Password <span id="reg-password-quality-result"></span></small>
-                    </span>
-                  </div>       
-                  <!-- Password Rules -->
-                  <div id="reg_passwordrules" class="hide password-rule mt-2"><small>
-  
-                    <ul class="list-unstyled">
-                      <li class="">
-                        <span class="eight-character"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
-                        &nbsp; min 8 character</li>
-                      <li class="">
-                        <span class="low-upper-case"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
-                        &nbsp; min 1 uppercase & 1 lowercase character</li>
-                      <li class="">
-                        <span class="one-number"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
-                        &nbsp; min 1 number</li>
-                      <li class="">
-                        <span class="one-special-char"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
-                        &nbsp; min 1 special char (!@#$%^&*)</li>
-                    </ul>
-                    </small></div>
-  
-                </div>
-                
-                <!-- password-confirm group -->
-                <div class="form-group">
-  
-                  <!-- password-confirm label -->
-                  <label class="sr-only">Password Confirm</label>
-                  <!-- password-confirm input -->
-                  <div class="input-group">
-                    <input type="password" id="reg_userpasswordconfirm" class="form-control" data-placement="bottom" 
-                    data-toggle="popover" data-container="body" data-html="true" placeholder="Password Confirm" required>
-  
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-secondary" type="button" id="button-append2" onclick="togglePassword()">
-                        <i class="fa fa-eye" aria-hidden="true"></i>
-                      </button>
+                    <div class="bottom text-center textoComentarios">
+                      Eres usuario? <a href="#"><b class="subtitulosComunidad">Iniciar Sesión</b></a>
                     </div>
-                    
-                  </div>
-                  <!-- password-confirm error message -->
-                  <div class="help-block text-right">
-                    <small><span id="error-confirmpassword" class="hide pull-right block-help">
-                    <i class="fa fa-info-circle text-danger" aria-hidden="true"></i>Don't match password'</span></small>
-                  </div>
-  
                 </div>
-             
-                <!-- email group -->
-                <div class="form-group">
-                  <label class="sr-only">E-mail Address</label>
-                  <input type="email" id="reg_useremail" name="user_email" class="form-control" 
-                  value="" placeholder="xxx@xxx.com">
-                </div>
-  
-                <!-- question group -->
-                <div class="form-group">
-                  <label class="sr-only">Questions</label>
-                  <select id="reg_userquestion" class="form-control" name="user_question">
-                    <option selected> Select Questions </option>       
-                    <option>What's favorite color?</option>
-                  </select>
-                </div>
-                          
-                <!-- answer group -->
-                <div class="form-group">
-                  <label class="sr-only">Answer</label>
-                  <input type="text" id="reg_useranswer" name="user_answer" class="form-control"
-                         value="" placeholder="Are you Answers">
-                </div>
-         
-                <!-- Submit -->
-                <div class="form-group">
-                  <button id="reg_submit" name="submit"  value="1" class="btn btn-block btn-primary" disabled="disabled">Create user</button>
-                  <div id="sign-up-popover" class="hide"><p>is empty</p></div>
-                </div>
-               
-                <!-- Remember -->
-                <div class="form-check">
-                  <input type="checkbox" id="reg_remember" name="user_remember" class="form-check-input" value="1">
-                  <label class="form-check-label">Remember me</label>
-                </div>
-  
-              </form>
-            </div>
-            
-            <div class="login-or"><hr class="hr-or"></div>
-            <!-- Links -->
-            <div class="bottom text-center">
-              Are you user? <a href="#"><b>Login</b></a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
 
-    <footer>
+  <footer class="footer">
+    <div class="footerUno container-fluid"> 
+      <div class="listasFooter inicio col-sm-12 col-lg-3"><a href="#home" class="listasFooter">Inicio</a></div>
+      <div class="listasFooter col-sm-12 col-lg-3 secciones">
         <ul>
-            <li> <h5>Ir Arriba</h5></li>
-            <li> <h5>Nosotros</h5></li>
-            <li><h5>Políticas y Condiciones</h5></li>
-            <li><h5>FAQ</h5></li>
-            <li><h5>Contáctanos</h5></li>
+          <a href="./views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
+          <a href="./views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
+          <a href="./views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
         </ul>
-        </footer>
-
+      </div>
+      <div class="listasFooter tituloFooter col-sm-12 col-lg-3 libros"> 
+        <div class="footerLibro"><h6>Libros Disponibles</h6></div>  
+        <ul>
+          <a href="./views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
+          <a href="./views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
+        </ul>
+      </div>
+      <div class="listasFooter"> <h6 class="contacto col-sm-12 col-lg-3">Contáctanos</h6>
+        <div class="redesSociales">
+          <div class="logoRedSocial"><a href="#"><img src="../imagenes/mail-01-01.png" class="img-fluid" alt="mail"></a></div>
+          <div class="logoRedSocial"><a href="#"><img src="../imagenes/facebook-01-01.png" class="img-fluid"  alt="facebook"></a></div>
+          <div class="logoRedSocial"> <a href="#"><img src="../imagenes/twitter-01-01.png" class="img-fluid" alt="twitter"></a></div>
+        </div>
+      </div>
+  
+      <div class="derechos">
+        <p>©Todos los derechos reservados. Argentina, 2021 - Melisa Oro </p>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
 
 

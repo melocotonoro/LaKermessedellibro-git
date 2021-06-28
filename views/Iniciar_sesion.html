@@ -49,7 +49,7 @@
               <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled text-secundary itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
+              <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
@@ -79,42 +79,65 @@
         <div class="row justify-content-center">
           <div class="col-md-8">
             <div class="card-group mb-0">
-              <div class="card p-4">
-                <div class="card-body">
-                  <h1>Iniciar Sesión</h1>
+                <div class="card-body contenedorChat">
+                  <div class="titulosNosotros perfil">
+                    <h2>Iniciar Sesión</h2>
+                    </div>
                 <div class="input-group mb-3">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                  <input type="text" class="form-control" placeholder="Username">
+                  <input type="text" class="form-control" placeholder="Nombre">
                 </div>
                 <div class="input-group mb-4">
                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control" placeholder="Contraseña">
                 </div>
                 <div class="row">
                   <div class="col-6">
-                    <button type="button" class="btn btn-primary px-4">Login</button>
+                    <button type="button" class="btn btn-primary px-4 botonActivoUno">Aceptar</button>
                   </div>
                   <div class="col-6 text-right">
-                    <button type="button" class="btn btn-link px-0">Forgot password?</button>
+                    <button type="button" class="btn btn-link px-0 subtitulosComunidadUno">Olvidaste tu contraeña?</button>
                     </div>
                   </div>
                 </div>
-              </div>
+
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer>
-        <ul>
-            <li> <h5>Ir Arriba</h5></li>
-            <li> <h5>Nosotros</h5></li>
-            <li><h5>Políticas y Condiciones</h5></li>
-            <li><h5>FAQ</h5></li>
-            <li><h5>Contáctanos</h5></li>
-        </ul>
-        </footer>
+  
+    <footer class="footer">
+      <div class="footerUno container-fluid"> 
+        <div class="listasFooter inicio col-sm-12 col-lg-3"><a href="#home" class="listasFooter">Inicio</a></div>
+        <div class="listasFooter col-sm-12 col-lg-3 secciones">
+          <ul>
+            <a href="./views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
+            <a href="./views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
+            <a href="./views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
+          </ul>
+        </div>
+        <div class="listasFooter tituloFooter col-sm-12 col-lg-3 libros"> 
+          <div class="footerLibro"><h6>Libros Disponibles</h6></div>  
+          <ul>
+            <a href="./views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
+            <a href="./views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
+          </ul>
+        </div>
+        <div class="listasFooter"> <h6 class="contacto col-sm-12 col-lg-3">Contáctanos</h6>
+          <div class="redesSociales">
+            <div class="logoRedSocial"><a href="#"><img src="../imagenes/mail-01-01.png" class="img-fluid" alt="mail"></a></div>
+            <div class="logoRedSocial"><a href="#"><img src="../imagenes/facebook-01-01.png" class="img-fluid"  alt="facebook"></a></div>
+            <div class="logoRedSocial"> <a href="#"><img src="../imagenes/twitter-01-01.png" class="img-fluid" alt="twitter"></a></div>
+          </div>
+        </div>
+    
+        <div class="derechos">
+          <p>©Todos los derechos reservados. Argentina, 2021 - Melisa Oro </p>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
-
 
 </html>

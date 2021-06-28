@@ -148,12 +148,63 @@ margin-left: 30%;
 }
 }
 
-@media only screen and (max-device-width : 1224px) and (min-device-width: 480px){
+@media only screen and (max-device-width : 1220px) and (min-device-width: 458px){
 
 .hiddenUno{
     display: none;
 }
+
+.hidden{
+    display: none;
 }
+/*************************************/
+/* SECCION MI PERFIL*/
+
+.fotoMiPerfil{
+    position: absolute;
+    top: 21.5em;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+
+.tituloDatos{
+    width: max-content;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.tituloDatosUno{
+    position: relative;
+    left: 32%;
+    width: max-content;
+}
+
+.datosPersonales{
+    position: relative;
+    font-size: .60em;
+    font-family: $fuentetexto;
+    width: max-content;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.datosPersonalesUno{
+    position: relative;
+    left:32%;
+    font-size: clamp(1.2em, 100%, 1.60rem);
+    font-family: $fuentetexto;
+    width: max-content;
+}
+.agregarQuitarCanjear{
+    position: relative;
+    left: 60%;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+}
+.librosPublicados{
+    width: 80%;
+}
+}
+
+
 
 
 /* Smartphones (portrait and landscape) ----------- */

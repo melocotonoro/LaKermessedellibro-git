@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px; }
@@ -174,9 +175,46 @@ input:checked ~ .questions {
   .hiddenUno {
     display: none; } }
 
-@media only screen and (max-device-width: 1224px) and (min-device-width: 480px) {
+@media only screen and (max-device-width: 1220px) and (min-device-width: 458px) {
   .hiddenUno {
-    display: none; } }
+    display: none; }
+  .hidden {
+    display: none; }
+  /*************************************/
+  /* SECCION MI PERFIL*/
+  .fotoMiPerfil {
+    position: absolute;
+    top: 21.5em;
+    font-size: 1.1em;
+    font-family: "Benne", serif; }
+  .tituloDatos {
+    width: max-content;
+    margin-top: 100px;
+    margin-left: -100px; }
+  .tituloDatosUno {
+    position: relative;
+    left: 32%;
+    width: max-content; }
+  .datosPersonales {
+    position: relative;
+    font-size: .60em;
+    font-family: "Benne", serif;
+    width: max-content;
+    margin-top: 20px;
+    margin-left: -100px; }
+  .datosPersonalesUno {
+    position: relative;
+    left: 32%;
+    font-size: clamp(1.2em, 100%, 1.6rem);
+    font-family: "Benne", serif;
+    width: max-content; }
+  .agregarQuitarCanjear {
+    position: relative;
+    left: 60%;
+    font-size: 1.1em;
+    font-family: "Benne", serif; }
+  .librosPublicados {
+    width: 80%; } }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -771,7 +809,10 @@ body {
 
 /*NOSOTROS*/
 .titulosNosotros {
-  font-size: clamp(0.7rem, 1vw, 1rem); }
+  font-size: clamp(0.7rem, 1vw, 1rem);
+  font-family: 'Cinzel', serif;
+  color: #E67E22;
+  text-align: center; }
 
 .textoNosotros {
   font-family: "Benne", serif; }
@@ -1012,3 +1053,19 @@ body {
 .imagenLibroPerfil {
   height: max-content;
   width: max-content; }
+
+/*** SECCIÓN REGISTRARME*/
+.botonReset {
+  margin: 0.90em;
+  background: linear-gradient(360deg, #db7f5b 90%, #df9173 20%);
+  z-index: 3;
+  border-color: #db7f5b;
+  box-shadow: 1px 1px 5px #97553b;
+  border-radius: 4px; }
+
+.botonReset:hover {
+  background-color: #c2704f;
+  border-color: #db7f5b; }
+
+.botonRedSocial {
+  margin-left: 35%; }
