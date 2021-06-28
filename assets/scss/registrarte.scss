@@ -1,0 +1,18 @@
+
+.botonReset{
+    margin: 0.90em;
+    background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
+    z-index: 3;
+    border-color:#db7f5b;
+    box-shadow: 1px 1px 5px #97553b;
+    border-radius: 4px;
+}
+
+.botonReset:hover{
+    background-color: #c2704f;
+    border-color: #db7f5b;
+}
+
+.botonRedSocial{
+    margin-left: 35%;
+}

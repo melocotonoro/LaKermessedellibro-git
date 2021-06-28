@@ -23,7 +23,7 @@ $parrafoSecundario:1.10em;
 //CONDICIONAL//
 @for $titulos from 1 through 6 {
     h#{$titulos}{
-        font-size: 4.75em - $titulos; 
+    font-size: 4.75em - $titulos; 
 }
 }
 
@@ -62,6 +62,7 @@ body{
     margin-top: 10px;
 }
 
+// BEM BOTONES REGISTRO/INICIAR SESION//
 .botonRegistro{
     width: fit-content;
 .banner{
@@ -83,11 +84,11 @@ body{
 }
 
 .bannerUno{
-padding: 3px;
-height: 32px;
+    padding: 3px;
+    height: 32px;
 }
 
-/*NAVBAR*/
+/////NAVBAR//////////////
 .nav{
     grid-area:barra;
     background-color:#8CA979;
@@ -121,7 +122,7 @@ height: 32px;
     background-color:#8CA979;
 }
 
-/*NOSOTROS*/
+//////*NOSOTROS*//////
 .titulosNosotros{
     font-size: clamp(.70rem, 1vw, 1rem);
     font-family: 'Cinzel', serif;
@@ -133,7 +134,7 @@ height: 32px;
     font-family: $fuentetexto;
 }
 
-/* STORY*/
+//////* STORY*/////
 
 .story{
     grid-area: story;
@@ -152,7 +153,7 @@ height: 32px;
     background:transparent;
 }
 
-/*CARRUSEL*/
+//////*CARRUSEL*/////
 .tituloCar{
     grid-area:titulocar;
     margin-top: 100px;
@@ -177,8 +178,8 @@ height: 32px;
 
 .portadaLibroH{
     margin-top: 10px;
-    width: 100%;
-    height: auto;
+    width: 55%;
+    height: clamp(160px,15vh,8rem);
 }
 .cardFondo{
     background: linear-gradient(to bottom, #8ca97969 36%, #e1ecda2a 100%);
@@ -242,6 +243,7 @@ height: 32px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+
 .numeroPagina{
     border: 0.5px solid #566e469d;
     border-radius: 4px;
@@ -278,22 +280,7 @@ height: 32px;
     background:#455839;
 }
 
-/* ESTOS SON LOS BEM DEL ACORDEON*/
-
-.contenedorListaLibros {
-    max-width: 800px;
-    width: 100%;
-    margin: 10vh auto;
-
-.tituloPrincipalAcordion{
-    font-family: 'Cinzel', serif;
-    color: #E67E22;
-    text-align: center;
-}
-}
-
-
-/* BEM FOOTER*/
+/////* BEM FOOTER*/////
 .footer{
     grid-area: pie;
     margin-top: 100px;
@@ -345,88 +332,3 @@ height: 32px;
     position: relative;
 }
 
-
-/*************************************/
-/* SECCION MI PERFIL*/
-
-.perfil{
-    justify-self: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.fotoMiPerfil{
-    position: relative;
-    left: 45%;
-    font-size: $parrafoSecundario;
-    font-family: $fuentetexto;
-    width: clamp(2rem,12vh,5em);
-}
-
-.tituloDatosUno{
-    position: relative;
-    top: 50px;
-    bottom:30px;
-    margin-bottom: 10px;
-    width: max-content;
-    font-size: clamp(0.1em, 30vw, 0.8rem);
-    color: #233329;
-}
-
-.datosPersonalesUno{
-    position: relative;
-    top: 60px;
-    font-size: clamp(1.2em, 100%, 1.60rem);
-    font-family: $fuentetexto;
-    width: max-content;
-    margin-bottom: 15px;
-}
-.agregarQuitarCanjear{
-    position: relative;
-    left: 55%;
-    top: 40px;
-    font-size: $parrafoSecundario;
-    font-family: $fuentetexto;
-    width: max-content;
-    color:#233329;
-    font-weight: bolder;
-a{
-    color:#233329;
-}
-}
-.librosPublicados{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-items: center;
-    justify-content: center;
-    font-family: $fuentetexto;
-    position: relative;
-    top: 40px;
-    width: clamp(11rem,28vw,30rem);
-}
-
-.imagenLibroPerfil{
-    height: max-content;
-    width: clamp(1rem, 14vw,5rem);
-}
-.baseColor{
-    color: #233329;
-}
-
-/*** SECCIÓN REGISTRARME*/
-.botonReset{
-    margin: 0.90em;
-    background: linear-gradient(360deg,#db7f5b 90%, #df9173 20%);
-    z-index: 3;
-    border-color:#db7f5b;
-    box-shadow: 1px 1px 5px #97553b;
-    border-radius: 4px;
-}
-
-.botonReset:hover{
-    background-color: #c2704f;
-    border-color: #db7f5b;
-}
-
-.botonRedSocial{
-    margin-left: 35%;
-}

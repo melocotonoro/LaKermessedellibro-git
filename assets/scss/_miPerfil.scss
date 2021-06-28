@@ -1,0 +1,62 @@
+.perfil{
+    justify-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fotoMiPerfil{
+    position: relative;
+    left: 45%;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+    width: clamp(2rem,12vh,5em);
+}
+
+.tituloDatosUno{
+    position: relative;
+    top: 50px;
+    bottom:30px;
+    margin-bottom: 10px;
+    width: max-content;
+    font-size: clamp(0.1em, 30vw, 0.8rem);
+    color: #233329;
+}
+
+.datosPersonalesUno{
+    position: relative;
+    top: 60px;
+    font-size: clamp(1.2em, 100%, 1.60rem);
+    font-family: $fuentetexto;
+    width: max-content;
+    margin-bottom: 15px;
+}
+.agregarQuitarCanjear{
+    position: relative;
+    left: 55%;
+    top: 40px;
+    font-size: $parrafoSecundario;
+    font-family: $fuentetexto;
+    width: max-content;
+    color:#233329;
+    font-weight: bolder;
+a{
+    color:#233329;
+}
+}
+.librosPublicados{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    justify-content: center;
+    font-family: $fuentetexto;
+    position: relative;
+    top: 40px;
+    width: clamp(11rem,28vw,30rem);
+}
+
+.imagenLibroPerfil{
+    height: max-content;
+    width: clamp(1rem, 14vw,5rem);
+}
+.baseColor{
+    color: #233329;
+}

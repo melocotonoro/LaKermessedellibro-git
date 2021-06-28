@@ -88,3 +88,17 @@ input:checked ~ .questions {
     width: min-content;
     height: min-content;
 }
+
+////* ESTOS SON LOS BEM DEL ACORDEON*////
+
+.contenedorListaLibros {
+    max-width: 800px;
+    width: 100%;
+    margin: 10vh auto;
+
+.tituloPrincipalAcordion{
+    font-family: 'Cinzel', serif;
+    color: #E67E22;
+    text-align: center;
+}
+}

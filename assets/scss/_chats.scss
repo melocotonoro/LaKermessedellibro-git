@@ -1,5 +1,4 @@
-/**Search Box***/
-
+////chat lado izquierdo////////
 .chat-search-box {
     -webkit-border-radius: 3px 0 0 0;
     -moz-border-radius: 3px 0 0 0;
@@ -135,7 +134,7 @@
 }
 
 
-/**Chat right side**/
+/**Chat lado derecho**/
 
 .selected-user {
     width: 100%;
@@ -248,7 +247,6 @@
     margin: 0 15px 0 0;
 }
 
-
 .contenedorChat{
     margin-top: 50px;
     padding-top: 10px;
@@ -260,8 +258,8 @@
 }
 
 .contenedorUser{
-background-color: #bfceb4;
-border-radius: 10px;
+    background-color: #bfceb4;
+    border-radius: 10px;
 }
 
 .fotoPerfil{
@@ -286,16 +284,16 @@ border-radius: 10px;
 
 @media (max-width: 767px) {
 
-    .chat-search-box .input-group .form-control {
-        position: absolute;
-        bottom: 8px;
-        right: -13em;
-        -webkit-border-radius: 2px 0 0 2px;
-        -moz-border-radius: 2px 0 0 2px;
-        border-radius: 2px 0 0 2px;
-        border-right: 0;
-        height: 35px;
-        width: 160px;
+.chat-search-box .input-group .form-control {
+    position: absolute;
+    bottom: 8px;
+    right: -13em;
+    -webkit-border-radius: 2px 0 0 2px;
+    -moz-border-radius: 2px 0 0 2px;
+    border-radius: 2px 0 0 2px;
+    border-right: 0;
+    height: 35px;
+    width: 160px;
 }
 
 .chat-search-box .input-group .input-group-btn .btn {
@@ -321,26 +319,32 @@ border-radius: 10px;
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
 .chat-container li.chat-left,
 .chat-container li.chat-right {
     flex-direction: column;
     margin-bottom: 30px;
 }
+
 .chat-container li img {
     width: 32px;
     height: 32px;
 }
+
 .chat-container li.chat-left .chat-avatar {
     margin: 0 0 5px 0;
     display: flex;
     align-items: center;
 }
+
 .chat-container li.chat-left .chat-hour {
     justify-content: flex-end;
 }
+
 .chat-container li.chat-left .chat-name {
     margin-left: 5px;
 }
+
 .chat-container li.chat-right .chat-avatar {
     order: -1;
     margin: 0 0 5px 0;
@@ -349,13 +353,16 @@ border-radius: 10px;
     justify-content: right;
     flex-direction: row-reverse;
 }
+
 .chat-container li.chat-right .chat-hour {
     justify-content: flex-start;
     order: 2;
 }
+
 .chat-container li.chat-right .chat-name {
     margin-right: 5px;
 }
+
 .chat-container li .chat-text {
     font-size: .8rem;
 }

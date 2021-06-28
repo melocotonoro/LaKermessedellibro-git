@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px; }
@@ -75,9 +74,17 @@ input:checked ~ .questions {
   width: min-content;
   height: min-content; }
 
+.contenedorListaLibros {
+  max-width: 800px;
+  width: 100%;
+  margin: 10vh auto; }
+  .contenedorListaLibros .tituloPrincipalAcordion, .contenedorListaLibros .labelLibro .abc, .labelLibro .contenedorListaLibros .abc {
+    font-family: 'Cinzel', serif;
+    color: #E67E22;
+    text-align: center; }
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
-  /* Styles */
   .imagenBanner {
     height: 500px;
     width: 100vw;
@@ -104,12 +111,16 @@ input:checked ~ .questions {
     color: #9D3527;
     text-align: center; }
   .imagenNosotrosa {
-    margin-right: 6%; }
+    margin-right: 6%;
+    width: 100%;
+    height: auto; }
   .textoNosotros {
     font-size: 1.3rem; }
   .imagenNosotrosb {
     margin-top: 88%;
-    margin-left: 1vh; }
+    margin-left: 1vh;
+    width: 100%;
+    height: auto; }
   .story {
     grid-area: story;
     margin-top: 100px;
@@ -161,7 +172,6 @@ input:checked ~ .questions {
       font-family: "Cinzel", serif;
       list-style-type: none;
       color: #df9173; }
-  /*MI PERFIL*/
   .librosPublicados {
     height: max-content;
     width: 32em; }
@@ -180,8 +190,6 @@ input:checked ~ .questions {
     display: none; }
   .hidden {
     display: none; }
-  /*************************************/
-  /* SECCION MI PERFIL*/
   .fotoMiPerfil {
     font-size: 1.1em;
     font-family: "Benne", serif; }
@@ -205,7 +213,6 @@ input:checked ~ .questions {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
   #nombreDeLaMarca {
     text-align: center;
     width: fit-content;
@@ -226,14 +233,14 @@ input:checked ~ .questions {
     color: #9D3527;
     text-align: center; }
   .imagenNosotrosa {
-    width: 400px;
-    height: 250px; }
+    width: 100%;
+    height: auto; }
   .textoNosotros {
     padding: 0px 10px;
     font-size: 1rem; }
   .imagenNosotrosb {
-    width: 400px;
-    height: 250px; }
+    width: 100%;
+    height: auto; }
   .story {
     grid-area: story;
     margin-top: 100px;
@@ -243,7 +250,8 @@ input:checked ~ .questions {
   .contenedorStory {
     height: 1000px; }
     .contenedorStory .imagenStory {
-      height: 200px; }
+      width: 100%;
+      height: auto; }
   .tituloCar {
     grid-area: titulocar;
     margin-top: 100px;
@@ -392,7 +400,6 @@ ul {
   margin-bottom: 2rem;
   box-shadow: none; }
 
-/**Search Box***/
 .chat-search-box {
   -webkit-border-radius: 3px 0 0 0;
   -moz-border-radius: 3px 0 0 0;
@@ -508,7 +515,7 @@ ul {
   text-align: right;
   color: #8796af; }
 
-/**Chat right side**/
+/**Chat lado derecho**/
 .selected-user {
   width: 100%;
   padding: 0 15px;
@@ -758,7 +765,6 @@ body {
   padding: 3px;
   height: 32px; }
 
-/*NAVBAR*/
 .nav {
   grid-area: barra;
   background-color: #8CA979;
@@ -786,7 +792,6 @@ body {
   margin-left: 8vw;
   background-color: #8CA979; }
 
-/*NOSOTROS*/
 .titulosNosotros {
   font-size: clamp(0.7rem, 1vw, 1rem);
   font-family: 'Cinzel', serif;
@@ -796,7 +801,6 @@ body {
 .textoNosotros {
   font-family: "Benne", serif; }
 
-/* STORY*/
 .story {
   grid-area: story;
   margin-top: 100px;
@@ -810,7 +814,6 @@ body {
 .cardStory {
   background: transparent; }
 
-/*CARRUSEL*/
 .tituloCar {
   grid-area: titulocar;
   margin-top: 100px;
@@ -830,8 +833,8 @@ body {
 
 .portadaLibroH {
   margin-top: 10px;
-  width: 100%;
-  height: auto; }
+  width: 55%;
+  height: clamp(160px, 15vh, 8rem); }
 
 .cardFondo {
   background: linear-gradient(to bottom, #8ca97969 36%, #e1ecda2a 100%);
@@ -916,17 +919,6 @@ body {
 .btnActivo:active {
   background: #455839; }
 
-/* ESTOS SON LOS BEM DEL ACORDEON*/
-.contenedorListaLibros {
-  max-width: 800px;
-  width: 100%;
-  margin: 10vh auto; }
-  .contenedorListaLibros .tituloPrincipalAcordion, .contenedorListaLibros .labelLibro .abc, .labelLibro .contenedorListaLibros .abc {
-    font-family: 'Cinzel', serif;
-    color: #E67E22;
-    text-align: center; }
-
-/* BEM FOOTER*/
 .footer {
   grid-area: pie;
   margin-top: 100px; }
@@ -970,79 +962,3 @@ body {
   color: #FEB092;
   font-family: "Cinzel", serif;
   position: relative; }
-
-/*************************************/
-/* SECCION MI PERFIL*/
-.perfil {
-  justify-self: center;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-.fotoMiPerfil {
-  position: relative;
-  left: 45%;
-  font-size: 1.1em;
-  font-family: "Benne", serif;
-  width: clamp(2rem, 12vh, 5em); }
-
-.tituloDatosUno {
-  position: relative;
-  top: 50px;
-  bottom: 30px;
-  margin-bottom: 10px;
-  width: max-content;
-  font-size: clamp(0.1em, 30vw, 0.8rem);
-  color: #233329; }
-
-.datosPersonalesUno {
-  position: relative;
-  top: 60px;
-  font-size: clamp(1.2em, 100%, 1.6rem);
-  font-family: "Benne", serif;
-  width: max-content;
-  margin-bottom: 15px; }
-
-.agregarQuitarCanjear {
-  position: relative;
-  left: 55%;
-  top: 40px;
-  font-size: 1.1em;
-  font-family: "Benne", serif;
-  width: max-content;
-  color: #233329;
-  font-weight: bolder; }
-  .agregarQuitarCanjear a {
-    color: #233329; }
-
-.librosPublicados {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-items: center;
-  justify-content: center;
-  font-family: "Benne", serif;
-  position: relative;
-  top: 40px;
-  width: clamp(11rem, 28vw, 30rem); }
-
-.imagenLibroPerfil {
-  height: max-content;
-  width: clamp(1rem, 14vw, 5rem); }
-
-.baseColor {
-  color: #233329; }
-
-/*** SECCIÓN REGISTRARME*/
-.botonReset {
-  margin: 0.90em;
-  background: linear-gradient(360deg, #db7f5b 90%, #df9173 20%);
-  z-index: 3;
-  border-color: #db7f5b;
-  box-shadow: 1px 1px 5px #97553b;
-  border-radius: 4px; }
-
-.botonReset:hover {
-  background-color: #c2704f;
-  border-color: #db7f5b; }
-
-.botonRedSocial {
-  margin-left: 35%; }
