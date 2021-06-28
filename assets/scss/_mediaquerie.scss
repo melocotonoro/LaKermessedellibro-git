@@ -36,7 +36,7 @@ margin-left: 30%;
 .titulosNosotros{
     grid-area: tituloN;
     font-family: 'Cinzel', serif;
-    color: #E67E22 ;
+    color: #9D3527;
     text-align: center;
 }
 
@@ -68,13 +68,6 @@ margin-left: 30%;
     align-content: flex-start;
 }
 
-.section{
-    grid-area:carrusel;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-}
 
 .portadaLibroH{
     margin-left: 20%;
@@ -88,6 +81,13 @@ margin-left: 30%;
     justify-content: center;
 }
 
+.section{
+    grid-area:carrusel;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
 .sectionUno{
     grid-area:carruseluno;
     margin-top: 20px;
@@ -161,30 +161,14 @@ margin-left: 30%;
 /* SECCION MI PERFIL*/
 
 .fotoMiPerfil{
-    position: absolute;
-    top: 21.5em;
     font-size: $parrafoSecundario;
     font-family: $fuentetexto;
 }
 
-.tituloDatos{
-    width: max-content;
-    margin-top: 100px;
-    margin-left: -100px;
-}
 .tituloDatosUno{
     position: relative;
     left: 32%;
     width: max-content;
-}
-
-.datosPersonales{
-    position: relative;
-    font-size: .60em;
-    font-family: $fuentetexto;
-    width: max-content;
-    margin-top: 20px;
-    margin-left: -100px;
 }
 .datosPersonalesUno{
     position: relative;
@@ -203,9 +187,6 @@ margin-left: 30%;
     width: 80%;
 }
 }
-
-
-
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -237,7 +218,7 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 
 .titulosNosotros{
     font-family: 'Cinzel', serif;
-    color: #E67E22 ;
+    color: #9D3527 ;
     text-align: center;
 }
 
@@ -278,20 +259,12 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
     align-content: flex-start;
 }
 
-.section{
-    grid-area:carrusel;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-}
-
 .hidden{
     display: none;
 }
 
 .portadaLibroH{
-    margin-left: 80px;
+    margin-left: 30%;
 }
 
 .pag{
@@ -300,6 +273,14 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+}
+
+.section{
+    grid-area:carrusel;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
 
 .sectionUno{
@@ -362,16 +343,14 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 /* SECCION MI PERFIL*/
 
 .fotoMiPerfil{
-    position: absolute;
-    top: 23.5em;
     font-size: $parrafoSecundario;
     font-family: $fuentetexto;
 }
 
 .tituloDatos{
     width: max-content;
-    margin-top: 100px;
-    margin-left: -100px;
+    margin-top: 20px;
+    margin-left: -50px;
 }
 .tituloDatosUno{
     position: relative;
@@ -379,14 +358,6 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
     width: max-content;
 }
 
-.datosPersonales{
-    position: relative;
-    font-size: .60em;
-    font-family: $fuentetexto;
-    width: max-content;
-    margin-top: 20px;
-    margin-left: -100px;
-}
 .datosPersonalesUno{
     position: relative;
     left:10%;
@@ -405,4 +376,12 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
     background: url(../../imagenes/fondobodycelu-01.png);
     background-repeat:no-repeat ;
 }
+}
+
+@media only screen
+and (max-device-width : 320px) {
+
+.portadaLibroh{
+margin-left: 30%;
+    }
 }
