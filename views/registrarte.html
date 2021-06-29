@@ -22,122 +22,129 @@
     </head>
 <body>
 
-  <div class="contenedorProyecto fondoSecciones" id="home">
-    <div class="headerUno"> 
+  <div class="contenedorProyecto"id="home">
 
+    <div class="headerUno"> 
+      
       <header class="imagenBanner">
-        <div class="bannerUno"></div>
+  
+        <div class="botonRegistro">
+          <a href="../views/Iniciar_sesion.html"><button type="button" class="btn btn-light btn-mg banner">Iniciar Sesión</button></a>
+  
+          <a href="../views/registrarte.html"><button type="button" class="btn btn-light btn-mg banner">Registrarse</button></a>
+        </div>
   
         <div class="logo container"><img src="../imagenes/logokermessebasebanca.png" alt="Logo" class="img-fluid logo"></div>
-      
-          <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
-      
+  
+        <h1 id="nombreDeLaMarca">La Kermesse del Libro</h1>        
+  
       </header>
-      
+  
     </div>
-      
+  
     <div class="nav container-fluid">
-      
+  
       <nav class="navbar navbar-expand-lg navbar-light listasNav">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-            <li class="nav-item">
-              <a class="nav-link itemsNavBar text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Libros Disponibles</a>
-                <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
-                  <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light itemsNavBar" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
-              </li>
-          </ul>
+        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link itemsNavBar text-light" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light itemsNavBar" href="../views/mi-perfil.html">Mi Perfil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light itemsNavBar" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+            Libros Disponibles</a>
+  
+            <ul class="dropdown-menu itemsDropdown" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Físicos</a></li>
+              <li><a class="dropdown-item text-light" href="../views/Libros_disponibles.html">Virtuales</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light itemsNavBar" href="../views/Chats.html" tabindex="-1" aria-disabled="true">Chats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light itemsNavBar" href="../views/Comunidad.html" tabindex="-1" aria-disabled="true">Comunidad</a>
+          </li>
+        </ul>
           <form class="d-flex">
-            <input class="form-control mr-2 input" type="search" placeholder="buscar" aria-label="buscar">
+            <input class="form-control mr-2 input" type="search" placeholder="Buscar" aria-label="Buscar">
             <button class="btn btn-outline-light" type="submit">Buscar</button>
           </form>
         </div>
       </nav>
     </div>
-
     <section>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="card-group mb-0">
+          <div class="row justify-content-center">
+              <div class="col-md-8">
+              <div class="card-group mb-0">
               <div class="card-body contenedorChat">
                   <div class="titulosNosotros perfil">
                   <h2>Registrarse</h2>
                   </div>
                   <div class="botonRedSocial">
-                    <a href="#"> <img src="../imagenes/facebook-01-01.png" alt=""> </a>
-                    <a href="#"> <img src="../imagenes/twitter-01-01.png" alt=""> </a>
+                      <a href="#"> <img src="../imagenes/facebook-01-01.png" alt=""> </a>
+                      <a href="#"> <img src="../imagenes/twitter-01-01.png" alt=""> </a>
                   </div>
                   <div class="login-or">
-                    <hr class="hr-or">
-                    <span class="span-or">o</span>
+                      <hr class="hr-or">
+                      <span class="span-or">o</span>
                   </div>
                   <div class="form-group">
                       <form id="login-nav" method="post" role="form" class="form" accept-charset="UTF-8">
-                        <div class="form-group">
-                          <input type="text" id="reg_username" name="user_name" class="form-control"
-                          value="" placeholder="Nombre" required>
-                        </div>
-                        <div class="form-group">
-                          <div class="input-group">
-                            <input type="password" id="reg_userpassword" name="user_password" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" value="" placeholder="Contraseña" required>
+                          <div class="form-group">
+                          <input type="text" id="reg_username" name="user_name" class="form-control" value="" placeholder="Nombre" required>
                           </div>
-                        </div>      
-                        <div class="form-group">
+                          <div class="form-group">
                           <div class="input-group">
-                            <input type="password" id="reg_userpasswordconfirm" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" placeholder="Confirmar Contraseña" required>
+                              <input type="password" id="reg_userpassword" name="user_password" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" value="" placeholder="Contraseña" required>
                           </div>
-                        </div>
-                        <div class="form-check">
+                          </div>      
+                          <div class="form-group">
+                          <div class="input-group">
+                              <input type="password" id="reg_userpasswordconfirm" class="form-control" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" placeholder="Confirmar Contraseña" required>
+                          </div>
+                          </div>
+                          <div class="form-check">
                           <input type="checkbox" id="reg_remember" name="user_remember" class="form-check-input" value="1">
                           <label class="form-check-label textoComentarios">Recordarme</label>
                           <br>
-                        </div>
-                        <div class="textoComentarios">¿Desea recibir nuestras novedades? </div>
-                        <div class="textoComentarios">
-                            <label for="Si">Si</label>
-                            <input type="radio" name="si" value="si">
-                        </div>
-                        <div class="textoComentarios">
-                            <label for="Si">No</label>
-                            <input type="radio" name="no" value="no">
-                        </div>
-                        <div>
-                        <input type="reset" value="Resetear" class="botonReset text-light">
-                        </div>
+                          </div>
+                          <div class="textoComentarios">¿Desea recibir nuestras novedades? </div>
+                          <div class="textoComentarios">
+                              <label for="Si">Si</label>
+                              <input type="radio" name="si" value="si">
+                          </div>
+                          <div class="textoComentarios">
+                              <label for="Si">No</label>
+                              <input type="radio" name="no" value="no">
+                          </div>
+                          <div>
+                          <input type="reset" value="Resetear" class="botonReset text-light">
+                          </div>
                       </form>
                       <div>
-                        <button type="button" class="btn btn-primary px-4 botonActivoUno">Confirmar</button>
+                          <button type="button" class="btn btn-primary px-4 botonActivoUno">Confirmar</button>
                       </div>
-                    </div>
-                    <div class="bottom text-center textoComentarios">
+                  </div>
+                      <div class="bottom text-center textoComentarios">
                       Eres usuario? <a href="#"><b class="subtitulosComunidad">Iniciar Sesión</b></a>
-                    </div>
-                </div>
-            </div>
+                  </div>
+                  </div>
+              </div>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
+
 
 
   <footer class="footer">
@@ -145,16 +152,16 @@
       <div class="listasFooter inicio col-sm-12 col-lg-3"><a href="#home" class="listasFooter">Inicio</a></div>
       <div class="listasFooter col-sm-12 col-lg-3 secciones">
         <ul>
-          <a href="./views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
-          <a href="./views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
-          <a href="./views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
+          <a href="../views/mi-perfil.html" class="subtituloFooter"><li>Mi Perfil</li></a>
+          <a href="../views/Chats.html"class="subtituloFooter"><li>Chats</li></a>
+          <a href="../views/Comunidad.html"class="subtituloFooter"><li>Comunidad</li></a>
         </ul>
       </div>
       <div class="listasFooter tituloFooter col-sm-12 col-lg-3 libros"> 
         <div class="footerLibro"><h6>Libros Disponibles</h6></div>  
         <ul>
-          <a href="./views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
-          <a href="./views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
+          <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Fisicos</li></a>
+          <a href="../views/Libros_disponibles.html" class="subtituloFooter"><li>Virtuales</li></a>
         </ul>
       </div>
       <div class="listasFooter"> <h6 class="contacto col-sm-12 col-lg-3">Contáctanos</h6>
@@ -170,8 +177,12 @@
       </div>
     </div>
   </footer>
-</div>
-</body>
-
-
-</html>
+  
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
