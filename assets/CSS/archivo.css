@@ -700,6 +700,147 @@ ul {
   .chat-container li .chat-text {
     font-size: .8rem; } }
 
+.perfil {
+  justify-self: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.fotoMiPerfil {
+  position: relative;
+  left: 45%;
+  font-size: 1.1em;
+  font-family: "Benne", serif;
+  width: clamp(2rem, 12vh, 5em); }
+
+.tituloDatosUno {
+  position: relative;
+  top: 50px;
+  bottom: 30px;
+  margin-bottom: 10px;
+  width: max-content;
+  font-size: clamp(0.1em, 30vw, 0.8rem);
+  color: #233329; }
+
+.datosPersonalesUno {
+  position: relative;
+  top: 60px;
+  font-size: clamp(1.2em, 100%, 1.6rem);
+  font-family: "Benne", serif;
+  width: max-content;
+  margin-bottom: 15px; }
+
+.agregarQuitarCanjear {
+  position: relative;
+  left: 55%;
+  top: 40px;
+  font-size: 1.1em;
+  font-family: "Benne", serif;
+  width: max-content;
+  color: #233329;
+  font-weight: bolder; }
+  .agregarQuitarCanjear a {
+    color: #233329; }
+
+.librosPublicados {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-items: center;
+  justify-content: center;
+  font-family: "Benne", serif;
+  position: relative;
+  top: 40px;
+  width: clamp(11rem, 28vw, 30rem); }
+
+.imagenLibroPerfil {
+  height: max-content;
+  width: clamp(1rem, 14vw, 5rem); }
+
+.baseColor {
+  color: #233329; }
+
+.row {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.form-control {
+  height: 45px; }
+
+select:hover {
+  color: #444645;
+  background: #ddd; }
+
+.login-or {
+  position: relative;
+  font-size: 18px;
+  color: #aaa;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.span-or {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center; }
+
+.hr-or {
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; }
+
+#login-dp {
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+#login-dp .help-block {
+  font-size: 12px; }
+
+#login-dp .social-buttons {
+  margin: 12px 0; }
+
+#login-dp .social-buttons a {
+  width: 49%; }
+
+#login-dp .form-group {
+  margin-bottom: 10px; }
+
+@media (max-width: 768px) {
+  #login-dp {
+    background-color: inherit;
+    color: #fff; }
+  #login-dp .bottom {
+    background-color: inherit;
+    border-top: 0 none; } }
+
+.progress {
+  height: 5px; }
+
+.block-help {
+  font-weight: 300; }
+
+.botonReset {
+  margin: 0.90em;
+  background: linear-gradient(360deg, #db7f5b 90%, #df9173 20%);
+  z-index: 3;
+  border-color: #db7f5b;
+  box-shadow: 1px 1px 5px #97553b;
+  border-radius: 4px; }
+
+.botonReset:hover {
+  background-color: #c2704f;
+  border-color: #db7f5b; }
+
+.botonRedSocial {
+  margin-left: 35%; }
+
 h1 {
   font-size: 3.75em; }
 

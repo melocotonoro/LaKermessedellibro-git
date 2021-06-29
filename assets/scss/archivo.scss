@@ -19,6 +19,9 @@ $parrafoSecundario:1.10em;
 @import "mediaquerie";
 @import "comunidad";
 @import "chats";
+@import "miPerfil";
+@import "registro";
+@import "registrarte";
 
 //CONDICIONAL//
 @for $titulos from 1 through 6 {
